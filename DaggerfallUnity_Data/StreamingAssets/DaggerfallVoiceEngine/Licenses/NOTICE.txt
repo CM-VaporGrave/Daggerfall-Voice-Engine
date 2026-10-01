@@ -1,0 +1,12 @@
+Daggerfall Voice Engine bundles or builds against third-party components. Preserve their license notices when redistributing a finished package.
+
+Kokoro / Kokoro model ecosystem: Apache-2.0
+  https://github.com/hexgrad/kokoro
+KokoroSharp: MIT
+  https://github.com/Lyrcaxis/KokoroSharp
+ONNX Runtime: MIT
+  https://github.com/microsoft/onnxruntime
+am_granite voice by n33kos/kokoro-voices: CC0-1.0
+  https://github.com/n33kos/kokoro-voices
+
+The release builder downloads exact runtime/model artifacts at build time. Review the generated package and current upstream license texts before public distribution.

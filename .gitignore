@@ -1,0 +1,12 @@
+.vs/
+obj/
+*.user
+*.suo
+*.tmp
+*.log
+Cache/
+cache/
+Generated/
+generated/
+Thumbs.db
+.DS_Store
