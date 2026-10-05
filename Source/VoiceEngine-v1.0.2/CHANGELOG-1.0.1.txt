@@ -1,0 +1,10 @@
+Daggerfall Voice Engine v1.0.1
+
+- Rebuilt the source/builder package cleanly rather than layering user-side hotfixes.
+- Fixed Windows uv bootstrap self-copy failure.
+- Fixed KokoroVoice type resolution at compile time.
+- Packages the full official Kokoro voice catalog explicitly.
+- Adds explicit OfficialVoicesPath configuration.
+- Requires official af_heart and custom am_granite to pass the build-time runtime self-test.
+- Missing optional voice IDs now fall back safely.
+- Adds a friendly root status endpoint and voice-count health reporting.

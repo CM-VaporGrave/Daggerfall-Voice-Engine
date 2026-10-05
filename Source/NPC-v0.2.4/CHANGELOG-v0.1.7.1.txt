@@ -1,0 +1,9 @@
+NPCVO v0.1.7.1
+
+Console voice-audition hotfix
+
+- Adds npcvo_test_voice <race> <gender> [role] for direct procedural VoiceType auditioning.
+- Adds race/gender shortcut commands for Breton, Redguard, Nord, Dark Elf, High Elf, Wood Elf, Khajiit, Argonian, Orc, and Dragon male/female profiles.
+- Adds npcvo_test_daedra, a generic spectral/reverb Daedra test that deliberately does not impersonate a named Daedric Prince.
+- Test output reports the resolved profile, Kokoro voice, emotion, pitch, speed, and DSP values.
+- No normal dialogue, quest, typewriter, pre-gen, or Dynamic Portraits behavior changed.

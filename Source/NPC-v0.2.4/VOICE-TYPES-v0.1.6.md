@@ -1,0 +1,76 @@
+# NPCVO v0.1.6 VoiceTypes
+
+NPCVO resolves spoken NPC lines in this order:
+
+1. Exact pre-generated `VoicePack` WAV
+2. `UniqueVoices.json` named-NPC override
+3. `PortraitVoices.json` portrait override
+4. Race + gender + social role
+5. Race + gender
+6. Gender + social role
+7. Gender
+8. Generic
+
+## English Kokoro catalog
+
+The built-in procedural framework uses all 28 supported English IDs:
+
+- US female: `af_alloy`, `af_aoede`, `af_bella`, `af_heart`, `af_jessica`, `af_kore`, `af_nicole`, `af_nova`, `af_river`, `af_sarah`, `af_sky`
+- US male: `am_adam`, `am_echo`, `am_eric`, `am_fenrir`, `am_liam`, `am_michael`, `am_onyx`, `am_puck`, `am_santa`
+- UK female: `bf_alice`, `bf_emma`, `bf_isabella`, `bf_lily`
+- UK male: `bm_daniel`, `bm_fable`, `bm_george`, `bm_lewis`
+
+The shared Kokoro 1.2 server exposes `POST /voices/install-english`. NPCVO can call this automatically at startup or manually with `npcvo_voice_install`.
+
+## Social accent bias
+
+Approximate base UK weighting before race modifiers:
+
+- Noble: 85%
+- Scholar: 68%
+- Guild: 55%
+- Supernatural: 50%
+- Merchant: 40%
+- Child: 35%
+- Commoner: 18%
+- Underworld: 12%
+
+High Elves add +25 points, Dark Elves +20, Wood Elves +15. Breton is mildly UK-favored; Nord and Redguard are mildly US-favored. The final weighted pool is deterministic per NPC.
+
+## Fantasy processing
+
+`Fantasy Processing` scales the DSP fields below without changing authored pre-generated WAVs.
+
+- `gravel`: parallel dry rasp channel
+- `saturation`: mild nonlinear harmonic color
+- `presence`: upper-mid consonant/presence emphasis
+- `compression`: lightweight dynamic compression
+- `doubleMix`: amount of a delayed doubled layer
+- `doublePitch`: pitch offset of doubled layer
+- `doubleDelayMs`: delay of doubled layer
+
+Male Dark Elves receive the dedicated dry/gravel treatment by default. Orc, Khajiit, Argonian, and Dragon profiles are progressively more exaggerated. Humans and most Mer remain restrained.
+
+## Custom VoiceTypes
+
+Every generated key remains an ordinary profile and can be overridden in persistent `VoiceTypes.json`, for example:
+
+```json
+{
+  "key": "DarkElfMaleNoble",
+  "voices": ["bm_george", "bm_fable"],
+  "speed": 0.94,
+  "pitch": -0.35,
+  "gravel": 0.5,
+  "saturation": 0.1,
+  "presence": 0.2,
+  "compression": 0.15,
+  "doubleMix": 0.0,
+  "doublePitch": 0.0,
+  "doubleDelayMs": 0.0,
+  "lockVariation": false,
+  "enabled": true
+}
+```
+
+Existing profile files are merged rather than overwritten. Existing keys keep the user's values; newly introduced default keys are appended automatically.

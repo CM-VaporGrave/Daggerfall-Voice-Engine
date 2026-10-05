@@ -1,0 +1,10 @@
+NPCVO v0.1.8.3
+
+- Removes bundled TrainingDataTools; external voicepack/training tools are documented instead.
+- Keeps am_granite as the only automatically managed community Kokoro voice.
+- Folds Granite into the wider male voice ecosystem at controlled probability for Breton, Redguard, High Elf, and Wood Elf NPCs.
+- Adds Granite archetype use: epic/badass (lower/cleaner), wizard/sage (UK-heavy blend), and schemer (raw/lighter blend with slightly brighter delivery).
+- Retains Granite-heavy Heroic Nord profiles.
+- Adds Granite to the generic Male fallback at low probability.
+- Retunes selected important male story/Daedric fallbacks around Granite blends where appropriate.
+- VoiceTypes schema v4; SpecialVoices schema v3 to refresh built-in defaults once.

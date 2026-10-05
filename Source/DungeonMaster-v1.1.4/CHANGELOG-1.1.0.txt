@@ -1,0 +1,9 @@
+Daggerfall Narrator - Dungeon Master v1.1.0
+
+- Migrates Kokoro runtime integration to Daggerfall Voice Engine, a self-contained ONNX backend.
+- Adds automatic Voice Engine health-check/startup and module presence heartbeat.
+- Participates in the engine-wide speech-turn queue so Dungeon Master, NPC, and Player do not talk over one another.
+- Adds Observation Voice routing: Dungeon Master / Player / Off. Player routing uses exact observation text.
+- Sends deterministic delivery hints (neutral/warm/grim/tense) to the Voice Engine.
+- Disables speculative pre-synthesis. Narration remains reactive-cache only.
+- Retains narrator subtitle speaker-label support and existing narration behavior.

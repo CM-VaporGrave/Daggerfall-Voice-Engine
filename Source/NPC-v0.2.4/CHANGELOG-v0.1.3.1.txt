@@ -1,0 +1,9 @@
+NPCVO v0.1.3.2 - compile-safe quest portrait hotfix
+
+- Removes the v0.1.3 direct DaggerfallConnect/Arena2 portrait-resolution layer.
+- Reuses the portrait texture already resolved by DFU's persistent TalkWindow instead.
+- Keeps quest-giver name + portrait + speech-synced quest text UI.
+- Keeps native quest buttons/callbacks intact.
+- Keeps v0.1.1 answer capture/progressive TalkWindow reveal and v0.1.2 QuestOffer narration.
+- Exposes ActiveQuestPortraitPanel and ActiveQuestPortraitTexture for a future Dynamic Portraits bridge.
+- Does not own/destroy the reused TalkWindow portrait texture.

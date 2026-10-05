@@ -1,0 +1,45 @@
+DAGGERFALL NARRATOR - PLAYER v0.3.7 BUILD / RELEASE CHECKLIST
+
+1. Use the Daggerfall Unity 1.1.1 source project in Unity 2019.4.40f1.
+2. Copy Assets/Game/Mods/PlayerVO into the matching DFU source path.
+3. Let Unity compile and confirm there are zero red Console errors.
+4. Build PlayerVO.dfmod with Daggerfall Tools > Mod Builder using the normal Precompiled workflow.
+5. Install PlayerVO.dfmod under DaggerfallUnity_Data/StreamingAssets/Mods/.
+6. Install Daggerfall Voice Engine under DaggerfallUnity_Data/StreamingAssets/DaggerfallVoiceEngine/.
+
+CHARACTER CREATION
+7. Start a new character and finish biography Q&A. Confirm the personality picker appears at the CreateCharSummary hand-off even before PlayerEntity exists.
+8. Hover/focus several signs. Confirm the left highlight and right preview remain synchronized, the preview uses constellation-style star art, and the bio reads as backstory/personality rather than a mechanical power.
+9. Select The Apprentice and confirm the archetype subtitle is Agent and its bio describes a newcomer to the land: quiet, learning, mission-focused, and sparing with words.
+10. Select a personality and enter the game. Confirm no personality label/button clips the vanilla Summary skill/reflex UI.
+
+VOICE IN CHARACTER CREATION
+11. On CreateCharSummary, confirm Personality cannot be dismissed with Back/Escape and Use Personality returns cleanly to Summary before Voice opens.
+12. Press DFU Restart from Summary, repeat chargen, and confirm Personality appears again before Voice instead of skipping directly to Voice.
+13. Confirm Accent All/US/UK and Gender All/Female/Male only filter the packaged list; All/All must expose every .npy voice physically present in voices/ and voices-custom/.
+14. Confirm the initial Gender filter follows the new character when available, then deliberately switch filters and select a voice of any gender/accent.
+15. Cycle several packaged voices, adjust Depth, Speed and Clean/CD-ROM/DOS quality, and press Preview Voice after each change. Confirm the audible result matches the displayed settings.
+16. Press Use Voice, enter the game, and confirm the first bark uses that exact voice/profile.
+
+VOICE / CHARACTER PERSISTENCE
+11. Choose a Player voice profile, depth, speed, and Clean/CD-ROM/DOS style. Save, switch to another character with different voice settings, then switch back and confirm each character restores its own voice profile.
+12. Set Voice Override to an installed exact Engine voice ID (for example am_granite). Confirm it takes precedence over Accent/Gender/Delivery; clear the field and confirm normal selectors resume.
+13. Confirm US + Male + Rugged resolves to am_granite.
+14. Generate the same short line in Clean, CD-ROM, and DOS modes and confirm fresh cache entries are used and the quality treatments are audibly distinct.
+
+DIALOGUE / PERSONALITY
+15. Accept and reject quest-giver prompts with several personalities. Confirm the underlying DFU choice remains unchanged while PlayerVO voices a personality-authored response rather than generic Yes/No.
+16. With Agent selected, confirm deliberate quest choices are concise but voiced; ambient routed observations should normally fall back to Dungeon Master.
+17. Route Dungeon Master Observation Voice to Player, look at an object/creature, and confirm non-Agent personalities speak in first person with personality variation while preserving the observed subject.
+18. Test manual bark before and after NPC Q&A and after loading a different character. Confirm Player/NPC/DM speech continues and no stale Voice Engine turn remains.
+
+This archive is build-ready source. The final .dfmod must still be compiled by Unity/DFU Mod Builder.
+
+
+PLAYER v0.3.7 VOICE-CC SMOKE TEST
+- Install the exact Daggerfall Voice Engine package intended for release before launching DFU.
+- Reach Create Character Summary: after personality selection, confirm the character-creation Voice panel opens once.
+- Confirm the voice counter/catalog contains only IDs whose .npy files are physically packaged under DaggerfallVoiceEngine/Assets/voices or voices-custom.
+- Cycle several voices, adjust Depth, Speed and Quality, and confirm Preview Voice audibly reflects each choice.
+- Choose Use Voice, enter the game, bark once, save/reload, and confirm the same exact voice/profile returns for that character.
+- Create/load another character and confirm its voice profile remains independent.

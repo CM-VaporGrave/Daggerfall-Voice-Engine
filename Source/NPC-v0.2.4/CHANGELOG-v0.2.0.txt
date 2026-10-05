@@ -1,0 +1,8 @@
+Daggerfall Narrator - NPC v0.2.0
+
+- Migrates runtime Kokoro requests to Daggerfall Voice Engine compatibility while preserving pre-generated WAV mode.
+- Adds Voice Engine auto-start, presence heartbeat, and engine-wide speech-turn arbitration.
+- Quest/NPC dialogue has high queue priority and retains ownership through audible playback.
+- Sends conservative NPC emotion hints derived from existing NPC delivery state.
+- Preserves Ask/quest UI repairs, meaningful-role labels, Redguard/Orc VoiceTypes, Dynamic Portraits interop, and player-turn sequencing.
+- Gracefully falls back to text/pre-generated audio when the Voice Engine is unavailable.

@@ -1,0 +1,6 @@
+Daggerfall Narrator - Player v0.3.2
+
+- Fixes character-creation integration running behind the PlayerEntity gameplay guard.
+- Makes CreateCharSummary the reliable one-time personality-selection anchor.
+- Preserves biography-based archetype suggestion when available and falls back to the configured personality when it is not.
+- Keeps the final Summary Personality control as a manual override/reopen path.

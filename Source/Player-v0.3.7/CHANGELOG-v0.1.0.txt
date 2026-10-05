@@ -1,0 +1,15 @@
+PlayerVO v0.1.0
+
+- Initial Kokoro Voice Framework player-character module.
+- Player-selectable Kokoro voice with in-settings and console sound tests.
+- Contextual automatic barks plus manual context bark / keyboard speech / hybrid bark-key modes.
+- Race-flavored authored lines and seven personality profiles.
+- Optional Action Movie mode with context-matched movie-reference one-liners and lore-friendly variants.
+- Vanilla damage/exertion/death vocal priority and playback-time lockout re-checks to prevent voice collisions.
+- Health, fatigue, magicka, breath, recovery, and encumbrance threshold reactions.
+- Reflection-only Climates & Calories integration.
+- Structural quest awareness without prose interpretation or an LLM.
+- Safe authored semantic responses for recognized quest/court choice intents.
+- Soft NPCVO bridge for player portrait + typewritten/spoken turns in enhanced quest presentation; vanilla DFU UI remains the fallback.
+- Public NotifyContext() hook for precise integrations such as FrostKill/FireKill.
+- Editable Barks.json and rolling speech cache.

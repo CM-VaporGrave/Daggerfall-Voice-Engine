@@ -1,0 +1,5 @@
+Daggerfall Narrator - Dungeon Master v1.1.1
+
+- Honors NPCVO's short quest-dialogue ownership signal.
+- Prevents immediate post-quest NPC follow-up messages from being misclassified and replaced as Narrator flavor.
+- Retains the v1.1.0 Voice Engine, observation routing, queue, and reactive-only synthesis behavior unchanged.

@@ -1,0 +1,7 @@
+NPCVO v0.1.5.5
+
+- Removes the ActiveQuestor + Yes/No fallback that could misclassify unrelated confirmation boxes (including quit confirmation) as NPC quest dialogue.
+- Valid quest modals must now be linked by a DaggerfallQuestOfferWindow delegate target, a known Prompt/PromptMulti quest callback, a PreviousWindow QuestOffer link, or be a QuestOffer window themselves.
+- Subscribes to UserInterfaceManager.OnWindowChange and adds a LateUpdate safety pass so quest UI can be attached before the first rendered frame.
+- Creates/suppresses the quest presentation on the first valid text observation; the two-observation stability check now delays only TTS synthesis.
+- When typewriter reveal is enabled, the custom quest dialogue label starts empty instead of briefly showing the whole sentence.

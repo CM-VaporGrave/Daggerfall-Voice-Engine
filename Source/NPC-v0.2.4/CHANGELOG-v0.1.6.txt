@@ -1,0 +1,21 @@
+NPCVO v0.1.6
+============
+
+Procedural voice overhaul
+- Added all 28 English Kokoro voice IDs (US + UK) to the built-in procedural framework.
+- Added generated race/gender/social profiles for Breton, Redguard, Nord, Dark Elf, High Elf, Wood Elf, Khajiit, Argonian, Orc, and Dragon identities.
+- Social class now biases accent: high-class favors UK; lower-class favors US; Mer receive extra UK weighting.
+- Added deterministic fantasy DSP fields: gravel, saturation, presence, compression, doubled layer mix/pitch/delay.
+- Male Dark Elves use a Morrowind-inspired dry gravel profile.
+- Beast races receive stronger default processing; Fantasy Processing setting scales it.
+- Child profiles use restrained higher pitch/speed.
+- Exact pre-generated VoicePack lines now bypass Kokoro resolution and cleanly fall back to VoiceTypes when absent.
+
+Shared Kokoro 1.2
+- Added POST /voices/install-english to download/verify all supported English voices using Kokoro load_voice().
+- Added character DSP request fields while retaining backwards compatibility with Narrator.
+- Expanded pitch range for strongly processed fantasy voices.
+
+Commands
+- npcvo_voice_install
+- npcvo_voice_status

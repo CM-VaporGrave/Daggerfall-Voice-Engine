@@ -1,0 +1,11 @@
+NPCVO v0.1.7
+=============
+
+- Adds optional emotional-delivery presets with Subtle/Default/Strong strength.
+- Reads Dynamic Portraits Win/Loss and Happy/Angry state when Emotion Sync is enabled.
+- Adds conservative grammar/punctuation polish for Kokoro delivery while preserving original DFU text for logic and VoicePack hashes.
+- Adds curated SpecialVoices story-character/Daedric fallback layer.
+- Adds spectral + short reverb DSP to shared Kokoro v1.3; Daedric profiles use it by default.
+- Adds canonical pre-generated character pack layout: VoicePack/Characters/<slug>/Lines/<hash>.wav.
+- Adds SpecialVoices.default.json, special-character research notes, and pre-gen manifest/folder scaffolding.
+- Keeps legacy VoicePack paths and all v0.1.6 procedural VoiceTypes intact.

@@ -1,0 +1,9 @@
+Daggerfall Narrator - NPC v0.1.13.1
+
+- Adds a non-destructive normal Ask/Talk conversation augmentation when the Player module is present.
+- Preserves the host DaggerfallTalkWindow, topic lists, tone controls, scrolling, Copy to Logbook, and callbacks.
+- Uses one shared geometry across vanilla/Advanced Dialogue; texture/font replacers such as GrimoireUI skin the host normally.
+- Adds a persistent 40x40 player head beside the existing player-question field and compact player/NPC identity lines.
+- Keeps Player question voice -> NPC answer sequencing so both modules do not synthesize the same conversation simultaneously.
+- Player absence or disabled integration leaves the normal Talk UI untouched.
+- Retains v0.1.12 Redguard/Orc VoiceType tuning and settings sound tests.

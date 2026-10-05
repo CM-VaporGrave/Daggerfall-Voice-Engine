@@ -1,0 +1,8 @@
+Daggerfall Narrator - Dungeon Master v1.1.4
+
+- Adds a dedicated listener for DFU DaggerfallHUD midScreenTextLabel, the channel used by lock/world-interaction subtitles.
+- Narrates the existing narrow world-flavor whitelist from that channel without drawing a duplicate Narrator subtitle.
+- Adds an explicit preserved-message-box path for unowned world interactions such as "Someone calls out, come in!".
+- Those short world textboxes bypass the conservative generic-popup heuristic but remain excluded while NPCVO owns quest dialogue.
+- World-interaction textbox narration can continue after the player closes the original short box, avoiding clipped speech.
+- Keeps combat/mode filters and all existing NPC ownership protections intact.

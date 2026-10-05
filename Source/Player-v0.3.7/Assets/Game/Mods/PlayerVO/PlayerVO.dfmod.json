@@ -1,0 +1,14 @@
+{
+  "ModTitle": "Daggerfall Narrator - Player",
+  "ModVersion": "0.3.7",
+  "ModAuthor": "Anthony Clingerman",
+  "ContactInfo": "",
+  "DFUnity_Version": "1.1.1",
+  "ModDescription": "Local Daggerfall Voice Engine protagonist voice module with character-creation packaged-voice browsing and live preview, per-character voice profiles, optional exact voice override, birthsign-inspired roleplay personalities, personality-authored quest responses, manual speech, and NPC conversation interop.",
+  "GUID": "d43f3b82-815b-4d61-a77e-3be820a0e0c1",
+  "Files": [
+    "Assets/Game/Mods/PlayerVO/PlayerVO.dfmod.json",
+    "Assets/Game/Mods/PlayerVO/PlayerVO.cs",
+    "Assets/Game/Mods/PlayerVO/modsettings.json"
+  ]
+}

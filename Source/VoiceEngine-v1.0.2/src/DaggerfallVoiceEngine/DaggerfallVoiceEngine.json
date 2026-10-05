@@ -1,0 +1,12 @@
+{
+  "Port": 5000,
+  "ModelPath": "Assets/kokoro.onnx",
+  "OfficialVoicesPath": "Assets/voices",
+  "CustomVoicesPath": "Assets/voices-custom",
+  "CachePath": "Cache",
+  "EnableReactiveCache": true,
+  "MaxCacheBytes": 2147483648,
+  "ActiveTurnTimeoutSeconds": 180,
+  "DefaultQueuedExpiryMilliseconds": 12000,
+  "RequireReadyTurnForManagedClients": true
+}

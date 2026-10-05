@@ -1,0 +1,5 @@
+DAGGERFALL NARRATOR - PLAYER v0.3.6 FOUNDATION
+
+This source tree is the v0.3.6 release-candidate foundation for DFU 1.1.1 / Unity 2019.4.40f1.
+
+Key v0.3.6 addition: character creation now includes a Daggerfall-style voice browser populated only from .npy voice files physically present in the packaged Daggerfall Voice Engine. The player can preview the exact voice with depth, speed, and quality processing before committing it to the new character.

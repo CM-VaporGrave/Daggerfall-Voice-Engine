@@ -1,0 +1,8 @@
+Daggerfall Narrator - Player v0.1.4.1
+
+- Registers race/personality/location metadata with NPC v0.1.13 for compact Ask UI identity presentation.
+- Expands the authored bark/choice library to schema v2 with a Daggerfall-era, Morrowind-disciplined writing pass.
+- Adds broader race/worldview and personality coverage while keeping typed speech untouched.
+- Keeps deliberate movie-reference language isolated to optional Action Movie pools.
+- Adds spoiler-light hooks for known main-quest identifiers without assuming later Third Era outcomes.
+- Barks.json now migrates safely: existing user-authored pools win, newly shipped keys are appended.

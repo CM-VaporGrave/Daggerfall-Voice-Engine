@@ -1,0 +1,5 @@
+Daggerfall Narrator - Dungeon Master v1.1.3 Foundation Build
+
+Updated build-ready source for the full-release Dungeon Master module.
+
+This revision preserves the hardened opening/tutorial ownership and save-transition cleanup, removes non-functioning settings-menu voice tests, adds an optional exact Daggerfall Voice Engine voice-name override, and replaces the US male Rugged preset with am_granite.

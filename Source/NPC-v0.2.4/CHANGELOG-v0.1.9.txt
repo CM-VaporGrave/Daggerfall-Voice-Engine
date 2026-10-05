@@ -1,0 +1,26 @@
+NPCVO v0.1.9
+=============
+
+FEATURE-COMPLETION PASS
+- Persistent procedural NPC voice identity via VoiceAssignments.json. The selected Kokoro base voice and variation remain stable across conversations, save/load, restarts, portrait changes, and social-role reclassification where DFU provides a stable identity.
+- Added Speech Source setting: Hybrid, Kokoro only, or Pre-generated WAV only.
+- Pre-generated-only mode never requires synthesized parity: if no exact WAV exists, NPCVO leaves vanilla dialogue text alone and does not speak the line.
+- Merchant Trade/Shop/Store service windows are intentionally excluded from narration. Ordinary merchant TalkWindow dialogue remains eligible.
+- Added actual legal-court narration by detecting court-owned DaggerfallMessageBox windows and routing their text through a stable dramatic Judge VoiceType; court decision buttons stay silent.
+- Added Judge social role with slower, lower, resonant/formal dramatic delivery and courtly voice weighting for the court path and audition tools.
+- Added mod-settings Sound Test presets for every race/gender combination, generic Daedra, and male/female Judges; role can be selected for ordinary race tests.
+- Runtime sound tests force Kokoro explicitly so they still work while the game's Speech Source is set to Pre-generated WAV only.
+- Runtime cache schema bumped to v2 and now includes the complete DSP parameter stack to prevent stale renders after voice-processing changes.
+- Pre-generated WAV documentation is engine-agnostic; Kokoro remains NPCVO's only runtime synthesizer.
+- Built-in VoiceTypes schema bumped to v5 so Judge profiles are generated/refreshed.
+- npcvo_status now reports Speech Source and persistent assignment count.
+- Added `npcvo_clear_assignments` for intentionally recasting procedural NPCs after a voice-pool overhaul.
+- Automatic Kokoro voice-library population is skipped during Pre-generated WAV only startup.
+
+TEST PRIORITIES
+1. Revisit the same procedural NPC across close/reopen, save/load, restart, role change, and Dynamic Portraits portrait change. Confirm the assigned voice remains identical.
+2. Open merchant service menus and confirm silence; return to TalkWindow and confirm ordinary merchant dialogue speaks.
+3. Enter DFU legal court and verify judicial text speaks with Judge delivery while court-choice buttons stay silent.
+4. Verify all three Speech Source modes, especially silent vanilla fallback for missing pre-generated WAVs.
+5. Verify Settings Sound Test and existing console sound-test commands.
+6. Verify failed Kokoro synthesis restores full text and never blocks interaction.

@@ -1,0 +1,8 @@
+NPCVO v0.1.8.1
+
+- Adds a dedicated Heroic Nord male profile anchored by the CC0 community am_granite Kokoro voice.
+- Nord males use Granite-dominant blends with stock British male voices, plus lower pitch, slower cadence, resonance, compression and restrained gravel.
+- Shared Kokoro updated to v1.5 with first-class local community voice IDs and comma-separated mixed voice specs.
+- InstallKokoro.ps1 now installs/verifies the six CC0 synthetic voices from n33kos/kokoro-voices when available.
+- Community voice download failures gracefully substitute stock fallback voices.
+- VoiceTypes built-in schema bumped to v3 so prior built-in Nord profiles are refreshed.

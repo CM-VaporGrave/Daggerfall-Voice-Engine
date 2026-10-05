@@ -1,0 +1,364 @@
+{
+  "Version": "0.3.7",
+  "Sections": [
+    {
+      "Name": "General",
+      "Description": "Core Player voice behavior and conversation presentation.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "Enabled",
+          "Description": "Master switch for Player speech.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "AutomaticBarks",
+          "Description": "Allow automatic contextual barks.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "VoiceDialogueChoices",
+          "Description": "Voice supported player dialogue choices and normal Talk-window questions.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "EnhancedNpcvoConversationUI",
+          "Description": "When the NPC module is present, share player identity for enhanced quest presentation and the non-destructive normal Ask UI portrait/bio augmentation.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Head + paperdoll background",
+            "Head + dark backdrop",
+            "Head only"
+          ],
+          "Value": 0,
+          "Name": "PlayerPortraitStyle",
+          "Description": "Player portrait presentation used by the NPC module.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Voice",
+      "Description": "Choose the player voice. An exact Voice Override takes precedence over the customization controls. Voice selection, depth, speed, and audio style are remembered per character.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": "",
+          "Name": "VoiceOverride",
+          "Description": "Optional exact packaged Kokoro voice ID. Leave blank to use the accent/gender/delivery selectors. Character Creation can browse the voices physically bundled with Daggerfall Voice Engine.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+        },
+        {
+          "Options": [
+            "US English",
+            "UK English"
+          ],
+          "Value": 0,
+          "Name": "Accent",
+          "Description": "Player voice accent family.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Male",
+            "Female"
+          ],
+          "Value": 0,
+          "Name": "Gender",
+          "Description": "Player voice gender.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Neutral",
+            "Warm",
+            "Refined",
+            "Energetic",
+            "Rugged"
+          ],
+          "Value": 4,
+          "Name": "Delivery",
+          "Description": "General voice character. This selects a suitable packaged Kokoro voice.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 60,
+          "Name": "Depth",
+          "Description": "Voice depth. 50 is neutral; higher is deeper, lower is lighter.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 50,
+          "Max": 150,
+          "Value": 100,
+          "Name": "Speed",
+          "Description": "Speech speed percentage.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 90,
+          "Name": "Volume",
+          "Description": "Player voice volume percentage.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Value": true,
+          "Name": "UseGameSoundVolume",
+          "Description": "Scale with Daggerfall Unity's normal sound volume.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Clean",
+            "CD-ROM - 22 kHz mono",
+            "DOS - 11 kHz 8-bit"
+          ],
+          "Value": 0,
+          "Name": "AudioStyle",
+          "Description": "Kokoro post-processing style.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "CharacterCreationVoice",
+          "Description": "Show the packaged-voice browser and live Preview button during character creation. The chosen voice, depth, speed, and quality are saved for that character.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Personality",
+      "Description": "Birthsign-inspired roleplay archetype for authored barks. Voice settings are completely separate.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Options": [
+            "The Mage",
+            "The Ritual",
+            "The Lady",
+            "The Lord",
+            "The Warrior",
+            "The Thief",
+            "The Lover",
+            "The Serpent",
+            "The Steed",
+            "The Tower",
+            "The Atronach",
+            "The Shadow",
+            "The Apprentice - Agent"
+          ],
+          "Value": 12,
+          "Name": "Birthsign",
+          "Description": "Determines worldview, backstory flavor, and bark tone without changing stats or the game's actual birthsign. The Apprentice is the Agent: new to the land, quiet, mission-focused, and sparing with words.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "RaceFlavor",
+          "Description": "Allow cultural/racial perspective to flavor personality-authored reactions when a specific combined line exists.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "CharacterCreationIntegration",
+          "Description": "During character creation, use the completed biography Q&A to suggest a birthsign archetype, then show a manual picker before play. This never changes stats or the game's actual birthsign.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Barks",
+      "Description": "Manual and automatic protagonist reactions.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Options": [
+            "Context bark",
+            "Keyboard speech",
+            "Hybrid - tap bark / hold to type"
+          ],
+          "Value": 2,
+          "Name": "BarkKeyMode",
+          "Description": "What the Bark key does.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": "V",
+          "Name": "BarkKey",
+          "Description": "Keyboard key used for manual bark / speech input.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+        },
+        {
+          "Min": 150,
+          "Max": 1200,
+          "Value": 450,
+          "Name": "HoldToTypeMilliseconds",
+          "Description": "Hybrid mode hold duration before opening keyboard speech.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Options": [
+            "Quiet",
+            "Balanced",
+            "Talkative"
+          ],
+          "Value": 1,
+          "Name": "Frequency",
+          "Description": "Automatic bark frequency.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Min": 5,
+          "Max": 180,
+          "Value": 45,
+          "Name": "AutomaticCooldownSeconds",
+          "Description": "Minimum global delay between automatic barks.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 1,
+          "Max": 10,
+          "Value": 3,
+          "Name": "ManualCooldownSeconds",
+          "Description": "Anti-spam delay between manual barks.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Occasional",
+            "Full Cheese"
+          ],
+          "Value": 0,
+          "Name": "ActionMovieMode",
+          "Description": "Context-aware movie-reference one-liners, adapted to Tamriel when appropriate.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Text only",
+            "Player name + text"
+          ],
+          "Value": 2,
+          "Name": "SubtitleMode",
+          "Description": "Optional subtitles for automatic/manual barks and typed player speech. The speaker label is visual only and is never sent to Kokoro.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Integrations",
+      "Description": "Optional gameplay context sources.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "AutoStartVoiceEngine",
+          "Description": "Automatically launch the bundled Daggerfall Voice Engine when it is not already running.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "HealthAndVitals",
+          "Description": "React to health, fatigue, magicka, breath, encumbrance, and related player-state changes.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "ClimatesCalories",
+          "Description": "Use Climates & Calories hunger/thirst/temperature context when available.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "QuestAwareBarks",
+          "Description": "Use quest start/resolution and supported structured quest context.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NPCVO",
+          "Description": "Integrate with the Daggerfall Narrator - NPC module when installed.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Cache",
+      "Description": "Runtime-generated Player speech cache.",
+      "IsAdvanced": true,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "AutoManageCache",
+          "Description": "Automatically trim generated Player WAVs.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "250 MB",
+            "500 MB",
+            "1 GB",
+            "2 GB",
+            "5 GB",
+            "Unlimited"
+          ],
+          "Value": 2,
+          "Name": "MaxCacheSize",
+          "Description": "Maximum generated Player speech cache size.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    }
+  ]
+}

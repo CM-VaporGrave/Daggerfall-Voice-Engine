@@ -1,0 +1,8 @@
+Daggerfall Narrator - Player v0.1.5
+
+- Shrinks keyboard speech to a compact single-line parchment input and horizontally scrolls long typed text so the current text remains visible.
+- Adds location-first bark resolution. Exact location pools take priority over regional, guild/reputation, race/personality, and generic pools.
+- Adds region, guild membership/title, and local legal-reputation context to the bark resolver and template variables.
+- Adds authored pools for Daggerfall, Wayrest, Sentinel, Privateer's Hold and several major locations, plus guild/reputation reactions.
+- Location transitions can now trigger contextual barks even when the broad context remains TownEnter.
+- Barks.json schema v3 merges the new contextual pools into existing generated libraries without requiring deletion.

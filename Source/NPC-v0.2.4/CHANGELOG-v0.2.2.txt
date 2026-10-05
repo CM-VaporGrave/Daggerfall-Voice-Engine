@@ -1,0 +1,7 @@
+Daggerfall Narrator - NPC v0.2.2
+
+- Repositions quest-dialogue player portrait/name inward from the right parchment edge and recalculates text width around it.
+- Moves the normal TalkWindow player identity to the player-question/Tone side instead of below the NPC portrait.
+- Adds a shared conversation layout helper so quest and TalkWindow positioning use the same safe-area rules.
+- Exposes a short quest-dialogue ownership signal for Dungeon Master.
+- Claims one immediate plain Message: continuation after a quest-giver window when DFU provides no discoverable quest callback.

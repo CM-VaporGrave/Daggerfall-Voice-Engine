@@ -1,0 +1,28 @@
+DAGGERFALL VOICE ENGINE - EXACT VOICE OVERRIDES
+
+Daggerfall Narrator modules can optionally bypass their normal voice selectors and request an exact voice ID.
+
+The authoritative list is whatever your installed engine exposes at:
+  http://127.0.0.1:5000/voices
+
+Common English IDs include:
+  am_granite   Community rugged American male bundled by Daggerfall Voice Engine
+  am_michael   American male
+  am_liam      American male
+  am_eric      American male
+  am_puck      American male
+  af_heart     American female
+  af_bella     American female
+  af_aoede     American female
+  af_nova      American female
+  af_kore      American female
+  bm_george    British male
+  bm_daniel    British male
+  bm_fable     British male
+  bm_lewis     British male
+  bf_emma      British female
+  bf_lily      British female
+  bf_alice     British female
+  bf_isabella  British female
+
+Leave a module's Voice Override field blank to use its normal customization/profile system.

@@ -1,0 +1,7 @@
+Daggerfall Narrator - NPC v0.1.14
+
+- Restores visible quest-offer Yes/No, Accept/Reject, and other native choice controls through skin-preserving proxy buttons that invoke the original DFU button callbacks.
+- Keeps the player name directly under the player portrait and the quest giver name directly under the NPC portrait.
+- Hides a newly generated NPC answer while Player is voicing the selected Ask question, then begins the normal speech-synced reveal on the NPC turn.
+- Ask UI identity text now shows the NPC name plus only a meaningful known title/role (for example Innkeeper or Judge); generic labels such as CommonerBreton are no longer shown.
+- Preserves the host Talk/Ask UI, topic lists, Tone, Previous List, Copy to Logbook, scroll controls, and callbacks.

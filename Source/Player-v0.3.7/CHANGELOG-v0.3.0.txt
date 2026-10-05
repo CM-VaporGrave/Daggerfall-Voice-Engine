@@ -1,0 +1,11 @@
+Daggerfall Narrator - Player v0.3.0
+
+- Migrates runtime speech to Daggerfall Voice Engine compatibility with automatic engine startup and shared speech-turn arbitration.
+- Voice and personality remain independent settings.
+- Adds character-creation Birthsign integration after DFU biography Q&A: deterministic suggestion plus a full manual 13-sign picker.
+- Persists the selected Birthsign archetype per character.
+- The Apprentice is the Agent: ambient personality chatter is intentionally sparse, while manual bark, typed speech, Ask questions, and deliberate quest responses remain available.
+- Retains the 13-sign personality/lore writing system and personality-first bark resolver.
+- Adds public exact-text observation routing for Dungeon Master.
+- Sends deterministic emotion hints by speech category/personality.
+- Participates in the engine-wide priority queue: dialogue > typed speech > manual bark > automatic bark.

@@ -1,0 +1,20 @@
+{
+  "profiles": [
+    {
+      "key": "TFAC00I0.RCI_10",
+      "voices": ["bm_george", "bm_lewis"],
+      "speed": 0.98,
+      "pitch": -0.10,
+      "lockVariation": false,
+      "enabled": true
+    },
+    {
+      "key": "FACES.CIF_42",
+      "voices": ["bf_emma"],
+      "speed": 1.00,
+      "pitch": 0.15,
+      "lockVariation": false,
+      "enabled": true
+    }
+  ]
+}

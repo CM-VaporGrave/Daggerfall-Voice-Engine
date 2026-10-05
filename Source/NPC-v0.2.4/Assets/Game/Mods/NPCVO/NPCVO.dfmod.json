@@ -1,0 +1,14 @@
+{
+  "ModTitle": "Daggerfall Narrator - NPC",
+  "ModVersion": "0.2.4",
+  "ModAuthor": "Anthony Clingerman",
+  "ContactInfo": "",
+  "DFUnity_Version": "1.1.1",
+  "ModDescription": "Runtime Daggerfall Voice Engine NPC dialogue with persistent race/gender/role voices, optional exact voice override, quest-giver presentation, Dynamic Portraits compatibility, progressive text, and coordinated Player narration.",
+  "GUID": "ae46b32c-e49c-47bc-a174-630249c9d841",
+  "Files": [
+    "Assets/Game/Mods/NPCVO/NPCVO.dfmod.json",
+    "Assets/Game/Mods/NPCVO/NPCVO.cs",
+    "Assets/Game/Mods/NPCVO/modsettings.json"
+  ]
+}

@@ -1,0 +1,6 @@
+NPCVO v0.1.5.4
+
+- True TalkWindow typewriter reveal: native row uses a no-draw proxy during speech.
+- Unreached characters are genuinely invisible rather than merely recolored.
+- Full original text and wrap layout remain available to DFU; original label is restored on finish/skip/close.
+- Retains v0.1.5.3 quest-offer owner detection and modal diagnostics.

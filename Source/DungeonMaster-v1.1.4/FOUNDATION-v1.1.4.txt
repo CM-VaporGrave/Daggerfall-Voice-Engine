@@ -1,0 +1,5 @@
+Daggerfall Narrator - Dungeon Master v1.1.4 Foundation Build
+
+Build-ready source for DFU 1.1.1 / Unity 2019.4.40f1.
+
+Adds separate handling for unowned world-interaction message boxes and DFU's mid-screen HUD interaction subtitle channel while retaining narrow filtering and NPC dialogue ownership boundaries.

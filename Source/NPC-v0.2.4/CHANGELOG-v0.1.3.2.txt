@@ -1,0 +1,8 @@
+NPCVO v0.1.3.2 - VoiceTypes self-repair hotfix
+
+- Fixes VoiceTypes.json regenerating/remaining as a top-level [] on affected installs.
+- VoiceTypes now repairs [], {}, blank, malformed, and missing-profile files automatically.
+- Built-in profiles are merged back without deleting custom profiles.
+- Profile JSON is written with a deterministic serializer rather than relying on Unity JsonUtility for initial output.
+- npcvo_test now hard-falls back to bm_george so it can test Kokoro even if voice assignment is broken.
+- npcvo_status now reports VoiceTypes, UniqueVoices, and PortraitVoices profile counts.

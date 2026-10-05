@@ -1,0 +1,7 @@
+NPCVO v0.1.5.1
+
+- Changes progressive NPC dialogue presentation to a true typewriter look.
+- Revealed TalkWindow characters now use the row's normal text/shadow palette instead of DFU's selected/highlight palette.
+- Unreached characters remain hidden; the complete line is restored immediately when speech completes, is skipped, or is interrupted.
+- Quest-giver dialogue continues to reveal by substring and now matches the same typewriter intent.
+- No changes to v0.1.5 quest-prompt detection, voice resolution, or quest callbacks.

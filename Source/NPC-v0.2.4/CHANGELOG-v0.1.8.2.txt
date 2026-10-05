@@ -1,0 +1,7 @@
+NPCVO v0.1.8.2
+
+- Narrows the managed n33kos community library to am_granite only.
+- InstallKokoro.ps1 removes the five previously managed experimental n33kos voices if they were installed by an older NPCVO package, leaving Granite as the sole managed community voice.
+- Shared Kokoro v1.5.1 reports 29 managed English voices: 28 official Kokoro voices + am_granite.
+- Heroic Nord Granite/British blends are unchanged.
+- Adds TrainingDataTools/GenerateSyntheticCorpus.py for creating user-owned synthetic WAV corpora and metadata from any installed Kokoro voice or voice blend. This does not contain or reconstruct a voice pack's original training recordings.

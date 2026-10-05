@@ -1,0 +1,5 @@
+Daggerfall Voice Engine v1.0.2
+
+- Documents exact voice IDs for the Narrator modules' new Voice Override fields and points users to /voices for the authoritative installed list.
+- Makes CD-ROM and DOS quality profiles more audibly distinct after Unity playback while retaining 22.05 kHz/16-bit and 11.025 kHz/8-bit output targets.
+- No queue/arbitration behavior changes.

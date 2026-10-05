@@ -1,0 +1,7 @@
+Daggerfall Narrator - NPC v0.1.12
+
+- Renames NPCVO in the DFU mod list while preserving the existing GUID and internal compatibility paths.
+- Adds reflection-only Daggerfall Narrator - Player integration for ordinary Ask/Where Is/Tell Me About questions.
+- Defers the NPC answer while the exact player question is being synthesized/spoken, reducing Kokoro contention and audio overlap.
+- Keeps full standalone behavior when the Player module is absent or disabled.
+- Consolidates and tidies the native Mod Settings layout.

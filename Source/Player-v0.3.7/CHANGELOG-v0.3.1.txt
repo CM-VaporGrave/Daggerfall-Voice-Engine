@@ -1,0 +1,7 @@
+Daggerfall Narrator - Player v0.3.1
+
+- Enlarges/recenters the player's HEAD inside the fixed portrait texture instead of enlarging UI portrait frames.
+- Waits for DFU's own biography/results prompt to close before presenting the inferred personality and description.
+- Adds a Personality control to DFU's final CreateCharSummary screen for pre-confirmation changes.
+- Manual personality settings remain available after creation.
+- Player subtitles now use DaggerfallUI HUD rendering and the authentic Daggerfall font instead of Unity IMGUI.

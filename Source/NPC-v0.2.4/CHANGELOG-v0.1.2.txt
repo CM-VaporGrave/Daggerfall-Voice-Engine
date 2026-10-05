@@ -1,0 +1,12 @@
+NPCVO v0.1.2
+
+- Adds capture for DaggerfallQuestOfferWindow quest-giver text.
+- Detects QuestOffer using UIWindowFactory registration, with a type-name fallback for compatibility.
+- Handles QuestOffer windows that present their text through a child DaggerfallMessageBox.
+- Extracts formatted MultiFormatTextLabel rows as well as ordinary text labels.
+- Excludes button/player-choice captions from quest-offer speech.
+- Waits for quest-offer text to remain stable across two polls before synthesis.
+- Resolves quest-offer NPC data from the QuestOffer window's questorNPC/socialGroup rather than stale TalkManager state.
+- Adds Source=TalkWindow / Source=QuestOffer to NPC capture diagnostics.
+- Retains v0.1.1 robust TalkWindow row scanning and progressive TalkWindow text reveal.
+- Progressive reveal is still limited to TalkWindow rows in this build.

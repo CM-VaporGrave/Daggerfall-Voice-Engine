@@ -1,0 +1,10 @@
+NPCVO v0.1.8
+
+- Retunes male Orcs toward a deep, disciplined, resonant baritone with curated low-register Kokoro bases.
+- Retunes male Dunmer substantially deeper and much more gravelly; female Dunmer are deeper/slower/smoother with a lower curated female pool.
+- Adds Argonian reptilian DSP: subharmonic throat layer, hiss emphasis, cavity resonance, micro-flutter, and croak.
+- Adds Khajiit feline DSP: purr modulation, feline throat resonance, gentle growl, and breath layer; emotion can modulate purr/growl.
+- Strengthens generic Daedra spectral/echo processing and the shared reverb algorithm.
+- Shared Kokoro helper v1.4 accepts the new DSP parameters using NumPy only.
+- Adds profile schema v2 migration with a one-time backup so existing v0.1.7.x built-in profiles receive the new defaults while custom extra keys are preserved.
+- Updates Gortwog/Greklith and Dunmer story-character fallback profiles to match the new racial voice direction.

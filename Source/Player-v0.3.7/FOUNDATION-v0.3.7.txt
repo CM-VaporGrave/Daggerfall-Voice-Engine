@@ -1,0 +1,5 @@
+DAGGERFALL NARRATOR - PLAYER v0.3.7 FOUNDATION
+
+Build-ready source for DFU 1.1.1 / Unity 2019.4.40f1.
+
+Key v0.3.7 changes: stable non-cancelable Personality -> Voice character-creation flow, CreateCharSummary restart-state tracking, and All/US/UK plus All/Female/Male browse filters over the physically packaged Voice Engine catalog. Filters never restrict player choice.

@@ -1,0 +1,3 @@
+Build fix: Windows-invalid colon characters were removed from ModTitle/display names.
+The GUIDs, internal module folders/namespaces, settings paths, and runtime behavior are unchanged.
+Safe titles now use "Daggerfall Narrator - <Module>".

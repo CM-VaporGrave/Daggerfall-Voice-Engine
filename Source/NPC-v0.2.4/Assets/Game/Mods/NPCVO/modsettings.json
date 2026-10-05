@@ -1,0 +1,282 @@
+{
+  "Version": "0.2.4",
+  "Sections": [
+    {
+      "Name": "General",
+      "Description": "Core NPC speech and dialogue behavior.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "Enabled",
+          "Description": "Master switch for NPC speech.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "InterruptOnNewResponse",
+          "Description": "A new NPC response interrupts older queued speech.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "StopWhenTalkWindowCloses",
+          "Description": "Stop NPC speech when its conversation closes.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "RevealNpcTextWithSpeech",
+          "Description": "Reveal NPC dialogue progressively while it is spoken.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateQuestGiverWindows",
+          "Description": "Voice quest-giver offer/follow-up message boxes.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateCourtJudge",
+          "Description": "Voice legal-court/judge narration. Choice buttons remain silent.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "QuestGiverPortraitUI",
+          "Description": "Use the enhanced quest conversation portrait/dialogue presentation.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "NPC Voices",
+      "Description": "How procedural and authored NPC voices are assigned. An exact Voice Override forces one engine voice ID while preserving NPC role/race processing.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": "",
+          "Name": "VoiceOverride",
+          "Description": "Optional exact Daggerfall Voice Engine voice ID for every NPC (for example am_granite). Leave blank to use the normal race/gender/role voice system.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Subtle",
+            "Moderate"
+          ],
+          "Value": 1,
+          "Name": "Variation",
+          "Description": "Deterministic pitch/speed variation while preserving NPC identity.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Hybrid - pre-generated WAV first, Kokoro fallback",
+            "Kokoro only",
+            "Pre-generated WAV only"
+          ],
+          "Value": 0,
+          "Name": "SpeechSource",
+          "Description": "Runtime speech source.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "UseRoleVoiceTypes",
+          "Description": "Use social-role profiles such as Merchant, Scholar, Noble, or Judge before broader fallbacks.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Subtle",
+            "Default",
+            "Strong"
+          ],
+          "Value": 1,
+          "Name": "FantasyProcessing",
+          "Description": "Strength of non-human/Dunmer fantasy processing.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "IgnorePlayerNameInVoicePackKeys",
+          "Description": "Allow authored VoicePack lines to omit the player's name while visible text remains unchanged.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Speech Style",
+      "Description": "Delivery polish without changing quest logic or VoicePack keys.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "EmotionLayer",
+          "Description": "Infer restrained delivery from portrait state, dialogue context, and curated defaults.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Subtle",
+            "Default",
+            "Strong"
+          ],
+          "Value": 1,
+          "Name": "EmotionStrength",
+          "Description": "Strength of emotional cadence/DSP processing.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "GrammarPolish",
+          "Description": "Clean spacing, punctuation, capitalization, and a small set of known vanilla typos before synthesis.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "DisplayPolishedText",
+          "Description": "Display the polished delivery string in NPC typewriter/quest dialogue.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Portraits & Integration",
+      "Description": "Optional presentation integration.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "PlayerAskConversationUI",
+          "Description": "Compatibility toggle for PlayerVO question narration. Normal Ask/Tell Me About remains visually vanilla; no player portrait is injected into the Tone panel.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "Integration",
+          "Description": "Use Dynamic Portraits identity when available.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "EmotionSync",
+          "Description": "Use Dynamic Portraits reaction state as a preferred emotional-delivery signal.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Ignore portrait audio",
+            "Defer NPC speech while portrait audio plays",
+            "Skip NPC line if portrait audio plays"
+          ],
+          "Value": 1,
+          "Name": "PortraitAudioBehavior",
+          "Description": "Avoid talking over portrait-pack greeting/reaction WAVs.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Audio",
+      "Description": "Shared Daggerfall Voice Engine output settings.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 90,
+          "Name": "Volume",
+          "Description": "NPC voice volume percentage.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Value": true,
+          "Name": "UseGameSoundVolume",
+          "Description": "Scale with Daggerfall Unity's normal sound volume.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Clean",
+            "CD-ROM - 22 kHz mono",
+            "DOS - 11 kHz 8-bit"
+          ],
+          "Value": 0,
+          "Name": "AudioStyle",
+          "Description": "Shared Kokoro post-processing style.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Advanced",
+      "Description": "Voice-library verification and generated-audio cache.",
+      "IsAdvanced": true,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "AutoStartVoiceEngine",
+          "Description": "Automatically launch the bundled Daggerfall Voice Engine when it is not already running.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "EnsureEnglishVoiceLibrary",
+          "Description": "On startup, ask Daggerfall Voice Engine to verify its bundled English voice library.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "250 MB",
+            "500 MB",
+            "1 GB (recommended)",
+            "2 GB",
+            "5 GB",
+            "Unlimited"
+          ],
+          "Value": 2,
+          "Name": "MaxCacheSize",
+          "Description": "Maximum generated NPC speech cache size.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    }
+  ]
+}

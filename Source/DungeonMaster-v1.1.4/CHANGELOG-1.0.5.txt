@@ -1,0 +1,3 @@
+Daggerfall Narrator - Dungeon Master v1.0.5
+
+- Adds an optional Narrator speaker label to the existing subtitle system. The label is visual only and is never sent to Kokoro.

@@ -1,0 +1,9 @@
+PlayerVO v0.1.2
+
+- Fixes DFU live mod-settings registration so the in-options Sound Test preset actually reaches PlayerVO.
+- Hardens the Bark key by combining Unity key edge events with raw held-state transitions. Hybrid mode now opens typed speech as soon as the hold threshold is reached and uses a tap/release for a context bark.
+- Adds persistent NPCVO player identity registration so the player portrait can be present for the entire enhanced quest conversation, not only while PlayerVO audio is actively speaking.
+- Switches enhanced-conversation player art to a clear head/face portrait. Default presentation keeps the race-appropriate paperdoll scene only as a background; the low-resolution upper-body paperdoll is no longer used as the foreground.
+- Caches the composed player head portrait and invalidates it only when the portrait identity/style changes.
+- NPCVO detection now retries if PlayerVO probes before NPCVO has finished loading.
+- playervo_status now reports the resolved Bark key and Bark mode for easier input debugging.

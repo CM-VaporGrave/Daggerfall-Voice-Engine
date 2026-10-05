@@ -1,0 +1,17 @@
+DAGGERFALL VOICE ENGINE INTEGRATION
+
+This module targets Daggerfall Voice Engine at localhost.
+Expected player path: DaggerfallUnity_Data/StreamingAssets/DaggerfallVoiceEngine/
+
+The module health-checks and can auto-launch the engine. If the engine is unavailable, game/UI logic continues without blocking.
+The legacy Python SharedKokoro runtime is not bundled.
+
+
+v0.3.7 CHARACTER CREATION VOICE CATALOG
+- PlayerVO does not query a remote voice catalog.
+- It enumerates only *.npy files physically present under StreamingAssets/DaggerfallVoiceEngine/Assets/voices and Assets/voices-custom.
+- The Character Creation Voice picker previews synthesis through the normal managed Player Voice Engine turn and commits the chosen exact ID as that character's VoiceOverride.
+- Depth, speed and audio style are previewed and persisted with the same per-character profile.
+
+V0.3.7 FILTER NOTE
+Accent and Gender controls in character creation are catalog filters only. All/All exposes every packaged voice; no voice is prohibited by character sex or accent.

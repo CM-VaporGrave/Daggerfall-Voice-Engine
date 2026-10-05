@@ -1,0 +1,11 @@
+Daggerfall Narrator - Player v0.3.5
+
+- Saves player voice selection and processing profile per character.
+- Adds optional exact Voice Override ID; blank uses the normal accent/gender/delivery controls.
+- US male Rugged now uses bundled am_granite.
+- Removes non-functional voice audition controls from Mod Settings.
+- Reworks Birthsign preview art into hand-authored Tamrielic-style constellations and synchronizes hover highlighting.
+- Rewrites personality bios as suggestive backstory only; no birthsign powers or mechanical benefits are implied.
+- The Apprentice archetype is now the Agent: new to the land, quiet, quest-focused, and economical with words.
+- Quest accept/reject/yes/no speech is personality-authored, including concise Agent responses.
+- Removes the clipped personality overlay from DFU's character-summary sheet.

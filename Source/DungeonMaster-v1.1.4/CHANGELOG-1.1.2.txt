@@ -1,0 +1,7 @@
+Daggerfall Narrator - Dungeon Master v1.1.3
+
+- Added speakerless quest/tutorial Prompt narration when NPCVO has no real NPC ownership.
+- Broadened opening/Privateer's Hold narration detection.
+- Added hard PlayerEntity-transition reset of narration, UI/source tracking, audio, queues, duplicate guards, and Voice Engine module turns.
+- Strengthened context-change cleanup with cancel-module protection.
+- Added a narrow HUD-flavor whitelist for classic world quips such as lock/door observations that never become message boxes.

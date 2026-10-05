@@ -1,0 +1,25 @@
+NPCVO v0.1.1 FOUNDATION PATCH
+==============================
+
+- Replaced append-index-only dialogue capture with row identity + source-text tracking.
+  This still catches vanilla DFU appended question/answer pairs and also tolerates custom
+  TalkWindow implementations that rebuild or reuse ListBox rows.
+- Added optional progressive NPC answer reveal (enabled by default). The original DFU
+  answer string is never replaced, so logbook/history behavior keeps the complete line.
+- Progressive text follows actual WAV playback position. Kokoro does not currently provide
+  word timestamps, so synchronization is approximate and character-based with a small lag.
+- Restores native dialogue immediately on interruption, failed synthesis/load, TalkWindow
+  close, or manual stop.
+- Added Player.log stage diagnostics for capture, synthesis, WAV readiness, and playback.
+- Added Mod Settings toggle: General > Reveal NPC text with speech.
+
+Validation performed in this workspace:
+- modsettings.json parses successfully.
+- NPCVO.dfmod.json parses successfully.
+- C# delimiter/string/comment structural scan passes.
+- Referenced ListBox, TextLabel, Panel, and component-collection APIs were checked against
+  the Daggerfall Unity 1.1.1 source.
+
+Not performed here:
+- Full Unity 2019.4.40f1 compilation.
+- In-game runtime test.

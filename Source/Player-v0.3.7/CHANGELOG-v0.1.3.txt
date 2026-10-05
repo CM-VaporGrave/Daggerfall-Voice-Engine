@@ -1,0 +1,9 @@
+Daggerfall Narrator - Player v0.1.3
+
+- Renames the module while retaining its GUID and internal compatibility identifiers.
+- Adds curated voice selection by US/UK accent, Male/Female voice, and Neutral/Warm/Refined/Energetic/Rugged delivery.
+- Adds Voice Depth and Speed controls; exact Kokoro voice IDs are no longer required in normal settings.
+- Voice test samples replay when selected voice controls are applied.
+- Adds a soft API for voicing exact vanilla TalkWindow questions.
+- Designed to serialize Ask/Where Is/Tell Me About player speech with Daggerfall Narrator - NPC.
+- Tidies Mod Settings into General, Voice, Character, Barks, Integrations, and advanced Cache sections.

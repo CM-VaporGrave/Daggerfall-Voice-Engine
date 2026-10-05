@@ -1,0 +1,6 @@
+NPCVO v0.1.5.3
+
+- Fixes procedural quest-offer detection when a DaggerfallMessageBox is owned only through a DaggerfallQuestOfferWindow event-handler target (e.g. QuestPopupMessage_OnClose).
+- Keeps v0.1.5.2 automatic modal diagnostics.
+- Retains true character-by-character typewriter reveal using the normal NPC text palette.
+- Manifest/runtime version updated to 0.1.5.3.

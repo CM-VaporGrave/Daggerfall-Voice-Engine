@@ -1,0 +1,9 @@
+Daggerfall Narrator - Player v0.3.7
+
+- Fixes the character-creation popup flow so Personality can no longer unwind DFU back to the beginning.
+- Personality now uses an explicit Use Personality action and disables popup-cancel handling.
+- Tracks the actual CreateCharSummary instance so DFU Restart resets PlayerVO Personality/Voice steps instead of skipping ahead on the next pass.
+- Adds Accent (All / US / UK) and Gender (All / Female / Male) filters to the packaged-voice browser.
+- Filters affect browsing only; All / All exposes every packaged voice, including non-English/custom voices physically shipped with the Engine.
+- Initializes the Gender filter from the character being created when available while leaving the player free to choose any voice.
+- Keeps live Preview, exact packaged voice selection, Depth, Speed, Quality, and per-character persistence from v0.3.6.

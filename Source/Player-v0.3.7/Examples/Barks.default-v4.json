@@ -1,0 +1,5011 @@
+{
+  "schemaVersion": 4,
+  "sets": [
+    {
+      "key": "General",
+      "lines": [
+        "Best keep moving.",
+        "The road will not walk itself.",
+        "Keep your eyes open.",
+        "One road at a time.",
+        "There is always another turning."
+      ]
+    },
+    {
+      "key": "CombatStart",
+      "lines": [
+        "Steel out.",
+        "Trouble. Ready yourself.",
+        "So be it.",
+        "They have chosen poorly."
+      ]
+    },
+    {
+      "key": "CombatEnd",
+      "lines": [
+        "It is done.",
+        "That was the last of them.",
+        "Still standing.",
+        "The road is quiet again."
+      ]
+    },
+    {
+      "key": "BowDraw",
+      "lines": [
+        "Easy now.",
+        "One clean shot.",
+        "Hold steady."
+      ]
+    },
+    {
+      "key": "MagicCast",
+      "lines": [
+        "Let the spell hold.",
+        "By the old arts.",
+        "Now, magicka answer me."
+      ]
+    },
+    {
+      "key": "HeavyDamage",
+      "lines": [
+        "That struck deep.",
+        "I felt that.",
+        "Careful. Another like that will cost me."
+      ]
+    },
+    {
+      "key": "LowHealth",
+      "lines": [
+        "I am badly hurt.",
+        "I need to mind my wounds.",
+        "I cannot take much more."
+      ]
+    },
+    {
+      "key": "CriticalHealth",
+      "lines": [
+        "A healer. Quickly.",
+        "One more good blow may finish me.",
+        "I am at death's door."
+      ]
+    },
+    {
+      "key": "Recovered",
+      "lines": [
+        "Better.",
+        "Strength returns.",
+        "That will keep me on my feet."
+      ]
+    },
+    {
+      "key": "LowFatigue",
+      "lines": [
+        "I need a moment to breathe.",
+        "My legs are failing me.",
+        "I cannot keep this pace forever."
+      ]
+    },
+    {
+      "key": "LowMagicka",
+      "lines": [
+        "My magicka is nearly spent.",
+        "I have little spellcraft left in me.",
+        "I must husband what magicka remains."
+      ]
+    },
+    {
+      "key": "LowBreath",
+      "lines": [
+        "Air. Now.",
+        "I need the surface.",
+        "My breath is nearly gone."
+      ]
+    },
+    {
+      "key": "Encumbered",
+      "lines": [
+        "I carry too much.",
+        "This burden will slow me.",
+        "I should leave something behind."
+      ]
+    },
+    {
+      "key": "Unburdened",
+      "lines": [
+        "Better. I can move again.",
+        "That is a burden shed.",
+        "Much lighter."
+      ]
+    },
+    {
+      "key": "DungeonEnter",
+      "lines": [
+        "Keep a hand near your weapon.",
+        "Old stone, old dangers.",
+        "Few places like this are truly empty.",
+        "Let us see what waits below."
+      ]
+    },
+    {
+      "key": "TownEnter",
+      "lines": [
+        "A roof and a market would be welcome.",
+        "Back among walls and watchmen.",
+        "Let us see what news travels here."
+      ]
+    },
+    {
+      "key": "Wilderness",
+      "lines": [
+        "Open country again.",
+        "The Bay has long roads.",
+        "Best watch the horizon."
+      ]
+    },
+    {
+      "key": "QuestAccepted",
+      "lines": [
+        "I know what is asked of me.",
+        "Another obligation, then.",
+        "Very well. I have a task."
+      ]
+    },
+    {
+      "key": "QuestResolved",
+      "lines": [
+        "That matter is behind me.",
+        "One obligation fewer.",
+        "So ends that errand."
+      ]
+    },
+    {
+      "key": "QuestFailed",
+      "lines": [
+        "That road is closed to me now.",
+        "I have failed that charge.",
+        "No use pretending otherwise. That task is lost."
+      ]
+    },
+    {
+      "key": "QuestTargetFound",
+      "lines": [
+        "There you are.",
+        "At last. The trail ends here.",
+        "Found you."
+      ]
+    },
+    {
+      "key": "QuestTargetKilled",
+      "lines": [
+        "The contract is fulfilled.",
+        "That settles the matter.",
+        "The quarry is down."
+      ]
+    },
+    {
+      "key": "Hungry",
+      "lines": [
+        "I could use a proper meal.",
+        "It has been too long since I ate.",
+        "My stomach is beginning to complain."
+      ]
+    },
+    {
+      "key": "Starving",
+      "lines": [
+        "I need food before I go farther.",
+        "Hunger is weakening me.",
+        "I will not last long without a meal."
+      ]
+    },
+    {
+      "key": "Thirsty",
+      "lines": [
+        "I need water.",
+        "A clean drink would be welcome.",
+        "My mouth is dry as old parchment."
+      ]
+    },
+    {
+      "key": "Wet",
+      "lines": [
+        "Soaked through.",
+        "These clothes will never dry at this rate.",
+        "I have had enough rain for one journey."
+      ]
+    },
+    {
+      "key": "Cold",
+      "lines": [
+        "This cold is becoming dangerous.",
+        "I can scarcely feel my fingers.",
+        "I need warmth soon."
+      ]
+    },
+    {
+      "key": "Hot",
+      "lines": [
+        "This heat is punishing.",
+        "Shade and water. Soon.",
+        "Even the road seems to shimmer."
+      ]
+    },
+    {
+      "key": "Camping",
+      "lines": [
+        "This ground will serve.",
+        "A fire and a few hours' rest will do.",
+        "We make camp here."
+      ]
+    },
+    {
+      "key": "Cooking",
+      "lines": [
+        "Something warm at last.",
+        "A hot meal will put strength back in me.",
+        "Better than another mouthful of trail rations."
+      ]
+    },
+    {
+      "key": "Nightfall",
+      "lines": [
+        "Night comes quickly on the road.",
+        "Best mind what moves after dark.",
+        "The light is going."
+      ]
+    },
+    {
+      "key": "Rested",
+      "lines": [
+        "That rest did me good.",
+        "I am ready to move.",
+        "Strength enough for another road."
+      ]
+    },
+    {
+      "key": "Poisoned",
+      "lines": [
+        "Poison. I need a remedy.",
+        "Something foul is in my blood.",
+        "I must cure this before it worsens."
+      ]
+    },
+    {
+      "key": "Diseased",
+      "lines": [
+        "I feel ill. This is no common weariness.",
+        "I should find a healer.",
+        "Something is wrong with me."
+      ]
+    },
+    {
+      "key": "TravelStart",
+      "lines": [
+        "Then we are off.",
+        "Another road begins.",
+        "Best make good time."
+      ]
+    },
+    {
+      "key": "TravelEnd",
+      "lines": [
+        "At last.",
+        "We have arrived.",
+        "That is enough road for now."
+      ]
+    },
+    {
+      "key": "Race.HighElf.General",
+      "lines": [
+        "The Iliac Bay has ambition, if not always refinement.",
+        "One grows accustomed to provincial habits.",
+        "Competence remains a rare and useful virtue."
+      ]
+    },
+    {
+      "key": "Race.HighElf.CombatStart",
+      "lines": [
+        "Do not embarrass yourselves.",
+        "Very well. Let us settle the matter properly.",
+        "You mistake patience for weakness."
+      ]
+    },
+    {
+      "key": "Race.HighElf.CombatEnd",
+      "lines": [
+        "Predictable.",
+        "As expected.",
+        "They overestimated themselves."
+      ]
+    },
+    {
+      "key": "Race.HighElf.DungeonEnter",
+      "lines": [
+        "Crude masonry. Let us hope its secrets are less disappointing.",
+        "Age does not make every ruin worthy."
+      ]
+    },
+    {
+      "key": "Race.HighElf.MagicCast",
+      "lines": [
+        "At least the old disciplines endure.",
+        "A little proper sorcery."
+      ]
+    },
+    {
+      "key": "Race.HighElf.Hungry",
+      "lines": [
+        "Even discipline does not excuse an empty stomach.",
+        "I require something fit to eat."
+      ]
+    },
+    {
+      "key": "Race.HighElf.Cold",
+      "lines": [
+        "What a miserable climate.",
+        "I was not bred for this dreary cold."
+      ]
+    },
+    {
+      "key": "Race.HighElf.TownEnter",
+      "lines": [
+        "Let us see what passes for civility here.",
+        "Perhaps someone here keeps a respectable library."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.General",
+      "lines": [
+        "This one keeps to the road.",
+        "Khajiit has walked stranger paths.",
+        "The moons see many roads, and so does this one."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.CombatStart",
+      "lines": [
+        "Claws out, then.",
+        "This one warned you.",
+        "Khajiit is not easy prey."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.CombatEnd",
+      "lines": [
+        "This one still has all nine lives. More or less.",
+        "The foolish ones are quiet now.",
+        "Khajiit prefers victories that leave the fur intact."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.DungeonEnter",
+      "lines": [
+        "This one does not trust the smell of this place.",
+        "Khajiit would rather have moonlight overhead."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.Hungry",
+      "lines": [
+        "This one would welcome something to eat.",
+        "Khajiit's stomach has begun making demands."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.Thirsty",
+      "lines": [
+        "This one needs water before the road grows longer."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.Cold",
+      "lines": [
+        "This one remembers warmer sands.",
+        "Cold gets beneath the fur all the same."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.TownEnter",
+      "lines": [
+        "Where there are walls, there are purses and rumors.",
+        "This one wonders what the market holds."
+      ]
+    },
+    {
+      "key": "Race.Argonian.General",
+      "lines": [
+        "The path changes. I change with it.",
+        "Still water may hide a deep channel.",
+        "I have crossed stranger ground than this."
+      ]
+    },
+    {
+      "key": "Race.Argonian.CombatStart",
+      "lines": [
+        "Then let blood answer blood.",
+        "Come closer, if you choose."
+      ]
+    },
+    {
+      "key": "Race.Argonian.CombatEnd",
+      "lines": [
+        "The danger has passed.",
+        "Their struggle is finished."
+      ]
+    },
+    {
+      "key": "Race.Argonian.DungeonEnter",
+      "lines": [
+        "Dry stone remembers little of living things.",
+        "The air here has been still too long."
+      ]
+    },
+    {
+      "key": "Race.Argonian.Cold",
+      "lines": [
+        "The cold slows the blood.",
+        "I need warmth before my limbs grow stiff."
+      ]
+    },
+    {
+      "key": "Race.Argonian.Wet",
+      "lines": [
+        "At least the water is familiar.",
+        "Others curse the rain. I have known worse."
+      ]
+    },
+    {
+      "key": "Race.Argonian.Hot",
+      "lines": [
+        "The heat is heavy, even for me."
+      ]
+    },
+    {
+      "key": "Race.Nord.General",
+      "lines": [
+        "No sense standing about.",
+        "Forward, then.",
+        "A long road is still only a road."
+      ]
+    },
+    {
+      "key": "Race.Nord.CombatStart",
+      "lines": [
+        "Come on, then!",
+        "Steel speaks now.",
+        "Let's have it."
+      ]
+    },
+    {
+      "key": "Race.Nord.CombatEnd",
+      "lines": [
+        "A good enough fight.",
+        "They should have brought more steel.",
+        "Done. Who is next?"
+      ]
+    },
+    {
+      "key": "Race.Nord.Cold",
+      "lines": [
+        "This? I have known colder mornings.",
+        "A little frost never killed a Nord worth the name."
+      ]
+    },
+    {
+      "key": "Race.Nord.DungeonEnter",
+      "lines": [
+        "Stone, dust, and something waiting to die.",
+        "If there is treasure below, we earn it."
+      ]
+    },
+    {
+      "key": "Race.Nord.Hungry",
+      "lines": [
+        "I could eat a whole roast by now.",
+        "Food first, heroics after."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.General",
+      "lines": [
+        "I have endured worse roads than this.",
+        "Let us be done with it.",
+        "The west is loud, but rarely subtle."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.CombatStart",
+      "lines": [
+        "You have chosen your end.",
+        "Very well. Come."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.CombatEnd",
+      "lines": [
+        "Fools die everywhere alike.",
+        "Finished.",
+        "Their ancestors may judge them now."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.DungeonEnter",
+      "lines": [
+        "The dead are seldom the worst company in a ruin.",
+        "Old places breed old grudges."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.TownEnter",
+      "lines": [
+        "Another western town. Let us hope its merchants are less dull than its walls."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.MagicCast",
+      "lines": [
+        "Magic has older masters than these western hedge-wizards."
+      ]
+    },
+    {
+      "key": "Race.Redguard.General",
+      "lines": [
+        "Keep your footing and your head.",
+        "The road rewards discipline.",
+        "A steady hand carries farther than boasting."
+      ]
+    },
+    {
+      "key": "Race.Redguard.CombatStart",
+      "lines": [
+        "Stand ready.",
+        "Draw cleanly.",
+        "Let skill decide it."
+      ]
+    },
+    {
+      "key": "Race.Redguard.CombatEnd",
+      "lines": [
+        "Good. The matter is settled.",
+        "Poor form. Worse judgment.",
+        "A blade is honest about such things."
+      ]
+    },
+    {
+      "key": "Race.Redguard.BowDraw",
+      "lines": [
+        "Breathe. Loose cleanly.",
+        "Measure the distance."
+      ]
+    },
+    {
+      "key": "Race.Redguard.DungeonEnter",
+      "lines": [
+        "Watch the corners. Ruins favor the careless.",
+        "Patience. Stone hides more than treasure."
+      ]
+    },
+    {
+      "key": "Race.Redguard.TownEnter",
+      "lines": [
+        "Let us see what trade and rumor have reached this place.",
+        "A town is only as useful as its people."
+      ]
+    },
+    {
+      "key": "Race.Redguard.QuestAccepted",
+      "lines": [
+        "A charge accepted should be completed.",
+        "I gave my word. That is enough."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.General",
+      "lines": [
+        "The road is kinder beneath an open sky.",
+        "Keep light on your feet.",
+        "There is always a trail, if you know how to look."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.DungeonEnter",
+      "lines": [
+        "Too much stone. Not enough sky.",
+        "I dislike places where nothing grows."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.BowDraw",
+      "lines": [
+        "Easy breath. Easy hand.",
+        "One arrow is enough."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.CombatEnd",
+      "lines": [
+        "Quiet again.",
+        "The trail is clear."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.Hungry",
+      "lines": [
+        "I should find something to eat before the trail lengthens."
+      ]
+    },
+    {
+      "key": "Race.Breton.General",
+      "lines": [
+        "Another turn in the road.",
+        "The Bay has a way of making every errand political.",
+        "Let us see where this leads."
+      ]
+    },
+    {
+      "key": "Race.Breton.MagicCast",
+      "lines": [
+        "Let us put the old arts to work.",
+        "A little sorcery may save a great deal of steel."
+      ]
+    },
+    {
+      "key": "Race.Breton.TownEnter",
+      "lines": [
+        "There will be a guildhall, a tavern, and three opinions for every fact.",
+        "Let us hear what the locals are whispering."
+      ]
+    },
+    {
+      "key": "Race.Breton.QuestAccepted",
+      "lines": [
+        "Very well. Another thread in the Bay's tangled affairs.",
+        "I will see it through."
+      ]
+    },
+    {
+      "key": "Race.Breton.DungeonEnter",
+      "lines": [
+        "Every old keep in High Rock seems to have a cellar full of trouble."
+      ]
+    },
+    {
+      "key": "Action.BowDraw",
+      "lines": [
+        "Stick around.",
+        "Let's pin this down.",
+        "Stay right there."
+      ]
+    },
+    {
+      "key": "Action.CombatEnd",
+      "lines": [
+        "Anybody else?",
+        "Consider that settled.",
+        "You should have stayed at the tavern."
+      ]
+    },
+    {
+      "key": "Action.MagicCast",
+      "lines": [
+        "Now you see the magic trick.",
+        "A little theatrical sorcery."
+      ]
+    },
+    {
+      "key": "Action.FrostKill",
+      "lines": [
+        "Ice to meet you.",
+        "Cold enough for you?",
+        "You needed to cool your temper."
+      ]
+    },
+    {
+      "key": "Action.FireKill",
+      "lines": [
+        "You're fired.",
+        "That should warm you up.",
+        "Ashes to ashes."
+      ]
+    },
+    {
+      "key": "Action.HeavyDamage",
+      "lines": [
+        "I've had worse.",
+        "Is that all you've got?",
+        "You'll have to do better than that."
+      ]
+    },
+    {
+      "key": "Action.QuestResolved",
+      "lines": [
+        "Case closed.",
+        "Another happy ending. More or less.",
+        "That's one for the chronicles."
+      ]
+    },
+    {
+      "key": "Action.QuestTargetKilled",
+      "lines": [
+        "Contract fulfilled.",
+        "Consider yourself dismissed.",
+        "End of the line."
+      ]
+    },
+    {
+      "key": "Choice.Accept",
+      "lines": [
+        "Very well. I will do it.",
+        "Agreed. I will see it done.",
+        "You have my help."
+      ]
+    },
+    {
+      "key": "Choice.Reject",
+      "lines": [
+        "No. Find another hand.",
+        "I must decline.",
+        "That is not a charge I will take."
+      ]
+    },
+    {
+      "key": "Choice.Yes",
+      "lines": [
+        "Yes.",
+        "Very well.",
+        "Agreed."
+      ]
+    },
+    {
+      "key": "Choice.No",
+      "lines": [
+        "No.",
+        "Not this time.",
+        "I think not."
+      ]
+    },
+    {
+      "key": "Choice.Guilty",
+      "lines": [
+        "Guilty.",
+        "I plead guilty."
+      ]
+    },
+    {
+      "key": "Choice.NotGuilty",
+      "lines": [
+        "Not guilty.",
+        "I deny the charge."
+      ]
+    },
+    {
+      "key": "Choice.Debate",
+      "lines": [
+        "Then hear my argument.",
+        "Allow me to make my case.",
+        "There is more to this than you have heard."
+      ]
+    },
+    {
+      "key": "Choice.Lie",
+      "lines": [
+        "That is not how it happened.",
+        "You have been told the wrong tale.",
+        "Your account is mistaken."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.Choice.Accept",
+      "lines": [
+        "This one accepts.",
+        "Khajiit will do what is asked.",
+        "This one will take the task."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.Choice.Reject",
+      "lines": [
+        "This one must decline.",
+        "Khajiit has another road to walk."
+      ]
+    },
+    {
+      "key": "Race.HighElf.Choice.Accept",
+      "lines": [
+        "Very well. I will see it done.",
+        "I suppose this task does require a capable hand."
+      ]
+    },
+    {
+      "key": "Race.HighElf.Choice.Reject",
+      "lines": [
+        "Certainly not.",
+        "I have better uses for my time."
+      ]
+    },
+    {
+      "key": "Race.Argonian.Choice.Accept",
+      "lines": [
+        "I will see it through.",
+        "The path is clear. I accept."
+      ]
+    },
+    {
+      "key": "Race.Argonian.Choice.Reject",
+      "lines": [
+        "No. My path leads elsewhere.",
+        "I will not take this task."
+      ]
+    },
+    {
+      "key": "Race.Nord.Choice.Accept",
+      "lines": [
+        "Aye. I will do it.",
+        "Done. Point me where I need to go."
+      ]
+    },
+    {
+      "key": "Race.Nord.Choice.Reject",
+      "lines": [
+        "No. Find someone else.",
+        "Not my fight."
+      ]
+    },
+    {
+      "key": "Race.Redguard.Choice.Accept",
+      "lines": [
+        "Agreed. I will see it done.",
+        "You have my word."
+      ]
+    },
+    {
+      "key": "Race.Redguard.Choice.Reject",
+      "lines": [
+        "No. I will not take this charge.",
+        "My answer is no."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.Choice.Accept",
+      "lines": [
+        "Very well. I accept.",
+        "Fine. I will handle it."
+      ]
+    },
+    {
+      "key": "Race.DarkElf.Choice.Reject",
+      "lines": [
+        "No. Trouble someone else.",
+        "I have no use for this errand."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.Choice.Accept",
+      "lines": [
+        "All right. I will do it.",
+        "Agreed. I will see where the trail leads."
+      ]
+    },
+    {
+      "key": "Race.WoodElf.Choice.Reject",
+      "lines": [
+        "No. I will pass.",
+        "Find another traveler."
+      ]
+    },
+    {
+      "key": "Race.Breton.Choice.Accept",
+      "lines": [
+        "Very well. You have my help.",
+        "Agreed. I will take the task."
+      ]
+    },
+    {
+      "key": "Race.Breton.Choice.Reject",
+      "lines": [
+        "I must decline.",
+        "No. I cannot help you."
+      ]
+    },
+    {
+      "key": "Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna, then. Best not keep the Emperor's agent waiting."
+      ]
+    },
+    {
+      "key": "Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor's charge still hangs over me. I should remember why I came to the Bay."
+      ]
+    },
+    {
+      "key": "Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall. Lysandus' shadow hangs over more than the castle walls."
+      ]
+    },
+    {
+      "key": "Location.Wayrest.General",
+      "lines": [
+        "Wayrest has enough wealth to make every smile look expensive."
+      ]
+    },
+    {
+      "key": "Location.Sentinel.General",
+      "lines": [
+        "Sentinel wears its pride openly. I should mind the customs of the court."
+      ]
+    },
+    {
+      "key": "Location.PrivateersHold.General",
+      "lines": [
+        "Privateer's Hold still smells of damp stone and bad luck."
+      ]
+    },
+    {
+      "key": "GuildMember.General",
+      "lines": [
+        "My name carries obligations now, whether I asked for them or not."
+      ]
+    },
+    {
+      "key": "Guild.MagesGuild.General",
+      "lines": [
+        "The Guild has taught me that every locked door eventually becomes a question of method."
+      ]
+    },
+    {
+      "key": "Guild.FightersGuild.General",
+      "lines": [
+        "A Fighters Guild contract is simple enough: know the work, do the work, collect the fee."
+      ]
+    },
+    {
+      "key": "Reputation.Notorious.General",
+      "lines": [
+        "Best not linger. Too many people know my name for the wrong reasons."
+      ]
+    },
+    {
+      "key": "Reputation.Honored.General",
+      "lines": [
+        "A good name opens doors that lockpicks cannot."
+      ]
+    },
+    {
+      "key": "Personality.Mage.General",
+      "lines": [
+        "There is always more to understand.",
+        "Knowledge is useful only when one knows what to do with it.",
+        "Observe first. Conclusions can wait."
+      ]
+    },
+    {
+      "key": "Personality.Mage.CombatStart",
+      "lines": [
+        "If reason has failed, then let discipline answer.",
+        "Enough. I will not let ignorance become violence without reply."
+      ]
+    },
+    {
+      "key": "Personality.Mage.CombatEnd",
+      "lines": [
+        "A poor lesson, but a lesson all the same.",
+        "Done. Better to remember why it came to blows."
+      ]
+    },
+    {
+      "key": "Personality.Mage.DungeonEnter",
+      "lines": [
+        "Old places deserve caution. Their builders usually had reasons for closing the door.",
+        "Ruins keep knowledge long after they lose their keepers."
+      ]
+    },
+    {
+      "key": "Personality.Mage.TownEnter",
+      "lines": [
+        "A settlement is a library written in habits instead of ink.",
+        "Listen long enough and every town explains itself."
+      ]
+    },
+    {
+      "key": "Personality.Mage.TavernEnter",
+      "lines": [
+        "Rumor is unreliable, but patterns survive even bad telling.",
+        "A tavern can teach as much about a town as its archives."
+      ]
+    },
+    {
+      "key": "Personality.Mage.TempleEnter",
+      "lines": [
+        "Faith preserves memories scholarship often neglects.",
+        "Ritual can outlive the reason that first created it."
+      ]
+    },
+    {
+      "key": "Personality.Mage.GuildHallEnter",
+      "lines": [
+        "Institutions remember what individuals forget.",
+        "A guild hall is useful when its members still value the craft."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Wilderness",
+      "lines": [
+        "The land has its own history, even where no one bothered to write it down.",
+        "There are older lessons beneath open sky than in many towers."
+      ]
+    },
+    {
+      "key": "Personality.Mage.QuestAccepted",
+      "lines": [
+        "I will see this through, and understand what I can along the way.",
+        "Very well. Better a difficult truth than an easy assumption."
+      ]
+    },
+    {
+      "key": "Personality.Mage.QuestResolved",
+      "lines": [
+        "Another question answered. Usually that only reveals the next one.",
+        "The matter is settled. I should remember what it taught me."
+      ]
+    },
+    {
+      "key": "Personality.Mage.HeavyDamage",
+      "lines": [
+        "Pain is persuasive, if not particularly subtle.",
+        "That was an argument I would rather not hear twice."
+      ]
+    },
+    {
+      "key": "Personality.Mage.LowHealth",
+      "lines": [
+        "Wisdom now means finding a healer.",
+        "I have learned enough about this wound already."
+      ]
+    },
+    {
+      "key": "Personality.Mage.LowFatigue",
+      "lines": [
+        "A tired mind makes careless judgments.",
+        "I need rest before exhaustion starts deciding for me."
+      ]
+    },
+    {
+      "key": "Personality.Mage.LowMagicka",
+      "lines": [
+        "My reserves are nearly spent. Time for restraint.",
+        "No sense proving a theorem with an empty well of magicka."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Hungry",
+      "lines": [
+        "Even scholarship fares poorly on an empty stomach."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Thirsty",
+      "lines": [
+        "Water first. Thought becomes very small when the body is neglected."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Cold",
+      "lines": [
+        "Cold dulls the hands before it dulls the mind. I should warm both."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Nightfall",
+      "lines": [
+        "Night hides detail. That makes observation more important, not less."
+      ]
+    },
+    {
+      "key": "Personality.Mage.MagicCast",
+      "lines": [
+        "Form, intent, release.",
+        "Let the old principles hold true once more."
+      ]
+    },
+    {
+      "key": "Personality.Mage.BowDraw",
+      "lines": [
+        "Measure distance. Then loose."
+      ]
+    },
+    {
+      "key": "Personality.Mage.TravelStart",
+      "lines": [
+        "Every road is an argument about where the world connects."
+      ]
+    },
+    {
+      "key": "Personality.Mage.TravelEnd",
+      "lines": [
+        "Arrival is the useful part. Now I can learn why this place matters."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Poisoned",
+      "lines": [
+        "Poison is alchemy with malicious intent. I still need an antidote."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Diseased",
+      "lines": [
+        "Symptoms first, panic later. I need a healer."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.General",
+      "lines": [
+        "The timid call knowledge forbidden when they fear its price.",
+        "Power leaves traces. I have learned to notice them.",
+        "Every prohibition tells me where someone buried a secret."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.CombatStart",
+      "lines": [
+        "Blood is such an old currency.",
+        "You have chosen to contribute to the experiment."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.CombatEnd",
+      "lines": [
+        "Death is informative when one bothers to study it.",
+        "Another silence. Sometimes silence is useful."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.DungeonEnter",
+      "lines": [
+        "Sealed places attract me for excellent reasons and everyone else for terrible ones.",
+        "If something was buried here, I want to know why it frightened them."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.TownEnter",
+      "lines": [
+        "Civilized streets conceal the same hungers as tombs. They merely dress them better."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.TavernEnter",
+      "lines": [
+        "Wine loosens tongues. Fear loosens them faster."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.TempleEnter",
+      "lines": [
+        "Priests guard mysteries with ceremony and call curiosity a sin.",
+        "Sacred places are often old power wrapped in better ceremony."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.GuildHallEnter",
+      "lines": [
+        "Guild rules exist to keep lesser minds from touching dangerous things."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Wilderness",
+      "lines": [
+        "There are places beyond law where useful rites leave fewer witnesses."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.QuestAccepted",
+      "lines": [
+        "If this leads somewhere interesting, I will indulge it.",
+        "Very well. Let us see what this task is really hiding."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.QuestResolved",
+      "lines": [
+        "Useful. The cost was acceptable.",
+        "One mystery closed, and perhaps a more profitable one opened."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.HeavyDamage",
+      "lines": [
+        "Pain is temporary. Lessons endure."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.LowHealth",
+      "lines": [
+        "Not yet. I have too much left to uncover."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.LowFatigue",
+      "lines": [
+        "The body complains. It will obey a little longer."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.LowMagicka",
+      "lines": [
+        "Annoying. Power without reserves is only theory."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Hungry",
+      "lines": [
+        "The flesh insists on its petty maintenance."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Thirsty",
+      "lines": [
+        "I require water. Even ambition has a body attached to it."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Cold",
+      "lines": [
+        "Cold preserves corpses better than patience preserves secrets."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Nightfall",
+      "lines": [
+        "Night improves the world. Fewer witnesses, clearer intentions."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.MagicCast",
+      "lines": [
+        "Power answers those willing to command it."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.BowDraw",
+      "lines": [
+        "Distance makes the result no less final."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.TravelStart",
+      "lines": [
+        "If the road ends somewhere forbidden, so much the better."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.TravelEnd",
+      "lines": [
+        "At last. Let us see what everyone else was afraid to touch."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Poisoned",
+      "lines": [
+        "A crude poison. I refuse to die from someone else's unimaginative work."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Diseased",
+      "lines": [
+        "Disease is merely another process to master before it masters me."
+      ]
+    },
+    {
+      "key": "Personality.Lady.General",
+      "lines": [
+        "Courtesy reveals more than aggression ever does.",
+        "A good name opens doors force only damages.",
+        "People remember how they were treated."
+      ]
+    },
+    {
+      "key": "Personality.Lady.CombatStart",
+      "lines": [
+        "There was still time to choose civility. They wasted it."
+      ]
+    },
+    {
+      "key": "Personality.Lady.CombatEnd",
+      "lines": [
+        "A needless end to a conversation that never began."
+      ]
+    },
+    {
+      "key": "Personality.Lady.DungeonEnter",
+      "lines": [
+        "Places like this punish arrogance. Caution is not cowardice."
+      ]
+    },
+    {
+      "key": "Personality.Lady.TownEnter",
+      "lines": [
+        "New streets, new customs. Best learn both before judging either."
+      ]
+    },
+    {
+      "key": "Personality.Lady.TavernEnter",
+      "lines": [
+        "If I want the truth of a town, I should listen to the people who work after court closes."
+      ]
+    },
+    {
+      "key": "Personality.Lady.TempleEnter",
+      "lines": [
+        "Respect costs nothing, especially in another people's sacred place."
+      ]
+    },
+    {
+      "key": "Personality.Lady.GuildHallEnter",
+      "lines": [
+        "Every guild has rules, rivalries, and someone whose opinion matters more than their title suggests."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Wilderness",
+      "lines": [
+        "No walls, no court, no audience. A useful change."
+      ]
+    },
+    {
+      "key": "Personality.Lady.QuestAccepted",
+      "lines": [
+        "You have my word. I will treat the matter seriously."
+      ]
+    },
+    {
+      "key": "Personality.Lady.QuestResolved",
+      "lines": [
+        "Good. Let the people concerned have some peace from it."
+      ]
+    },
+    {
+      "key": "Personality.Lady.HeavyDamage",
+      "lines": [
+        "That was an emphatic rejection."
+      ]
+    },
+    {
+      "key": "Personality.Lady.LowHealth",
+      "lines": [
+        "Pride will not stop the bleeding. I need help."
+      ]
+    },
+    {
+      "key": "Personality.Lady.LowFatigue",
+      "lines": [
+        "I need to recover before exhaustion makes me careless with people or danger."
+      ]
+    },
+    {
+      "key": "Personality.Lady.LowMagicka",
+      "lines": [
+        "I have little magicka left. Persuasion may have to do the work."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Hungry",
+      "lines": [
+        "A meal and a civilized table would be welcome."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Thirsty",
+      "lines": [
+        "I would settle for water and five quiet minutes."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Cold",
+      "lines": [
+        "Hospitality suddenly sounds less ceremonial and more essential."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Nightfall",
+      "lines": [
+        "At night, intentions become harder to read. I should watch more closely."
+      ]
+    },
+    {
+      "key": "Personality.Lady.MagicCast",
+      "lines": [
+        "Power is most useful when applied with restraint."
+      ]
+    },
+    {
+      "key": "Personality.Lady.BowDraw",
+      "lines": [
+        "One warning would have been preferable."
+      ]
+    },
+    {
+      "key": "Personality.Lady.TravelStart",
+      "lines": [
+        "The road is easier when one leaves a place with friends rather than grudges."
+      ]
+    },
+    {
+      "key": "Personality.Lady.TravelEnd",
+      "lines": [
+        "We are here. First impressions matter."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Poisoned",
+      "lines": [
+        "Someone has made this personal. I need an antidote before I ask who."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Diseased",
+      "lines": [
+        "I should find a healer before I become someone else's problem."
+      ]
+    },
+    {
+      "key": "Personality.Lord.General",
+      "lines": [
+        "Authority is wasted on those who mistake inheritance for merit.",
+        "The world belongs to those capable of imposing order upon it.",
+        "Let lesser people debate permission."
+      ]
+    },
+    {
+      "key": "Personality.Lord.CombatStart",
+      "lines": [
+        "You presume far beyond your station."
+      ]
+    },
+    {
+      "key": "Personality.Lord.CombatEnd",
+      "lines": [
+        "Order restored."
+      ]
+    },
+    {
+      "key": "Personality.Lord.DungeonEnter",
+      "lines": [
+        "Someone once commanded this place. Now it waits for a worthier will."
+      ]
+    },
+    {
+      "key": "Personality.Lord.TownEnter",
+      "lines": [
+        "Every town has a ruler. The interesting question is whether they deserve the obedience."
+      ]
+    },
+    {
+      "key": "Personality.Lord.TavernEnter",
+      "lines": [
+        "Useful places. Men confess their loyalties cheaply over drink."
+      ]
+    },
+    {
+      "key": "Personality.Lord.TempleEnter",
+      "lines": [
+        "Even gods require institutions to enforce their importance."
+      ]
+    },
+    {
+      "key": "Personality.Lord.GuildHallEnter",
+      "lines": [
+        "A hierarchy is only as strong as the person at its summit."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Wilderness",
+      "lines": [
+        "No throne in sight. The land remains subject to whoever can hold it."
+      ]
+    },
+    {
+      "key": "Personality.Lord.QuestAccepted",
+      "lines": [
+        "Very well. I will decide how this matter ends."
+      ]
+    },
+    {
+      "key": "Personality.Lord.QuestResolved",
+      "lines": [
+        "As expected. The matter yielded to competence."
+      ]
+    },
+    {
+      "key": "Personality.Lord.HeavyDamage",
+      "lines": [
+        "Insolent."
+      ]
+    },
+    {
+      "key": "Personality.Lord.LowHealth",
+      "lines": [
+        "I will not be reduced to carrion by this place."
+      ]
+    },
+    {
+      "key": "Personality.Lord.LowFatigue",
+      "lines": [
+        "The body grows tiresome. The will does not."
+      ]
+    },
+    {
+      "key": "Personality.Lord.LowMagicka",
+      "lines": [
+        "My power is diminished, not my authority."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Hungry",
+      "lines": [
+        "Find food. There is no dignity in being ruled by an empty stomach."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Thirsty",
+      "lines": [
+        "I require water, not a lesson in humility."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Cold",
+      "lines": [
+        "A miserable climate for people who expect to be obeyed."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Nightfall",
+      "lines": [
+        "Darkness changes nothing. Predators remain predators."
+      ]
+    },
+    {
+      "key": "Personality.Lord.MagicCast",
+      "lines": [
+        "Obey."
+      ]
+    },
+    {
+      "key": "Personality.Lord.BowDraw",
+      "lines": [
+        "Kneeling would have been simpler."
+      ]
+    },
+    {
+      "key": "Personality.Lord.TravelStart",
+      "lines": [
+        "Let the road carry me to someone worth dealing with."
+      ]
+    },
+    {
+      "key": "Personality.Lord.TravelEnd",
+      "lines": [
+        "At last. Let us meet whoever imagines they hold power here."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Poisoned",
+      "lines": [
+        "Poison. The weapon of someone too frightened to stand before me."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Diseased",
+      "lines": [
+        "An indignity. I will have it cured."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.General",
+      "lines": [
+        "Do the work in front of you.",
+        "Courage is easier when you remember who depends on it.",
+        "A promise should mean something."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.CombatStart",
+      "lines": [
+        "Stand fast.",
+        "You wanted a fight. Face me."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.CombatEnd",
+      "lines": [
+        "It is finished. Check the wounded.",
+        "Enough blood for one day."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.DungeonEnter",
+      "lines": [
+        "Stay alert. Places like this punish carelessness.",
+        "Whatever waits below, we meet it ready."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.TownEnter",
+      "lines": [
+        "Walls are only worthwhile if the people behind them can sleep safely."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.TavernEnter",
+      "lines": [
+        "A meal, a drink, and then back to the road."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.TempleEnter",
+      "lines": [
+        "No harm in showing respect where others place their faith."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.GuildHallEnter",
+      "lines": [
+        "A hall means little without people willing to stand for one another."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Wilderness",
+      "lines": [
+        "Open ground. Keep watch and keep moving."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.QuestAccepted",
+      "lines": [
+        "You have my word. I will see it done."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.QuestResolved",
+      "lines": [
+        "The charge is fulfilled."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.HeavyDamage",
+      "lines": [
+        "Still standing."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.LowHealth",
+      "lines": [
+        "I need treatment, not bravado."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.LowFatigue",
+      "lines": [
+        "Slow down. Exhaustion gets good people killed."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.LowMagicka",
+      "lines": [
+        "Then steel will have to suffice."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Hungry",
+      "lines": [
+        "I fight better fed. Simple truth."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Thirsty",
+      "lines": [
+        "Water first. No heroics against thirst."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Cold",
+      "lines": [
+        "Keep moving. Cold wins when you stop."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Nightfall",
+      "lines": [
+        "Night watch starts now."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.MagicCast",
+      "lines": [
+        "Let it strike true."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.BowDraw",
+      "lines": [
+        "Make the shot count."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.TravelStart",
+      "lines": [
+        "We have a road and a purpose. That is enough."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.TravelEnd",
+      "lines": [
+        "We made it. Now find who needs us."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Poisoned",
+      "lines": [
+        "Poison. Find a cure before it takes my strength."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Diseased",
+      "lines": [
+        "I need a healer. Duty is no excuse for spreading sickness."
+      ]
+    },
+    {
+      "key": "Personality.Thief.General",
+      "lines": [
+        "Fair fights are for people who failed to find an advantage.",
+        "If it is guarded, someone thinks it is valuable.",
+        "Locks are just opinions made of metal."
+      ]
+    },
+    {
+      "key": "Personality.Thief.CombatStart",
+      "lines": [
+        "You should have watched your back."
+      ]
+    },
+    {
+      "key": "Personality.Thief.CombatEnd",
+      "lines": [
+        "Expensive mistake on their part."
+      ]
+    },
+    {
+      "key": "Personality.Thief.DungeonEnter",
+      "lines": [
+        "Dark, dangerous, probably full of things nobody is using anymore."
+      ]
+    },
+    {
+      "key": "Personality.Thief.TownEnter",
+      "lines": [
+        "New streets. New purses. New patrol routes."
+      ]
+    },
+    {
+      "key": "Personality.Thief.TavernEnter",
+      "lines": [
+        "Now this is civilization: ale, loose tongues, and terrible judgment."
+      ]
+    },
+    {
+      "key": "Personality.Thief.TempleEnter",
+      "lines": [
+        "Donation boxes always have the most trusting locks."
+      ]
+    },
+    {
+      "key": "Personality.Thief.GuildHallEnter",
+      "lines": [
+        "Every guild has a back door, even when the members pretend otherwise."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Wilderness",
+      "lines": [
+        "No guards for miles. Pity there is not much worth stealing either."
+      ]
+    },
+    {
+      "key": "Personality.Thief.QuestAccepted",
+      "lines": [
+        "If the reward is real, so am I."
+      ]
+    },
+    {
+      "key": "Personality.Thief.QuestResolved",
+      "lines": [
+        "Done. Now for the part where someone pays me."
+      ]
+    },
+    {
+      "key": "Personality.Thief.HeavyDamage",
+      "lines": [
+        "That was my cue to stop fighting fairly."
+      ]
+    },
+    {
+      "key": "Personality.Thief.LowHealth",
+      "lines": [
+        "Time to disappear before courage becomes stupidity."
+      ]
+    },
+    {
+      "key": "Personality.Thief.LowFatigue",
+      "lines": [
+        "Running out of breath is a terrible way to get caught."
+      ]
+    },
+    {
+      "key": "Personality.Thief.LowMagicka",
+      "lines": [
+        "No magicka. Fine. I still have hands and bad intentions."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Hungry",
+      "lines": [
+        "Hard to rob anyone when my stomach announces me first."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Thirsty",
+      "lines": [
+        "A tavern would solve at least one of my problems."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Cold",
+      "lines": [
+        "Frozen fingers are useless on locks."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Nightfall",
+      "lines": [
+        "Finally. The respectable people are going home."
+      ]
+    },
+    {
+      "key": "Personality.Thief.MagicCast",
+      "lines": [
+        "A spell is just another lockpick if you use it correctly."
+      ]
+    },
+    {
+      "key": "Personality.Thief.BowDraw",
+      "lines": [
+        "They cannot catch what they never reach."
+      ]
+    },
+    {
+      "key": "Personality.Thief.TravelStart",
+      "lines": [
+        "Let us hope the destination has richer people than the road."
+      ]
+    },
+    {
+      "key": "Personality.Thief.TravelEnd",
+      "lines": [
+        "Good. Time to learn where they keep the valuable things."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Poisoned",
+      "lines": [
+        "Poison? Rude. Effective, but rude."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Diseased",
+      "lines": [
+        "Wonderful. Even my blood is trying to report me."
+      ]
+    },
+    {
+      "key": "Personality.Lover.General",
+      "lines": [
+        "People matter more than the stories told about them.",
+        "Kindness is rarely wasted.",
+        "A little decency travels farther than most people think."
+      ]
+    },
+    {
+      "key": "Personality.Lover.CombatStart",
+      "lines": [
+        "Leave them alone.",
+        "I asked you not to make this necessary."
+      ]
+    },
+    {
+      "key": "Personality.Lover.CombatEnd",
+      "lines": [
+        "I wish it had ended another way."
+      ]
+    },
+    {
+      "key": "Personality.Lover.DungeonEnter",
+      "lines": [
+        "I wonder how many people never came home from places like this."
+      ]
+    },
+    {
+      "key": "Personality.Lover.TownEnter",
+      "lines": [
+        "Good. People, lights, and somewhere warm."
+      ]
+    },
+    {
+      "key": "Personality.Lover.TavernEnter",
+      "lines": [
+        "A warm room full of stories sounds just right."
+      ]
+    },
+    {
+      "key": "Personality.Lover.TempleEnter",
+      "lines": [
+        "Whatever god they pray to, someone comes here needing hope."
+      ]
+    },
+    {
+      "key": "Personality.Lover.GuildHallEnter",
+      "lines": [
+        "Groups are only worth joining if they remember the people inside them."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Wilderness",
+      "lines": [
+        "Beautiful country. Lonely, though."
+      ]
+    },
+    {
+      "key": "Personality.Lover.QuestAccepted",
+      "lines": [
+        "If someone needs help, I cannot simply walk away."
+      ]
+    },
+    {
+      "key": "Personality.Lover.QuestResolved",
+      "lines": [
+        "Good. I hope that leaves someone better off than before."
+      ]
+    },
+    {
+      "key": "Personality.Lover.HeavyDamage",
+      "lines": [
+        "That hurt. I would still rather be hit than watch someone else take it."
+      ]
+    },
+    {
+      "key": "Personality.Lover.LowHealth",
+      "lines": [
+        "I need help. No shame in saying it."
+      ]
+    },
+    {
+      "key": "Personality.Lover.LowFatigue",
+      "lines": [
+        "I need a rest before I become a burden to anyone."
+      ]
+    },
+    {
+      "key": "Personality.Lover.LowMagicka",
+      "lines": [
+        "I have little magicka left. I should save it for when someone truly needs it."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Hungry",
+      "lines": [
+        "A simple meal would be enough."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Thirsty",
+      "lines": [
+        "Water would be wonderful right now."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Cold",
+      "lines": [
+        "I hope anyone else on this road has found shelter."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Nightfall",
+      "lines": [
+        "Someone is probably waiting for a traveler who has not come home yet."
+      ]
+    },
+    {
+      "key": "Personality.Lover.MagicCast",
+      "lines": [
+        "Let this do some good."
+      ]
+    },
+    {
+      "key": "Personality.Lover.BowDraw",
+      "lines": [
+        "I would rather they turned away."
+      ]
+    },
+    {
+      "key": "Personality.Lover.TravelStart",
+      "lines": [
+        "One more road. We will get there together."
+      ]
+    },
+    {
+      "key": "Personality.Lover.TravelEnd",
+      "lines": [
+        "At last. I hope we are welcome."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Poisoned",
+      "lines": [
+        "I need a cure before this gets worse."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Diseased",
+      "lines": [
+        "Best find a healer, and keep my distance from others until I do."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.General",
+      "lines": [
+        "Everyone has a breaking point. The interesting part is finding it.",
+        "People are so much more honest when they are afraid.",
+        "A little chaos keeps life from becoming dull."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.CombatStart",
+      "lines": [
+        "Good. I was getting bored."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.CombatEnd",
+      "lines": [
+        "That was almost entertaining."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.DungeonEnter",
+      "lines": [
+        "Dark, miserable, probably lethal. Charming."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.TownEnter",
+      "lines": [
+        "So many rules in one place. Where to begin?"
+      ]
+    },
+    {
+      "key": "Personality.Serpent.TavernEnter",
+      "lines": [
+        "Drink makes people brave, stupid, and wonderfully easy to provoke."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.TempleEnter",
+      "lines": [
+        "All that virtue gathered in one room. Tempting."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.GuildHallEnter",
+      "lines": [
+        "Rules, ranks, little badges of importance. Adorable."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Wilderness",
+      "lines": [
+        "No witnesses. The countryside improves already."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.QuestAccepted",
+      "lines": [
+        "Why not? Perhaps someone interesting will suffer."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.QuestResolved",
+      "lines": [
+        "And everyone lived happily ever after. Except the ones who did not."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.HeavyDamage",
+      "lines": [
+        "Oh, now you have my attention."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.LowHealth",
+      "lines": [
+        "Careful. I am much less pleasant when cornered."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.LowFatigue",
+      "lines": [
+        "Even cruelty becomes work eventually."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.LowMagicka",
+      "lines": [
+        "No magicka left. We will improvise."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Hungry",
+      "lines": [
+        "I am hungry. Someone nearby should probably be nervous."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Thirsty",
+      "lines": [
+        "I need a drink. Preferably somewhere with fragile furniture."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Cold",
+      "lines": [
+        "Cold enough to make everyone miserable. Lovely."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Nightfall",
+      "lines": [
+        "The dark makes honest people imagine such wonderful things."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.MagicCast",
+      "lines": [
+        "Let us make this memorable."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.BowDraw",
+      "lines": [
+        "Hold still. Or do not. Either way is funny."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.TravelStart",
+      "lines": [
+        "A new road, a new collection of mistakes waiting to happen."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.TravelEnd",
+      "lines": [
+        "Here we are. Let us ruin the local peace."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Poisoned",
+      "lines": [
+        "Someone tried poison. I almost respect the effort."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Diseased",
+      "lines": [
+        "How undignified. I prefer suffering with an audience."
+      ]
+    },
+    {
+      "key": "Personality.Steed.General",
+      "lines": [
+        "There is always another road worth taking.",
+        "If nobody has a good story about the place, I suppose I will have to make one.",
+        "The map gets interesting where the certainty ends."
+      ]
+    },
+    {
+      "key": "Personality.Steed.CombatStart",
+      "lines": [
+        "I was hoping for a quieter tour."
+      ]
+    },
+    {
+      "key": "Personality.Steed.CombatEnd",
+      "lines": [
+        "Still worth the trip."
+      ]
+    },
+    {
+      "key": "Personality.Steed.DungeonEnter",
+      "lines": [
+        "Now this is why I left the road.",
+        "Old door, bad air, terrible idea. Naturally I am going in."
+      ]
+    },
+    {
+      "key": "Personality.Steed.TownEnter",
+      "lines": [
+        "New town. First find the landmarks, then find the trouble."
+      ]
+    },
+    {
+      "key": "Personality.Steed.TavernEnter",
+      "lines": [
+        "Every good journey deserves one bad tavern story."
+      ]
+    },
+    {
+      "key": "Personality.Steed.TempleEnter",
+      "lines": [
+        "You learn a lot about a place from what its people build for the gods."
+      ]
+    },
+    {
+      "key": "Personality.Steed.GuildHallEnter",
+      "lines": [
+        "Local experts. Useful when the map stops helping."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Wilderness",
+      "lines": [
+        "This is the part no court map ever gets quite right."
+      ]
+    },
+    {
+      "key": "Personality.Steed.QuestAccepted",
+      "lines": [
+        "Sounds like a journey. I am in."
+      ]
+    },
+    {
+      "key": "Personality.Steed.QuestResolved",
+      "lines": [
+        "That one will be worth telling later."
+      ]
+    },
+    {
+      "key": "Personality.Steed.HeavyDamage",
+      "lines": [
+        "I have had smoother expeditions."
+      ]
+    },
+    {
+      "key": "Personality.Steed.LowHealth",
+      "lines": [
+        "Adventure stops being charming when you bleed this much."
+      ]
+    },
+    {
+      "key": "Personality.Steed.LowFatigue",
+      "lines": [
+        "I need a rest before the next hill becomes the one that stops me."
+      ]
+    },
+    {
+      "key": "Personality.Steed.LowMagicka",
+      "lines": [
+        "Low on magicka. Good thing curiosity weighs nothing."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Hungry",
+      "lines": [
+        "I have crossed enough country to earn a meal."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Thirsty",
+      "lines": [
+        "Find water. Then find the next road."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Cold",
+      "lines": [
+        "I have seen better climates and worse decisions."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Nightfall",
+      "lines": [
+        "The road looks different after dark. Usually more interesting."
+      ]
+    },
+    {
+      "key": "Personality.Steed.MagicCast",
+      "lines": [
+        "Let us see if this gets us through."
+      ]
+    },
+    {
+      "key": "Personality.Steed.BowDraw",
+      "lines": [
+        "Distance, wind, and one chance."
+      ]
+    },
+    {
+      "key": "Personality.Steed.TravelStart",
+      "lines": [
+        "Now we are getting somewhere."
+      ]
+    },
+    {
+      "key": "Personality.Steed.TravelEnd",
+      "lines": [
+        "Worth the miles. Now what did we come all this way to find?"
+      ]
+    },
+    {
+      "key": "Personality.Steed.Poisoned",
+      "lines": [
+        "Of course the interesting route had poison."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Diseased",
+      "lines": [
+        "I would rather not bring this home as a souvenir."
+      ]
+    },
+    {
+      "key": "Personality.Tower.General",
+      "lines": [
+        "The rarest things usually belong to people who cannot appreciate them.",
+        "A locked door is a list of possessions waiting to change hands.",
+        "History is much easier to value when you can hold it."
+      ]
+    },
+    {
+      "key": "Personality.Tower.CombatStart",
+      "lines": [
+        "You are standing between me and something I intend to possess."
+      ]
+    },
+    {
+      "key": "Personality.Tower.CombatEnd",
+      "lines": [
+        "Good. Now back to what actually matters."
+      ]
+    },
+    {
+      "key": "Personality.Tower.DungeonEnter",
+      "lines": [
+        "Someone went to considerable trouble to keep people out. Promising."
+      ]
+    },
+    {
+      "key": "Personality.Tower.TownEnter",
+      "lines": [
+        "Every old town has collectors, smugglers, and someone desperate to sell an heirloom."
+      ]
+    },
+    {
+      "key": "Personality.Tower.TavernEnter",
+      "lines": [
+        "Collectors talk when they drink. So do thieves who robbed them."
+      ]
+    },
+    {
+      "key": "Personality.Tower.TempleEnter",
+      "lines": [
+        "Temples accumulate relics with extraordinary consistency."
+      ]
+    },
+    {
+      "key": "Personality.Tower.GuildHallEnter",
+      "lines": [
+        "Guild archives often contain maps they have no intention of sharing."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Wilderness",
+      "lines": [
+        "Civilization ends. Buried things do not."
+      ]
+    },
+    {
+      "key": "Personality.Tower.QuestAccepted",
+      "lines": [
+        "If the task crosses something rare, I want first look."
+      ]
+    },
+    {
+      "key": "Personality.Tower.QuestResolved",
+      "lines": [
+        "The job is finished. I hope the spoils were not disappointing."
+      ]
+    },
+    {
+      "key": "Personality.Tower.HeavyDamage",
+      "lines": [
+        "Careful. I have not collected enough to die yet."
+      ]
+    },
+    {
+      "key": "Personality.Tower.LowHealth",
+      "lines": [
+        "No artifact is worth bleeding out before I can take it home."
+      ]
+    },
+    {
+      "key": "Personality.Tower.LowFatigue",
+      "lines": [
+        "Treasure is inconveniently heavy after the tenth mile."
+      ]
+    },
+    {
+      "key": "Personality.Tower.LowMagicka",
+      "lines": [
+        "No magicka. Then I will use keys, tools, or other people's mistakes."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Hungry",
+      "lines": [
+        "I can admire relics after I eat."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Thirsty",
+      "lines": [
+        "Water first. Dusty tombs are overrated on an empty throat."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Cold",
+      "lines": [
+        "Frozen ruins preserve valuables nicely. Less so fingers."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Nightfall",
+      "lines": [
+        "Darkness hides entrances. It also hides collectors."
+      ]
+    },
+    {
+      "key": "Personality.Tower.MagicCast",
+      "lines": [
+        "Open."
+      ]
+    },
+    {
+      "key": "Personality.Tower.BowDraw",
+      "lines": [
+        "I would rather not damage anything valuable behind you."
+      ]
+    },
+    {
+      "key": "Personality.Tower.TravelStart",
+      "lines": [
+        "There had better be something worth bringing back."
+      ]
+    },
+    {
+      "key": "Personality.Tower.TravelEnd",
+      "lines": [
+        "At last. Now show me what this place has been hiding."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Poisoned",
+      "lines": [
+        "Ancient defenses or modern jealousy? Either way, irritating."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Diseased",
+      "lines": [
+        "I refuse to let a ruin keep me by infecting me."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.General",
+      "lines": [
+        "Do the job cleanly and move on.",
+        "Preparation turns danger into work.",
+        "Competence is quieter than bravado."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.CombatStart",
+      "lines": [
+        "All right. Professional terms are over."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.CombatEnd",
+      "lines": [
+        "Job done."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.DungeonEnter",
+      "lines": [
+        "Check the exits, check the floor, then worry about the monsters."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.TownEnter",
+      "lines": [
+        "Find supplies, information, and whoever is paying."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.TavernEnter",
+      "lines": [
+        "Food, information, and perhaps a contract. Efficient."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.TempleEnter",
+      "lines": [
+        "If they heal wounds and answer questions, I do not need to share the theology."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.GuildHallEnter",
+      "lines": [
+        "Professionals usually keep records. Useful."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Wilderness",
+      "lines": [
+        "Travel light, keep bearings, and do not waste daylight."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.QuestAccepted",
+      "lines": [
+        "Understood. I will handle it."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.QuestResolved",
+      "lines": [
+        "Contract complete."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.HeavyDamage",
+      "lines": [
+        "Noted. Adjust."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.LowHealth",
+      "lines": [
+        "Too injured to work properly. Fix that first."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.LowFatigue",
+      "lines": [
+        "Fatigue ruins technique. Time to rest."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.LowMagicka",
+      "lines": [
+        "Reserve nearly gone. Change methods."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Hungry",
+      "lines": [
+        "Eat before hunger becomes a tactical problem."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Thirsty",
+      "lines": [
+        "Water now. Delays become mistakes."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Cold",
+      "lines": [
+        "Cold compromises grip and judgment. Find shelter."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Nightfall",
+      "lines": [
+        "Visibility down. Risk up."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.MagicCast",
+      "lines": [
+        "Controlled release."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.BowDraw",
+      "lines": [
+        "One shot. No waste."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.TravelStart",
+      "lines": [
+        "Route set. Move."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.TravelEnd",
+      "lines": [
+        "We are on site. Start assessing."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Poisoned",
+      "lines": [
+        "Identify it, treat it, continue."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Diseased",
+      "lines": [
+        "Symptoms are work conditions. Find a cure."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.General",
+      "lines": [
+        "Someone always knows more than they admit.",
+        "Watch the hands, then the exits.",
+        "If the trail looks easy, someone may want it followed."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.CombatStart",
+      "lines": [
+        "There you are."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.CombatEnd",
+      "lines": [
+        "One less set of tracks to worry about."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.DungeonEnter",
+      "lines": [
+        "Too many blind corners. Somebody built this for ambushes whether they meant to or not."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.TownEnter",
+      "lines": [
+        "New town. Find the guards, the gates, and who watches strangers."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.TavernEnter",
+      "lines": [
+        "Bounties start in places like this. So do traps."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.TempleEnter",
+      "lines": [
+        "Even honest people lie when sanctuary is involved."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.GuildHallEnter",
+      "lines": [
+        "A guild keeps lists. Lists mean names. Names mean leads."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Wilderness",
+      "lines": [
+        "Open ground shows tracks. It also shows mine."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.QuestAccepted",
+      "lines": [
+        "Give me the facts. I will find the rest."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.QuestResolved",
+      "lines": [
+        "Trail ends here. For now."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.HeavyDamage",
+      "lines": [
+        "They knew where to hit. Remember that."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.LowHealth",
+      "lines": [
+        "Wounded means predictable. I need to stop being predictable."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.LowFatigue",
+      "lines": [
+        "Tired hunters miss signs. Rest."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.LowMagicka",
+      "lines": [
+        "If they are counting on my magic, let them."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Hungry",
+      "lines": [
+        "Hunger makes noise. Eat before it gives me away."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Thirsty",
+      "lines": [
+        "Dry mouth, slower judgment. Fix it."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Cold",
+      "lines": [
+        "Cold hides tracks and slows hands. Bad combination."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Nightfall",
+      "lines": [
+        "Night is when both hunter and quarry start inventing ghosts."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.MagicCast",
+      "lines": [
+        "Let them wonder where that came from."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.BowDraw",
+      "lines": [
+        "Do not give them a second warning."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.TravelStart",
+      "lines": [
+        "Check the trail behind us as often as the one ahead."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.TravelEnd",
+      "lines": [
+        "We arrived. Now find out who noticed."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Poisoned",
+      "lines": [
+        "Poison means planning. Someone wanted distance from the kill."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Diseased",
+      "lines": [
+        "Could be bad luck. I do not rely on that explanation."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall has scholars enough to record a king's death, but not enough certainty to quiet his ghost."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.Daggerfall.General",
+      "lines": [
+        "A murdered king and a city full of frightened stories. Death has fertile ground here."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall's court is grieving, proud, and watched. Every word will travel."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.Daggerfall.General",
+      "lines": [
+        "A throne unsettled by one dead king is a throne that was never secure."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.Daggerfall.General",
+      "lines": [
+        "Lysandus was a warrior-king. Whatever haunts this city deserves a straight answer."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.Daggerfall.General",
+      "lines": [
+        "A royal city in mourning means distracted guards and nervous nobles."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.Daggerfall.General",
+      "lines": [
+        "Too many people here still speak of Lysandus like the grief happened yesterday."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.Daggerfall.General",
+      "lines": [
+        "A dead king screaming through the streets. Daggerfall knows how to entertain."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall at last. Big walls, old harbor, and enough rumors to fill the road back out."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.Daggerfall.General",
+      "lines": [
+        "Royal cities collect royal relics. Grief makes people careless with inventories."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall. Keep the job separate from the court drama until the court drama becomes the job."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.Daggerfall.General",
+      "lines": [
+        "A dead king, an uneasy court, and too many people insisting they know nothing. Someone does."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.Wayrest.General",
+      "lines": [
+        "Wayrest grew wealthy by learning how to make trade serve ambition. That kind of lesson travels."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.Wayrest.General",
+      "lines": [
+        "Wayrest polishes everything, even its secrets. Especially its secrets."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.Wayrest.General",
+      "lines": [
+        "Wayrest is a court where commerce and etiquette share the same table."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.Wayrest.General",
+      "lines": [
+        "Wayrest understands that wealth is only impressive when it can command obedience."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.Wayrest.General",
+      "lines": [
+        "Wayrest looks comfortable. Comfortable courts can still breed dangerous orders."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.Wayrest.General",
+      "lines": [
+        "Wayrest has money enough to make caution a profession."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.Wayrest.General",
+      "lines": [
+        "For all the courtly games, ordinary people still have to live beneath them."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.Wayrest.General",
+      "lines": [
+        "Everyone here smiles like there is a knife behind the teeth."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Wayrest.General",
+      "lines": [
+        "Wayrest sits where roads and ambitions meet. No wonder everyone passes through."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.Wayrest.General",
+      "lines": [
+        "A rich court accumulates rare things simply to prove it can."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.Wayrest.General",
+      "lines": [
+        "Wayrest pays well when it wants something handled quietly."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.Wayrest.General",
+      "lines": [
+        "Too much wealth, too many factions. Perfect conditions for someone to disappear on purpose."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.Sentinel.General",
+      "lines": [
+        "Sentinel preserves old traditions with more discipline than many Breton courts preserve records."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.Sentinel.General",
+      "lines": [
+        "Old customs often hide old prohibitions. Those are usually worth studying."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.Sentinel.General",
+      "lines": [
+        "Sentinel remembers courtesy and insult with equal precision."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.Sentinel.General",
+      "lines": [
+        "Sentinel respects strength, lineage, and ceremony. At least they understand the language of rule."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.Sentinel.General",
+      "lines": [
+        "Sentinel respects a person who stands by their word. Good."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.Sentinel.General",
+      "lines": [
+        "Honor makes people predictable. Predictability is useful."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.Sentinel.General",
+      "lines": [
+        "Pride can be harsh, but it also means people care deeply about what they inherit."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.Sentinel.General",
+      "lines": [
+        "Everyone here takes honor so seriously. That makes offense wonderfully easy."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Sentinel.General",
+      "lines": [
+        "Sentinel feels different from the Breton kingdoms the moment the road turns dry."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.Sentinel.General",
+      "lines": [
+        "Hammerfell has relics older than half the claims made about them. I would like to see the originals."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.Sentinel.General",
+      "lines": [
+        "Sentinel values competence and clear terms. I can work with that."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.Sentinel.General",
+      "lines": [
+        "In a place ruled by honor, accusations become weapons. Watch who points first."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.PrivateersHold.General",
+      "lines": [
+        "Privateer's Hold is hardly ancient scholarship, but even crude places reveal how their occupants expected trouble."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.PrivateersHold.General",
+      "lines": [
+        "The first hole I crawled from in the Bay. Every beginning deserves a little blood."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.PrivateersHold.General",
+      "lines": [
+        "An unpleasant reminder that survival comes before ceremony."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.PrivateersHold.General",
+      "lines": [
+        "Privateer's Hold. A fitting place for the world to learn it failed to kill me."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.PrivateersHold.General",
+      "lines": [
+        "I survived this place once. I know better than to underestimate it now."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.PrivateersHold.General",
+      "lines": [
+        "Smugglers and privateers rarely build empty rooms without a reason."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.PrivateersHold.General",
+      "lines": [
+        "I wonder who else woke down here without knowing whether they would see daylight again."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.PrivateersHold.General",
+      "lines": [
+        "Ah, the welcoming pit. I almost missed its hospitality."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.PrivateersHold.General",
+      "lines": [
+        "Privateer's Hold was a miserable first stop. Still counts as a story."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.PrivateersHold.General",
+      "lines": [
+        "Privateers hide things. The only question is whether anyone found all of them."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.PrivateersHold.General",
+      "lines": [
+        "Known ground. Known threats. That is almost relaxing."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.PrivateersHold.General",
+      "lines": [
+        "I woke here with too few answers. I still do not like that."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.DirenniTower.General",
+      "lines": [
+        "Direnni stone carries the memory of an age when High Rock's magical traditions were still being shaped."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.DirenniTower.General",
+      "lines": [
+        "Old Aldmeri towers are excellent places to find magic someone later decided was improper."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.DirenniTower.General",
+      "lines": [
+        "The Direnni ruled through blood, alliance, and culture long after raw conquest would have failed."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.DirenniTower.General",
+      "lines": [
+        "The Direnni understood that lasting power changes a land even after the rulers are gone."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.DirenniTower.General",
+      "lines": [
+        "Old tower, narrow approaches. Whoever held this place understood defense."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.DirenniTower.General",
+      "lines": [
+        "Ancient towers are generous to anyone willing to notice what later occupants overlooked."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.DirenniTower.General",
+      "lines": [
+        "So many generations lived under the shadow of places like this."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.DirenniTower.General",
+      "lines": [
+        "Old elves, old magic, old grudges. Finally, some atmosphere."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.DirenniTower.General",
+      "lines": [
+        "You can travel the Bay for weeks and still find Direnni stone waiting on the horizon."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.DirenniTower.General",
+      "lines": [
+        "Direnni Tower. If anything here survived untouched, I want to know why."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.DirenniTower.General",
+      "lines": [
+        "Old magic means old hazards. Treat both as functional until proven otherwise."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.DirenniTower.General",
+      "lines": [
+        "Towers are built to see threats coming. I wonder what this one failed to see."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.ScourgBarrow.General",
+      "lines": [
+        "Barrows preserve more than bodies. They preserve the assumptions people made about death."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.ScourgBarrow.General",
+      "lines": [
+        "Scourg Barrow. At last, a place with the courage to admit what it is about."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.ScourgBarrow.General",
+      "lines": [
+        "Burial places deserve respect even when the dead have become dangerous."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.ScourgBarrow.General",
+      "lines": [
+        "The dead cling to old halls because they cannot accept that their authority ended."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.ScourgBarrow.General",
+      "lines": [
+        "Barrows mean undead often enough. Keep the weapon ready."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.ScourgBarrow.General",
+      "lines": [
+        "Grave goods are valuable. Grave curses are expensive."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.ScourgBarrow.General",
+      "lines": [
+        "Whatever is restless here was once someone mourned by the living."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.ScourgBarrow.General",
+      "lines": [
+        "A barrow full of the dead. I do appreciate a crowd that cannot complain."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.ScourgBarrow.General",
+      "lines": [
+        "Scourg Barrow. Not every landmark needs to be cheerful to be worth seeing."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.ScourgBarrow.General",
+      "lines": [
+        "If they buried someone important here, they buried important things with them."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.ScourgBarrow.General",
+      "lines": [
+        "Undead, tight corridors, poor light. Familiar professional misery."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.ScourgBarrow.General",
+      "lines": [
+        "Barrows attract treasure hunters. Treasure hunters leave tracks, traps, and bodies."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.Shedungent.General",
+      "lines": [
+        "Shedungent has the feel of a place where knowledge was preserved for reasons no one wanted public."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.Shedungent.General",
+      "lines": [
+        "Shedungent. Even the name sounds like someone whispering over a forbidden page."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.Shedungent.General",
+      "lines": [
+        "Places with reputations like this often survive because respectable people prefer not to ask questions."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.Shedungent.General",
+      "lines": [
+        "Fear has kept this place influential without a single proclamation."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.Shedungent.General",
+      "lines": [
+        "Bad reputation, worse ground. Stay ready."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.Shedungent.General",
+      "lines": [
+        "When sensible people avoid a place, fewer people compete for what is inside."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.Shedungent.General",
+      "lines": [
+        "I doubt everyone who vanished into a place like this deserved what they found."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.Shedungent.General",
+      "lines": [
+        "Shedungent. A dreadful name for what I hope is a dreadful place."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Shedungent.General",
+      "lines": [
+        "Some places pull travelers in simply because everyone else says not to go."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.Shedungent.General",
+      "lines": [
+        "Avoided ruins are often the least picked over."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.Shedungent.General",
+      "lines": [
+        "Unknown hazards, bad reputation. Approach like a contract with missing pages."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.Shedungent.General",
+      "lines": [
+        "If everyone agrees a place is dangerous, ask who benefits from keeping people away."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.Orsinium.General",
+      "lines": [
+        "Orsinium is proof that culture survives even when neighbors insist on describing it as a problem."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.Orsinium.General",
+      "lines": [
+        "Outsiders call Orcish customs crude when what they usually mean is unfamiliar."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Location.Orsinium.General",
+      "lines": [
+        "Orsinium has spent generations demanding recognition from courts that prefer condescension."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Location.Orsinium.General",
+      "lines": [
+        "A people who build a kingdom despite every neighbor's objection understand will better than most."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.Orsinium.General",
+      "lines": [
+        "Orcs respect strength plainly. I prefer that to a court that hides the contest."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Location.Orsinium.General",
+      "lines": [
+        "A city used to hostile outsiders will not make easy work for thieves."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Location.Orsinium.General",
+      "lines": [
+        "People here have heard enough strangers tell them what they are. Better to listen first."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Location.Orsinium.General",
+      "lines": [
+        "Everyone expects me to be afraid of Orcs. How disappointing for everyone."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Orsinium.General",
+      "lines": [
+        "Orsinium is exactly the kind of place maps make seem farther away than it feels once you arrive."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Location.Orsinium.General",
+      "lines": [
+        "A kingdom forced to rebuild learns to keep valuable things close."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Location.Orsinium.General",
+      "lines": [
+        "Orsinium respects capability. Good. That shortens negotiations."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.Orsinium.General",
+      "lines": [
+        "A city surrounded by enemies learns to watch the watchers before trusting ceremony."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.HighElf.General",
+      "lines": [
+        "Aldmeri discipline taught my people that knowledge without control is merely danger."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.HighElf.General",
+      "lines": [
+        "My people have catalogued enough magic to know exactly which shelves everyone pretends not to visit."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.HighElf.General",
+      "lines": [
+        "Refinement is useful when it teaches restraint rather than superiority."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.HighElf.General",
+      "lines": [
+        "There are standards of rule older than these Breton crowns."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.HighElf.General",
+      "lines": [
+        "Discipline is not softness. Anyone who doubts that may test it."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.HighElf.General",
+      "lines": [
+        "People guard Altmeri work carefully. Usually because it is worth taking."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.HighElf.General",
+      "lines": [
+        "Pride in one's people means little if it becomes contempt for everyone else."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.HighElf.General",
+      "lines": [
+        "Provincials are so easy to offend. I barely have to try."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.HighElf.General",
+      "lines": [
+        "Summerset teaches beauty. The mainland teaches variety."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.HighElf.General",
+      "lines": [
+        "Aldmeri relics deserve better custodians than whoever happens to own them now."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.HighElf.General",
+      "lines": [
+        "Training matters more than boasting about ancestry."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.HighElf.General",
+      "lines": [
+        "People expect an Altmer to look down on them. Expectations make convenient camouflage."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.Khajiit.General",
+      "lines": [
+        "This one has learned that curiosity travels better than certainty."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.Khajiit.General",
+      "lines": [
+        "The moons cast light. They also cast shadows worth studying."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.Khajiit.General",
+      "lines": [
+        "This one finds courtesy cheaper than claws and often more effective."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.Khajiit.General",
+      "lines": [
+        "Khajiit has bowed often enough to know when the gesture means nothing."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.Khajiit.General",
+      "lines": [
+        "This one keeps claws sheathed until courage requires otherwise."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.Khajiit.General",
+      "lines": [
+        "This one notices unattended things. It would be rude not to."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.Khajiit.General",
+      "lines": [
+        "Khajiit knows a warm fire is better when someone else is welcome beside it."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.Khajiit.General",
+      "lines": [
+        "This one has claws and a sense of humor. Dangerous combination."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.Khajiit.General",
+      "lines": [
+        "The moons see many roads. This one intends to see a few of them too."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.Khajiit.General",
+      "lines": [
+        "Khajiit appreciates beautiful things, especially when locked badly."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.Khajiit.General",
+      "lines": [
+        "This one gets paid, gets home, and keeps the fur mostly intact."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.Khajiit.General",
+      "lines": [
+        "Khajiit hears footsteps others mistake for wind."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.Argonian.General",
+      "lines": [
+        "The Hist teaches patience differently than any western academy."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.Argonian.General",
+      "lines": [
+        "There are old things in Black Marsh that civilized scholars would call impossible until they needed a name for them."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.Argonian.General",
+      "lines": [
+        "Custom changes from shore to swamp. Respect should travel farther than either."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.Argonian.General",
+      "lines": [
+        "Those who mistake adaptation for submission misunderstand both."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.Argonian.General",
+      "lines": [
+        "I bend when I must. I do not break for convenience."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.Argonian.General",
+      "lines": [
+        "Locks rust. Habits do not. Habits are easier to exploit."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.Argonian.General",
+      "lines": [
+        "Every people has ways of belonging that outsiders fail to see."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.Argonian.General",
+      "lines": [
+        "Warm blood, cold blood. Everyone screams warmly enough."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.Argonian.General",
+      "lines": [
+        "Dry roads still feel strange. That makes them worth walking."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.Argonian.General",
+      "lines": [
+        "Swamps swallow ruins as eagerly as deserts bury them. Both keep treasures."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.Argonian.General",
+      "lines": [
+        "Adapt to the ground. Finish the work."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.Argonian.General",
+      "lines": [
+        "Still water hides movement. So do quiet people."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.Nord.General",
+      "lines": [
+        "Nords remember more history in songs than some scholars manage in libraries."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.Nord.General",
+      "lines": [
+        "Old Nordic stories know the dead are never as distant as priests prefer."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.Nord.General",
+      "lines": [
+        "Blunt manners can still hide generous hearts."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.Nord.General",
+      "lines": [
+        "A strong hall needs one voice when the storm comes."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.Nord.General",
+      "lines": [
+        "Stand firm, keep your word, and let steel settle what words cannot."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.Nord.General",
+      "lines": [
+        "Nords watch the front door. Clever people remember the back."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.Nord.General",
+      "lines": [
+        "A hall is only a hall until someone shares the fire."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.Nord.General",
+      "lines": [
+        "Nords love a good fight. I love when they discover I do too."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.Nord.General",
+      "lines": [
+        "After Skyrim roads, the Bay feels almost polite."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.Nord.General",
+      "lines": [
+        "Old barrows taught me that the dead often keep excellent possessions."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.Nord.General",
+      "lines": [
+        "Cold, monsters, bad odds. Familiar working conditions."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.Nord.General",
+      "lines": [
+        "Snow teaches tracking. Crowds are harder, not impossible."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.DarkElf.General",
+      "lines": [
+        "Dunmeri tradition has never separated learning from consequence."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.DarkElf.General",
+      "lines": [
+        "My people understand that ancestors, spirits, and forbidden things are rarely tidy categories."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.DarkElf.General",
+      "lines": [
+        "Great Houses taught us long ago that manners can be weapons without becoming lies."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.DarkElf.General",
+      "lines": [
+        "Power that survives betrayal deserves respect. Power that fails it deserves replacement."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.DarkElf.General",
+      "lines": [
+        "Honor is not gentleness. It is knowing which debts must be paid."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.DarkElf.General",
+      "lines": [
+        "House politics teach a person to notice what is missing from a room."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.DarkElf.General",
+      "lines": [
+        "Kinship can be difficult and still matter more than outsiders understand."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.DarkElf.General",
+      "lines": [
+        "Westerners are very expressive when frightened. Refreshing."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.DarkElf.General",
+      "lines": [
+        "The west has softer roads and stranger customs. I appreciate both more than expected."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.DarkElf.General",
+      "lines": [
+        "Old Dunmeri tombs taught me respect for relics. Respect and possession are separate questions."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.DarkElf.General",
+      "lines": [
+        "I have seen harsher lands produce harder work."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.DarkElf.General",
+      "lines": [
+        "Great Houses teach suspicion early. The Bay merely provides new accents for it."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.Redguard.General",
+      "lines": [
+        "Yokudan memory survives because people carried more than swords across the sea."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.Redguard.General",
+      "lines": [
+        "Every proud tradition has rites it discusses quietly."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.Redguard.General",
+      "lines": [
+        "Honor is a memory shared by the whole court. Abuse it and everyone remembers."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.Redguard.General",
+      "lines": [
+        "A ruler who cannot command respect has only furniture and guards."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.Redguard.General",
+      "lines": [
+        "Skill deserves discipline. Courage deserves purpose."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.Redguard.General",
+      "lines": [
+        "A culture that respects skill makes getting caught especially embarrassing."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.Redguard.General",
+      "lines": [
+        "Hospitality and honor matter because people remember how strangers were treated."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.Redguard.General",
+      "lines": [
+        "Everyone speaks of honor until fear makes them inventive."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.Redguard.General",
+      "lines": [
+        "Hammerfell roads teach you to respect distance before you boast about crossing it."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.Redguard.General",
+      "lines": [
+        "Yokudan relics crossed oceans. Imagine what never left the old tombs."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.Redguard.General",
+      "lines": [
+        "Technique first. Pride after the work is done."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.Redguard.General",
+      "lines": [
+        "A duel is honest. A bounty rarely is."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.WoodElf.General",
+      "lines": [
+        "A forest records history differently, but not less faithfully."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.WoodElf.General",
+      "lines": [
+        "Old groves keep bargains city mages would rather call superstition."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.WoodElf.General",
+      "lines": [
+        "Custom is easiest to respect when one stops assuming one's own is universal."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.WoodElf.General",
+      "lines": [
+        "Freedom without order becomes someone else's opportunity to rule you."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.WoodElf.General",
+      "lines": [
+        "Move lightly, strike only when needed, and leave the path usable behind you."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.WoodElf.General",
+      "lines": [
+        "Cities have too many doors. Forests taught me to stop needing them."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.WoodElf.General",
+      "lines": [
+        "Living places deserve the same care as living people."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.WoodElf.General",
+      "lines": [
+        "Bosmer smiles make people comfortable. That can be useful."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.WoodElf.General",
+      "lines": [
+        "Roads are suggestions. The interesting places are usually beside them."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.WoodElf.General",
+      "lines": [
+        "Ruins swallowed by green are harder to find and therefore more satisfying."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.WoodElf.General",
+      "lines": [
+        "Read the terrain, finish the job, leave no unnecessary trail."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.WoodElf.General",
+      "lines": [
+        "Tracking in streets is only tracking with more liars underfoot."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Race.Breton.General",
+      "lines": [
+        "High Rock makes scholars practical. Magic here has always had to survive politics."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Race.Breton.General",
+      "lines": [
+        "Breton families collect secrets almost as enthusiastically as they collect titles."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Race.Breton.General",
+      "lines": [
+        "In High Rock, knowing whose cousin offended whose duke is practically a survival skill."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Race.Breton.General",
+      "lines": [
+        "Too many petty crowns teach a person how little a title proves."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Race.Breton.General",
+      "lines": [
+        "Knights, mercenaries, and feuds. High Rock gives courage plenty of work."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Race.Breton.General",
+      "lines": [
+        "A province full of castles is a province full of people convinced locks solve problems."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Race.Breton.General",
+      "lines": [
+        "High Rock quarrels constantly and still finds reasons to share a table afterward."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Race.Breton.General",
+      "lines": [
+        "Bretons can turn one insult into three generations of entertainment."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Race.Breton.General",
+      "lines": [
+        "High Rock packs more borders into a week's ride than some lands manage in a lifetime."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Race.Breton.General",
+      "lines": [
+        "Every Breton lord wants an old relic proving the family is older than the neighbor's."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Race.Breton.General",
+      "lines": [
+        "High Rock always has work for someone who can survive other people's feuds."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Race.Breton.General",
+      "lines": [
+        "A Breton court is a bounty board written in genealogy."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Guild.MagesGuild.General",
+      "lines": [
+        "The Mages Guild is useful when scholarship survives its ledgers and rules."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Guild.MagesGuild.General",
+      "lines": [
+        "The Guild labels certain arts dangerous. I hear an invitation."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Guild.MagesGuild.General",
+      "lines": [
+        "The Guild's influence reaches courts that pretend magic is merely academic."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Guild.MagesGuild.General",
+      "lines": [
+        "The Guild has power and wastes too much of it on councils."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Guild.MagesGuild.General",
+      "lines": [
+        "Mages make good allies when they remember someone still has to stand in the doorway."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Guild.MagesGuild.General",
+      "lines": [
+        "Magic locks are still locks, only more expensive when they go wrong."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Guild.MagesGuild.General",
+      "lines": [
+        "Knowledge should help people, not just impress the people who already have it."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Guild.MagesGuild.General",
+      "lines": [
+        "A hall full of volatile egos and open flame. Wonderful."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Guild.MagesGuild.General",
+      "lines": [
+        "Guild mages always know about ruins nobody sensible visits."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Guild.MagesGuild.General",
+      "lines": [
+        "The Guild catalogs artifacts. Catalogs are maps to other people's treasures."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Guild.MagesGuild.General",
+      "lines": [
+        "The Guild can identify threats faster than guessing can."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Guild.MagesGuild.General",
+      "lines": [
+        "Mages keep records, rivalries, and grudges. All three leave trails."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Guild.FightersGuild.General",
+      "lines": [
+        "The Fighters Guild has accumulated practical knowledge scholars often dismiss until swords are drawn."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Guild.FightersGuild.General",
+      "lines": [
+        "Mercenaries see strange deaths and ask wonderfully few theological questions."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Guild.FightersGuild.General",
+      "lines": [
+        "A guild built on contracts lives or dies by reputation."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Guild.FightersGuild.General",
+      "lines": [
+        "Paid strength is still strength, provided the hand holding the purse is mine."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Guild.FightersGuild.General",
+      "lines": [
+        "A good company values discipline before boasting."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Guild.FightersGuild.General",
+      "lines": [
+        "Fighters watch for frontal threats. Convenient habit."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Guild.FightersGuild.General",
+      "lines": [
+        "At its best, the Guild gives dangerous work to people trained to survive it."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Guild.FightersGuild.General",
+      "lines": [
+        "People who solve problems with weapons are refreshingly easy to motivate."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Guild.FightersGuild.General",
+      "lines": [
+        "Guild contracts are an excellent excuse to see places nobody recommends."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Guild.FightersGuild.General",
+      "lines": [
+        "Fighters clear ruins. Collectors arrive afterward."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Guild.FightersGuild.General",
+      "lines": [
+        "Clear terms, defined work, payment. Sensible."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Guild.FightersGuild.General",
+      "lines": [
+        "Contracts create enemies. Enemies create bounties."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Guild.ThievesGuild.General",
+      "lines": [
+        "The Thieves Guild learns rules by breaking them. Crude scholarship, useful results."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Guild.ThievesGuild.General",
+      "lines": [
+        "People who trade secrets eventually encounter the kinds nobody should own."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Guild.ThievesGuild.General",
+      "lines": [
+        "A hidden institution is still an institution, with loyalties and etiquette of its own."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Guild.ThievesGuild.General",
+      "lines": [
+        "Thieves are useful when they remember who grants them room to operate."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Guild.ThievesGuild.General",
+      "lines": [
+        "I do not admire theft, but I respect anyone who keeps faith with their own."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Guild.ThievesGuild.General",
+      "lines": [
+        "The Guild understands the first rule: do not make the difficult job fair."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Guild.ThievesGuild.General",
+      "lines": [
+        "Some steal from hunger. Some steal from greed. I should remember the difference."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Guild.ThievesGuild.General",
+      "lines": [
+        "A guild devoted to taking what is not theirs. Finally, honesty."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Guild.ThievesGuild.General",
+      "lines": [
+        "Smugglers know roads official maps politely forget."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Guild.ThievesGuild.General",
+      "lines": [
+        "Fences know where rare objects go after respectable collectors lose them."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Guild.ThievesGuild.General",
+      "lines": [
+        "Specialists are specialists. Use the right one for the job."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Guild.ThievesGuild.General",
+      "lines": [
+        "The Guild hears who vanished, who paid, and who suddenly stopped asking questions."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Guild.DarkBrotherhood.General",
+      "lines": [
+        "An institution devoted to death inevitably becomes a library of motives."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Professional murder is disappointingly mundane until someone makes it ceremonial."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Assassination is politics stripped of the courtesy that usually disguises it."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Guild.DarkBrotherhood.General",
+      "lines": [
+        "A hidden blade is useful, but only when the hand directing it cannot be traced."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Guild.DarkBrotherhood.General",
+      "lines": [
+        "There is little honor in murder from hiding, whatever fee was paid."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Guild.DarkBrotherhood.General",
+      "lines": [
+        "The Brotherhood takes the same principle farther: never give the target a fair chance."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Every contract is someone's grief waiting to happen."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Imagine needing payment as an excuse."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Assassins travel farther than most people realize. Death has routes too."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Dead patrons leave estates. Estates leave objects looking for new owners."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Guild.DarkBrotherhood.General",
+      "lines": [
+        "A professional respects capability even when the trade is ugly."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Guild.DarkBrotherhood.General",
+      "lines": [
+        "Bounties and assassinations share one lesson: the target is rarely the whole story."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Reputation.Honored.General",
+      "lines": [
+        "Trust is useful. I should not spend it carelessly."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Reputation.Honored.General",
+      "lines": [
+        "Respectable reputations make excellent camouflage."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Reputation.Honored.General",
+      "lines": [
+        "Good standing is a responsibility as much as an advantage."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Reputation.Honored.General",
+      "lines": [
+        "At last, recognition approaches accuracy."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Reputation.Honored.General",
+      "lines": [
+        "If my name carries weight here, it should stand for something."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Reputation.Honored.General",
+      "lines": [
+        "A clean reputation opens doors nobody thinks to lock behind me."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Reputation.Honored.General",
+      "lines": [
+        "It is good to know people remember kindness."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Reputation.Honored.General",
+      "lines": [
+        "They trust me. That is almost irresponsible of them."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Reputation.Honored.General",
+      "lines": [
+        "Nice to arrive somewhere and not begin as a stranger."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Reputation.Honored.General",
+      "lines": [
+        "Collectors show better pieces to people they respect."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Reputation.Honored.General",
+      "lines": [
+        "A solid reputation lowers the cost of doing business."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Reputation.Honored.General",
+      "lines": [
+        "Being trusted makes questions easier to ask and harder to notice."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Reputation.Respected.General",
+      "lines": [
+        "My name has enough credibility to make people listen before dismissing the idea."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Reputation.Respected.General",
+      "lines": [
+        "Respect is a key that leaves no scratches on the lock."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Reputation.Respected.General",
+      "lines": [
+        "A little goodwill can prevent a great deal of unnecessary force."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Reputation.Respected.General",
+      "lines": [
+        "They are beginning to understand."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Reputation.Respected.General",
+      "lines": [
+        "Good. Deeds should speak before boasts do."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Reputation.Respected.General",
+      "lines": [
+        "Respectability is useful cover."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Reputation.Respected.General",
+      "lines": [
+        "I am glad the people here remember me kindly."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Reputation.Respected.General",
+      "lines": [
+        "They almost like me. How dangerous."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Reputation.Respected.General",
+      "lines": [
+        "Familiar faces make a road feel shorter."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Reputation.Respected.General",
+      "lines": [
+        "Respect gets a person invited into rooms with better collections."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Reputation.Respected.General",
+      "lines": [
+        "Known competence saves explanations."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Reputation.Respected.General",
+      "lines": [
+        "If they recognize me, I need to know who recognized me first."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Reputation.Disreputable.General",
+      "lines": [
+        "They distrust me. I should decide whether correcting them is worth the effort."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Reputation.Disreputable.General",
+      "lines": [
+        "A suspicious reputation keeps the timid at a useful distance."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Reputation.Disreputable.General",
+      "lines": [
+        "A damaged name closes doors before I reach them."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Reputation.Disreputable.General",
+      "lines": [
+        "Their disapproval would matter more if I valued their judgment."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Reputation.Disreputable.General",
+      "lines": [
+        "If my name is stained here, I should either mend it or stop pretending it is not."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Reputation.Disreputable.General",
+      "lines": [
+        "So they have heard of me. Saves introductions."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Reputation.Disreputable.General",
+      "lines": [
+        "Being disliked is easier than knowing I may have earned it."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Reputation.Disreputable.General",
+      "lines": [
+        "Disreputable? I was hoping for memorable."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Reputation.Disreputable.General",
+      "lines": [
+        "Some roads leave worse stories behind than others."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Reputation.Disreputable.General",
+      "lines": [
+        "Collectors become cautious around bad reputations. Their guards become interesting."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Reputation.Disreputable.General",
+      "lines": [
+        "A bad reputation complicates work. Plan around it."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Reputation.Disreputable.General",
+      "lines": [
+        "If they already expect trouble from me, someone can use that expectation."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Reputation.Notorious.General",
+      "lines": [
+        "Infamy distorts every fact that comes after it."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Reputation.Notorious.General",
+      "lines": [
+        "Fear is such an efficient introduction."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Reputation.Notorious.General",
+      "lines": [
+        "My name enters the room before I do, and not kindly."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Reputation.Notorious.General",
+      "lines": [
+        "Fear will serve where respect failed."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Reputation.Notorious.General",
+      "lines": [
+        "This is not the name I wanted my deeds to make."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Reputation.Notorious.General",
+      "lines": [
+        "Being notorious is terrible for stealth and excellent for negotiation."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Reputation.Notorious.General",
+      "lines": [
+        "People are afraid of me here. That should trouble me."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Reputation.Notorious.General",
+      "lines": [
+        "Now that is a reputation worth keeping polished."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Reputation.Notorious.General",
+      "lines": [
+        "Hard to travel unnoticed when the destination already knows your name."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Reputation.Notorious.General",
+      "lines": [
+        "Notoriety makes owners hide valuables. Hidden valuables are still valuables."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Reputation.Notorious.General",
+      "lines": [
+        "Everyone knows the name. Work around it."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Reputation.Notorious.General",
+      "lines": [
+        "Notoriety turns every stranger into a possible watcher."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Choice.Accept",
+      "lines": [
+        "Very well. I will see what truth lies behind it."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Choice.Reject",
+      "lines": [
+        "No. The premise is poor, and I will not pretend otherwise."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Choice.Yes",
+      "lines": [
+        "Yes. That follows."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Choice.No",
+      "lines": [
+        "No. I am not convinced."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Choice.Accept",
+      "lines": [
+        "Very well. This may prove interesting."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Choice.Reject",
+      "lines": [
+        "No. There is nothing here worth my time."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Choice.Yes",
+      "lines": [
+        "Yes. Continue."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Choice.No",
+      "lines": [
+        "No. Do not mistake curiosity for consent."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Choice.Accept",
+      "lines": [
+        "You have my word. I will help."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Choice.Reject",
+      "lines": [
+        "I must decline. I hope you find another way."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Choice.Yes",
+      "lines": [
+        "Yes. We are agreed."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Choice.No",
+      "lines": [
+        "No. I cannot support that."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Choice.Accept",
+      "lines": [
+        "Very well. I will take control of the matter."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Choice.Reject",
+      "lines": [
+        "No. Find someone more accustomed to taking orders."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Choice.Yes",
+      "lines": [
+        "Yes. Proceed."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Choice.No",
+      "lines": [
+        "No. The matter is settled."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Choice.Accept",
+      "lines": [
+        "Aye. I will see it done."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Choice.Reject",
+      "lines": [
+        "No. I will not give my word to that."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Choice.Yes",
+      "lines": [
+        "Yes."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Choice.No",
+      "lines": [
+        "No."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Choice.Accept",
+      "lines": [
+        "If the terms hold, we have a deal."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Choice.Reject",
+      "lines": [
+        "No. Too much risk for too little advantage."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Choice.Yes",
+      "lines": [
+        "Yes. For now."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Choice.No",
+      "lines": [
+        "No. Find another fool."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Choice.Accept",
+      "lines": [
+        "If someone needs help, I will do what I can."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Choice.Reject",
+      "lines": [
+        "I am sorry, but I cannot take this on."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Choice.Yes",
+      "lines": [
+        "Yes. Of course."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Choice.No",
+      "lines": [
+        "No. I cannot agree to that."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Choice.Accept",
+      "lines": [
+        "Oh, absolutely. This could be fun."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Choice.Reject",
+      "lines": [
+        "No. Bore someone else."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Choice.Yes",
+      "lines": [
+        "Yes. Why not?"
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Choice.No",
+      "lines": [
+        "No. I prefer disappointing you."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Choice.Accept",
+      "lines": [
+        "Sounds like a journey. Count me in."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Choice.Reject",
+      "lines": [
+        "Not this road. I have another to follow."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Choice.Yes",
+      "lines": [
+        "Yes. Let us see where it leads."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Choice.No",
+      "lines": [
+        "No. Wrong direction for me."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Choice.Accept",
+      "lines": [
+        "Agreed, provided I get first look at anything interesting."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Choice.Reject",
+      "lines": [
+        "No. There is nothing here worth acquiring."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Choice.Yes",
+      "lines": [
+        "Yes. Show me."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Choice.No",
+      "lines": [
+        "No. Keep it."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Choice.Accept",
+      "lines": [
+        "Understood. I will handle it."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Choice.Reject",
+      "lines": [
+        "No. The terms do not work for me."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Choice.Yes",
+      "lines": [
+        "Yes."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Choice.No",
+      "lines": [
+        "No."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Choice.Accept",
+      "lines": [
+        "Give me the trail and the last known facts."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Choice.Reject",
+      "lines": [
+        "No. Too many missing pieces."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Choice.Yes",
+      "lines": [
+        "Yes, but I want to know who else knows."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Choice.No",
+      "lines": [
+        "No. Something about this is wrong."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna. An Imperial agent is rarely summoned for a trivial question."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna wants discretion. Secrets already improve the assignment."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Quest._BRISIEN.Accepted",
+      "lines": [
+        "An Imperial summons deserves care. Lady Brisienna will expect discretion as much as speed."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Quest._BRISIEN.Accepted",
+      "lines": [
+        "The Emperor sends an agent to summon me. At least someone remembers the proper scale of affairs."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna speaks for the Emperor. I gave him my service; I will hear her out."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Imperial agent, private meeting. Either very profitable or very dangerous."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Quest._BRISIEN.Accepted",
+      "lines": [
+        "If the Emperor sent Lady Brisienna quietly, someone may be in more trouble than the court admits."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Quest._BRISIEN.Accepted",
+      "lines": [
+        "A secret Imperial meeting? Finally, politics with some flavor."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna gives me a destination and a mystery. Good enough for the road."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Imperial secrets tend to leave valuable objects in their wake."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Lady Brisienna. Imperial work. Keep it quiet and get the facts."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Quest._BRISIEN.Accepted",
+      "lines": [
+        "Secret meeting, Imperial agent, no public explanation. Assume we are not the only ones watching."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor's charge is the central question. Everything else in the Bay is evidence until proven otherwise."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Quest.S0000999.Accepted",
+      "lines": [
+        "An Emperor's private concern has already drawn me into the Bay. Private concerns hide powerful causes."
+      ]
+    },
+    {
+      "key": "Personality.Lady.Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor trusted me with a delicate matter. Carelessness could harm more than my own reputation."
+      ]
+    },
+    {
+      "key": "Personality.Lord.Quest.S0000999.Accepted",
+      "lines": [
+        "An Emperor's request is at least an assignment worthy of attention."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Quest.S0000999.Accepted",
+      "lines": [
+        "I came to the Bay on the Emperor's word. I will not forget the duty beneath these distractions."
+      ]
+    },
+    {
+      "key": "Personality.Thief.Quest.S0000999.Accepted",
+      "lines": [
+        "Imperial business makes every side job look smaller and every secret look more expensive."
+      ]
+    },
+    {
+      "key": "Personality.Lover.Quest.S0000999.Accepted",
+      "lines": [
+        "Whatever court business brought me here, real people will pay the price if I mishandle it."
+      ]
+    },
+    {
+      "key": "Personality.Serpent.Quest.S0000999.Accepted",
+      "lines": [
+        "Imperial secrets, dead kings, nervous nobles. The Bay is growing on me."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor sent me across the Bay for answers. At least the journey is living up to the invitation."
+      ]
+    },
+    {
+      "key": "Personality.Tower.Quest.S0000999.Accepted",
+      "lines": [
+        "Imperial mysteries have a habit of involving objects everyone suddenly wants."
+      ]
+    },
+    {
+      "key": "Personality.Atronach.Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor's charge comes first. Do not let lesser work bury it."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Quest.S0000999.Accepted",
+      "lines": [
+        "The Emperor's charge is why I am here. Every coincidence around it deserves suspicion."
+      ]
+    },
+    {
+      "key": "Personality.Mage.Location.DirenniTower.DungeonEnter",
+      "lines": [
+        "Direnni work deserves care. Damage the evidence and the lesson disappears with it."
+      ]
+    },
+    {
+      "key": "Personality.Ritual.Location.ScourgBarrow.DungeonEnter",
+      "lines": [
+        "A barrow with a reputation. Let us see which dead thing earned it."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Location.PrivateersHold.DungeonEnter",
+      "lines": [
+        "I know these stones. They do not get a second chance to surprise me."
+      ]
+    },
+    {
+      "key": "Personality.Shadow.Location.PrivateersHold.DungeonEnter",
+      "lines": [
+        "I woke here once without answers. This time I watch the entrances."
+      ]
+    }
+  ]
+}

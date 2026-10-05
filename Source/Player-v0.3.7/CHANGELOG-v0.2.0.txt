@@ -1,0 +1,10 @@
+Daggerfall Narrator - Player v0.2.0
+
+- Replaces the old tone list with thirteen birthsign-inspired personality archetypes while keeping Voice completely separate.
+- The Apprentice is a Agent blank slate: automatic authored barks are disabled, while manual bark, typed speech, Ask questions, and quest choices remain available.
+- Personality is now the root of bark resolution; exact location, region, guild, reputation, race flavor, MQ state, survival/combat context, and generic fallbacks remain dynamic beneath it.
+- Adds extensive authored writing for twelve active archetypes, including lore-domain knowledge, major Iliac Bay locations, guilds, reputation, race/worldview seasoning, quest choices, and spoiler-gated MQ hooks.
+- Adds interior context for taverns, temples, guild halls, libraries, palaces, banks, shops, and generic buildings.
+- Adds optional bark/typed-speech subtitles: Off, Text only, or Player name + text.
+- Enlarges and lowers the composed player head inside its conversation backdrop.
+- Barks.json schema v4 merges into existing user files without requiring deletion.

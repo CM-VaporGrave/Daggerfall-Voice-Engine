@@ -1,0 +1,7 @@
+Daggerfall Narrator - NPC v0.2.4
+
+- Removed PlayerVO portrait/name injection from normal Ask/Tell Me About while preserving player-question narration.
+- Added credible-speaker gating for Prompt/PromptMulti quest message boxes to avoid Unknown NPC tutorial/system popups.
+- Fixed StopSpeech(bool) so every interruption cancels the active Daggerfall Voice Engine turn.
+- Added hard PlayerEntity-transition cleanup for UI, queues, deferred dialogue, identity bridges, and all NPC module turns.
+- Preserved enhanced real quest-giver presentation.

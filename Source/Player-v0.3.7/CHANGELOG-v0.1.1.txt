@@ -1,0 +1,7 @@
+PlayerVO v0.1.1
+
+- Adds configurable NPCVO conversation portrait styles: Paperdoll Upper Body, Face + Paperdoll Background, and Face Only.
+- Paperdoll Upper Body is the new default. PlayerVO asks DFU to refresh the current paperdoll, crops the upper body, and composites it over the player race's native paperdoll background before handing the finished 64x64 portrait to NPCVO.
+- Current equipped clothing/armour therefore appears in the preferred conversation portrait when DFU exposes the paperdoll renderer normally.
+- If the paperdoll renderer is unavailable or composition fails, PlayerVO automatically falls back to Face + Background and finally Face Only.
+- No NPCVO update is required: v0.1.1 uses the existing NPCVO v0.1.10 external-player-turn texture bridge.

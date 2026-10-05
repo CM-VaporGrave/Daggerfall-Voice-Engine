@@ -1,0 +1,3 @@
+# Advanced settings only. Common options live in DFU's Mods > NPCVO > Settings.
+KokoroPort=5000
+HttpTimeoutSeconds=30

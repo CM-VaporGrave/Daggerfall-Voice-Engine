@@ -1,0 +1,23 @@
+NPCVO v0.1.3
+=============
+
+QUEST-GIVER PORTRAIT UI
+- Adds an optional Daggerfall-style speaker layout to QuestOffer dialogue.
+- Resolves the quest giver's portrait using the same DFU face/archive logic used by the normal Talk/Ask screen.
+- Shows the quest giver's generated/display name beside the portrait.
+- Keeps DFU's native QuestOffer window, buttons, callbacks, and quest state alive underneath the presentation layer.
+- Handles the common QuestOffer -> DaggerfallMessageBox path and a fallback path for custom/direct QuestOffer windows.
+- Hides only paragraph-like quest text in fallback/custom windows and deliberately skips button subtrees.
+
+SPEECH-SYNCED QUEST TEXT
+- Quest-giver dialogue in the portrait UI now uses the same speech-synced progressive reveal as normal NPC answers.
+- Full text is restored if speech ends, fails, is interrupted, or the quest UI closes.
+
+PORTRAIT RESOLUTION / MOD COMPATIBILITY
+- Quest giver portrait identity now uses faction face rules plus the questor billboard archive/record override, matching DFU TalkManager behavior.
+- TextureReplacement is checked first, so compatible static CIF/RCI texture replacements can be honored before falling back to Arena2 art.
+- Exposes reflection-friendly NPCVO.ActiveQuestPortraitPanel, ActiveQuestPortraitCif, and ActiveQuestPortraitRecordId properties so Dynamic Portraits (or another portrait framework) can later animate the exact panel without NPCVO replacing the quest logic.
+- This version does not yet drive Dynamic Portraits' animated quest portraits itself; current Dynamic Portraits TalkWindow behavior remains separate.
+
+DIAGNOSTICS
+- npcvo_status now reports v0.1.3 and whether Quest portrait UI is enabled.

@@ -1,0 +1,9 @@
+# Daggerfall Narrator v1.0 text filter examples
+# Copy/edit the live file created at:
+# <DFU persistent data>\DaggerfallNarrator\TextFilters.txt
+#
+# Matching is case-insensitive substring matching.
+# Built-in combat-log and mode-toggle blocks ALWAYS win.
+
+# ALLOW:You see a
+# BLOCK:Some third-party message you never want spoken

@@ -1,0 +1,8 @@
+Daggerfall Narrator - NPC v0.2.1
+
+- Restores staggered NPC/player Ask composition without moving or resizing the host Talk UI.
+- Keeps the player portrait frame compact.
+- Removes NPCVO's duplicate Ask-screen NPC name.
+- Preserves host question/tone geometry, restoring Polite/Normal/Blunt alignment.
+- Preserves host main-panel geometry, restoring Goodbye text/graphic alignment.
+- Quest-offer dialogue reserves both portrait columns while the player portrait is visible, preventing text behind portraits.

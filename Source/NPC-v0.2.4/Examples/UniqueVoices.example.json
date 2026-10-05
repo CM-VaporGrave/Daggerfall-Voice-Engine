@@ -1,0 +1,20 @@
+{
+  "profiles": [
+    {
+      "key": "Nulfaga",
+      "voices": ["bf_isabella"],
+      "speed": 0.92,
+      "pitch": -0.25,
+      "lockVariation": true,
+      "enabled": true
+    },
+    {
+      "key": "Mannimarco",
+      "voices": ["am_fenrir"],
+      "speed": 0.90,
+      "pitch": -0.75,
+      "lockVariation": true,
+      "enabled": true
+    }
+  ]
+}

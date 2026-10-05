@@ -1,0 +1,9 @@
+# Daggerfall Narrator pronunciation overrides
+# Format: displayed spelling=spoken spelling
+# These replacements are sent to the selected TTS backend only.
+# The game's displayed text and narrator subtitles remain unchanged.
+Daggerfall=Dagger-fall
+Wayrest=Way-rest
+Nulfaga=Null-fah-gah
+Direnni=Dee-ren-ee
+Daedra=Day-druh

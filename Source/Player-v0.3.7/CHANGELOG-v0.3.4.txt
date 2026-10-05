@@ -1,0 +1,7 @@
+Daggerfall Narrator - Player v0.3.5
+
+- Added an illustrated, runtime-generated Birthsign personality codex for character creation.
+- Added hover/focus preview with sign art, archetype name, and Morrowind-informed personality biography.
+- Preserved personality-aware first-person observation reactions from v0.3.3.
+- Added hard PlayerEntity-transition reset of speech queues, audio, UI state, caches, cooldowns, identity bridges, and Voice Engine module turns.
+- Kept character-creation UI polling active before PlayerEntity exists.

@@ -1,0 +1,4 @@
+Compile hotfix 0.1.13.1
+
+Fixes CS0019 in DFU 1.1.1: ModSettingsChange is a value type and cannot be compared to null.
+The settings-change callback now calls HasChanged() directly. No runtime feature behavior was intentionally changed.

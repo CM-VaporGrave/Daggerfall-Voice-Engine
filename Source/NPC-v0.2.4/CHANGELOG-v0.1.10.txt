@@ -1,0 +1,7 @@
+NPCVO v0.1.10
+
+- Recasts Redguard male procedural profiles toward the Orc baritone architecture while preserving the normal human Kokoro voice pool.
+- Redguard men are slower, lower, more compressed/resonant, and lightly roughened without creature-only voice substitution.
+- Lowers male Orcs slightly further and adds a small throat-resonance increase to maintain separation from the new Redguard register.
+- VoiceTypes schema bumped to v6 so built-in profiles refresh once.
+- Adds reflection-friendly PlayerVO conversation-turn hooks for the shared Kokoro module framework.

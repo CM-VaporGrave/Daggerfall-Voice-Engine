@@ -1,0 +1,14 @@
+DAGGERFALL NARRATOR - NPC v0.2.4 BUILD / RELEASE CHECKLIST
+
+1. Build against Daggerfall Unity 1.1.1 in Unity 2019.4.40f1 with zero red Console errors.
+2. Build NPCVO.dfmod with the normal Precompiled Mod Builder workflow and install it under StreamingAssets/Mods/.
+3. Install Daggerfall Voice Engine and confirm NPC speech starts normally.
+4. Open ordinary Talk / Ask / Tell Me About. Confirm the host UI remains visually vanilla and PlayerVO can voice the selected question without drawing a player portrait there.
+5. Open a real quest-giver prompt. Confirm the enhanced two-character parchment appears only when a real NPC speaker can be resolved; tutorial/system prompts must never become Unknown NPC.
+6. Accept/reject the quest and confirm PlayerVO personality speech does not disturb the original quest callback.
+7. Interrupt NPC speech through Q&A/window transitions and then trigger Player and Dungeon Master speech; confirm the NPC turn is cancelled and the shared engine never deadlocks.
+8. Load another character and repeat NPC speech to verify stale speaker/turn state is cleared.
+9. Enter an exact NPC Voice Override ID and confirm it replaces the selected base voice while role/race pitch/DSP behavior remains; clear it to restore normal profiles.
+10. Confirm no non-functional voice-audition controls remain in Mod Settings.
+
+This archive is build-ready source. The final .dfmod must still be compiled by Unity/DFU Mod Builder.

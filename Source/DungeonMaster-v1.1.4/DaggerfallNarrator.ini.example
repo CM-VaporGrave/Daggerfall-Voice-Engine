@@ -1,0 +1,130 @@
+# Daggerfall Narrator v1.0.1
+# Common settings are easier to change in DFU: Mods -> Daggerfall Narrator -> Settings.
+# Native Mod Settings override the matching values below.
+# The live INI is created at <DFU persistent data>\DaggerfallNarrator\DaggerfallNarrator.ini
+
+Enabled=true
+Mode=Immersive
+ReplaceEligiblePopups=true
+# FollowWindow, HoldUntilSpeechStarts, HoldUntilSpeechEnds
+MessageBoxTiming=FollowWindow
+
+# -------- Content / classification --------
+UseQuestSourceClassification=true
+NarrateGenericQuestMessages=true
+NarrateNotifyMessages=true
+# NPC-ish generic quest SAY messages stay blocked by default.
+NarrateAmbiguousSayMessages=false
+
+# Readables: Off, Manual, Auto
+BookReadingMode=Manual
+QuestNoteReadingMode=Manual
+QuestLogReadingMode=Manual
+HistoryReadingMode=Manual
+# Legacy compatibility booleans; modes above are authoritative.
+NarrateQuestItemNotes=true
+NarrateBooks=true
+KeepQuestItemNotesPopup=true
+StopBookNarrationOnClose=true
+
+NarrateCharacterCreationQuestions=true
+NarrateCharacterCreationDescriptions=true
+NarrateTutorialMessages=true
+NarrateOpeningNarration=true
+NarratePlayerStatusPopups=true
+NarrateLevelingInspiration=true
+NarrateHudStatusMessages=true
+NarrateClimatesCalories=true
+
+# Combat narration is hard-blocked regardless of this legacy key.
+SuppressHudStatusDuringCombat=true
+HudStatusMinimumCharacters=4
+HudStatusRepeatCooldownSeconds=8
+
+# Long text / low-latency streaming
+ReadableChunkCharacters=700
+StreamLongNarration=true
+FirstChunkCharacters=220
+PrefetchNextChunk=true
+
+# Conservative fallback for otherwise-unclassified flavor parchment boxes.
+NarrateUnclassifiedFlavorPopups=true
+FallbackRequiresNoPreviousWindow=true
+RequireClickAnywhereToClose=true
+SkipBoxesWithButtons=true
+DebugClassification=false
+MinimumCharacters=20
+ChunkDedupSeconds=3
+MaxQueueItems=12
+
+# -------- Subtitles --------
+ShowSubtitles=true
+ShowSubtitlesForBooks=false
+ShowSubtitlesForQuestNotes=false
+ShowSubtitlesForCharacterQuestions=false
+ShowSubtitlesForCharacterDescriptions=false
+ShowSubtitlesForHudStatus=false
+ShowSubtitlesForManual=true
+# Modern, ClassicShadowed, ClassicBackdrop
+SubtitleStyle=ClassicShadowed
+# BottomCenter, Center, TopCenter
+SubtitlePosition=BottomCenter
+SubtitleWidthPercent=72
+SubtitleMarginPixels=90
+SubtitleFontSize=22
+SubtitleBackgroundOpacity=0.55
+SubtitleFadeInSeconds=0.10
+SubtitleFadeOutSeconds=0.25
+SubtitleTailSeconds=0.65
+SubtitlePageCharacters=260
+TtsFailureSubtitleSeconds=4
+
+# -------- Runtime TTS cache --------
+# VoicePack is permanent and never auto-deleted.
+AutoManageCache=true
+MaxCacheSizeMB=1024
+CacheCleanupOnStartup=true
+CacheCleanupIntervalMinutes=30
+CacheCleanupTargetPercent=0.85
+CacheMinimumAgeHours=24
+CacheHardLimitMultiplier=1.25
+
+# -------- Audio / controls --------
+Volume=0.90
+UseGameSoundVolume=true
+SkipKey=F9
+ToggleKey=F10
+
+# -------- TTS backend --------
+Backend=Kokoro
+AutoStartTtsServer=false
+StopAutoStartedTtsOnExit=true
+HideAutoStartedTtsConsole=true
+PythonExecutablePath=py
+TtsHttpAttempts=3
+TtsRetryDelaySeconds=0.75
+TtsHttpTimeoutSeconds=120
+
+# -------- Kokoro --------
+# Advanced/legacy resolved voice ID. Normal setup uses the native Accent/Gender/Delivery selectors below.
+KokoroVoice=bm_fable
+; Native UI voice selectors: Accent 0=US 1=UK, Gender 0=Male 1=Female, Delivery 0=Neutral 1=Warm 2=Refined 3=Energetic 4=Rugged, Depth 0-100 (50 neutral)
+VoiceAccent=1
+VoiceGender=0
+VoiceDelivery=2
+VoiceDepth=55
+# auto infers language from common voice prefixes (a=US English, b=UK English).
+KokoroLanguage=auto
+# Cpu, Cuda, Auto
+KokoroDevice=Cpu
+KokoroPort=5000
+KokoroSpeed=0.95
+# Clean, Cdrom, Dos
+KokoroAudioStyle=Clean
+KokoroServerScriptPath=C:\DaggerfallNarrator\Kokoro\KokoroServer.py
+
+# -------- Piper fallback --------
+PiperVoiceName=en_US-lessac-medium
+PiperDataDir=C:\PiperVoices
+PiperPort=5000
+PiperLengthScale=1.0

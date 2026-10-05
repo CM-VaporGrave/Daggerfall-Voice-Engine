@@ -1,0 +1,16 @@
+DAGGERFALL NARRATOR - DUNGEON MASTER v1.1.4 BUILD / RELEASE CHECKLIST
+
+1. Build against Daggerfall Unity 1.1.1 in Unity 2019.4.40f1 with zero red Console errors.
+2. Build DaggerfallNarrator.dfmod with the normal Precompiled Mod Builder workflow and install it under StreamingAssets/Mods/.
+3. Install Daggerfall Voice Engine, launch DFU with the engine stopped, and confirm Dungeon Master auto-starts it.
+4. Start a new game and confirm opening/tutorial narration is read while speakerless system prompts retain their original buttons/UI.
+5. With NPC + Player enabled, overlap narration/dialogue opportunities and confirm only one module owns speech at a time.
+6. Test Observation Voice = Dungeon Master, Player, and Off.
+7. Stop/restart/load between characters and confirm stale narration/engine ownership is cleared.
+8. Enter an exact Voice Override ID and confirm it takes precedence over Accent/Gender/Delivery; clear it to restore the selectors.
+9. Confirm US + Male + Rugged resolves to am_granite and no non-functional voice-audition control remains in Mod Settings.
+10. Activate a locked door until DFU shows "This lock has nothing to fear from you..." as mid-screen text. Confirm Dungeon Master reads it once and does not draw a duplicate Narrator subtitle.
+11. Trigger a residence/building interaction that opens the "Someone calls out, come in!" message box. Confirm the native box remains visible and Dungeon Master reads it even if the box is closed shortly afterward.
+12. Stop the Voice Engine while playing and confirm vanilla UI/text continues without gameplay blockage.
+
+This archive is build-ready source. The final .dfmod must still be compiled by Unity/DFU Mod Builder.

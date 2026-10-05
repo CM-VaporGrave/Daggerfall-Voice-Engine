@@ -1,0 +1,7 @@
+NPCVO v0.1.11
+
+- Fixes DFU live mod-settings registration so the in-options Sound Test presets reliably reach NPCVO.
+- Adds RegisterExternalPlayerIdentity() to the reflection-only PlayerVO bridge.
+- Enhanced quest conversations now keep the player portrait, player name, and last typewritten player response visible after PlayerVO finishes speaking.
+- NPC and player halves remain visible together, preventing the quest panel from snapping back to NPC-only mode between turns.
+- A registered PlayerVO identity is carried into newly-created quest-offer presentation panels for continuity across follow-up message boxes.

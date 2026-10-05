@@ -1,0 +1,7 @@
+DAGGERFALL VOICE ENGINE INTEGRATION
+
+This module targets Daggerfall Voice Engine at localhost.
+Expected player path: DaggerfallUnity_Data/StreamingAssets/DaggerfallVoiceEngine/
+
+The module health-checks and can auto-launch the engine. If the engine is unavailable, game/UI logic continues without blocking.
+The legacy Python SharedKokoro runtime is not bundled.

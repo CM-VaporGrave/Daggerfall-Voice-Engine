@@ -1,0 +1,6 @@
+Daggerfall Narrator - NPC v0.2.4
+
+- Adds optional exact Voice Override ID while preserving NPC profile DSP and role/race behavior.
+- Removes non-functional VoiceType audition controls from Mod Settings; console diagnostics remain available.
+- Renames Audio & Test settings to Audio.
+- Keeps the stable quest-giver presentation, speakerless-system-prompt filtering, and engine-turn cleanup from v0.2.3.

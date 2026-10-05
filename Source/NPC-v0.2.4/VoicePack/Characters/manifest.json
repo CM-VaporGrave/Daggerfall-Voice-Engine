@@ -1,0 +1,844 @@
+{
+  "formatVersion": 1,
+  "npcvoVersion": "0.1.8.3",
+  "notes": [
+    "Exact authored WAVs take priority over every Kokoro fallback.",
+    "Curated profiles are voice-direction interpretations, not canonical casting.",
+    "Line hashes are calculated from the original DFU text (optionally with player-name removal), not the grammar-polished synthesis string."
+  ],
+  "characters": [
+    {
+      "slug": "lady-brisienna",
+      "displayName": "Lady Brisienna",
+      "aliases": [
+        "Brisienna"
+      ],
+      "fallbackVoice": "bf_alice",
+      "defaultEmotion": "Formal",
+      "direction": "Nord noble; covert Imperial Intelligence/Blades agent and ambassador. Controlled, educated, discreet delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Lady_Brisienna",
+      "profile": {
+        "speed": 0.97,
+        "pitch": 0.0,
+        "gravel": 0.0,
+        "saturation": 0.0,
+        "presence": 0.06,
+        "compression": 0.05,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "king-lysandus",
+      "displayName": "King Lysandus",
+      "aliases": [
+        "Lysandus"
+      ],
+      "fallbackVoice": "am_granite,bm_george",
+      "defaultEmotion": "Sad",
+      "direction": "Regal ghost-king delivery anchored by Granite with a British layer; heroic weight under sorrowful spectral processing.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Lysandus",
+      "profile": {
+        "speed": 0.92,
+        "pitch": -0.7,
+        "gravel": 0.03,
+        "saturation": 0.03,
+        "presence": 0.05,
+        "compression": 0.08,
+        "doubleMix": 0.08,
+        "doublePitch": -0.25,
+        "doubleDelayMs": 18.0,
+        "spectral": 0.55,
+        "reverb": 0.24
+      }
+    },
+    {
+      "slug": "queen-mynisera",
+      "displayName": "Queen Mynisera",
+      "aliases": [
+        "Mynisera"
+      ],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Formal",
+      "direction": "Dowager queen tied to the Emperor and the missing-letter investigation. Reserved courtly delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Mynisera",
+      "profile": {
+        "speed": 0.94,
+        "pitch": -0.05,
+        "gravel": 0.0,
+        "saturation": 0.0,
+        "presence": 0.04,
+        "compression": 0.07,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "king-gothryd",
+      "displayName": "King Gothryd",
+      "aliases": [
+        "Gothryd"
+      ],
+      "fallbackVoice": "bm_daniel",
+      "defaultEmotion": "Formal",
+      "direction": "Young King of Daggerfall and Lysandus son; political central figure. Firm aristocratic delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Gothryd",
+      "profile": {
+        "speed": 0.94,
+        "pitch": -0.25,
+        "gravel": 0.04,
+        "saturation": 0.03,
+        "presence": 0.06,
+        "compression": 0.1,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "queen-aubk-i",
+      "displayName": "Queen Aubk-i",
+      "aliases": [
+        "Aubk-i"
+      ],
+      "fallbackVoice": "bf_lily",
+      "defaultEmotion": "Friendly",
+      "direction": "Queen of Daggerfall and Sentinel royal by birth. High-class but warmer presentation.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Aubk-i",
+      "profile": {
+        "speed": 0.98,
+        "pitch": 0.05,
+        "gravel": 0.0,
+        "saturation": 0.0,
+        "presence": 0.05,
+        "compression": 0.04,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "medora-direnni",
+      "displayName": "Medora Direnni",
+      "aliases": [
+        "Medora"
+      ],
+      "fallbackVoice": "bf_alice",
+      "defaultEmotion": "Formal",
+      "direction": "Former Daggerfall court sorceress and Lysandus ally/lover; capable, restrained magical-aristocratic tone.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Medora_Direnni",
+      "profile": {
+        "speed": 0.95,
+        "pitch": -0.05,
+        "gravel": 0.02,
+        "saturation": 0.02,
+        "presence": 0.08,
+        "compression": 0.06,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.04,
+        "reverb": 0.03
+      }
+    },
+    {
+      "slug": "nulfaga",
+      "displayName": "Nulfaga",
+      "aliases": [],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Sad",
+      "direction": "Renowned mystic and Lysandus mother, destabilized by grief. Slower eccentric/sorrowful delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Nulfaga",
+      "profile": {
+        "speed": 0.88,
+        "pitch": -0.25,
+        "gravel": 0.06,
+        "saturation": 0.04,
+        "presence": 0.04,
+        "compression": 0.08,
+        "doubleMix": 0.06,
+        "doublePitch": 0.3,
+        "doubleDelayMs": 20.0,
+        "spectral": 0.12,
+        "reverb": 0.1
+      }
+    },
+    {
+      "slug": "gortwog",
+      "displayName": "Gortwog",
+      "aliases": [
+        "Gortwog gro-Nagorm"
+      ],
+      "fallbackVoice": "am_granite,am_granite,bm_daniel",
+      "defaultEmotion": "Formal",
+      "direction": "Orc noble, warlord/king and ruler of Orsinium. Granite-heavy disciplined baritone with educated authority rather than a monster growl.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Gortwog",
+      "profile": {
+        "speed": 0.89,
+        "pitch": -1.65,
+        "gravel": 0.24,
+        "saturation": 0.17,
+        "presence": 0.07,
+        "compression": 0.3,
+        "doubleMix": 0.05,
+        "doublePitch": -0.35,
+        "doubleDelayMs": 14.0,
+        "spectral": 0.03,
+        "reverb": 0.02
+      }
+    },
+    {
+      "slug": "queen-akorithi",
+      "displayName": "Queen Akorithi",
+      "aliases": [
+        "Akorithi"
+      ],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Formal",
+      "direction": "Queen of Sentinel; quest dialogue is direct, commanding and deliberately secretive about her motives.",
+      "source": "https://github.com/Interkarma/daggerfall-unity/blob/master/Assets/StreamingAssets/Quests/S0000017.txt",
+      "profile": {
+        "speed": 0.93,
+        "pitch": -0.1,
+        "gravel": 0.0,
+        "saturation": 0.02,
+        "presence": 0.09,
+        "compression": 0.1,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "prince-lhotun",
+      "displayName": "Prince Lhotun",
+      "aliases": [
+        "Lhotun"
+      ],
+      "fallbackVoice": "bm_fable",
+      "defaultEmotion": "Sad",
+      "direction": "Sentinel prince central to the missing-prince investigation; subdued youthful-noble fallback.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Lhotun",
+      "profile": {
+        "speed": 0.92,
+        "pitch": 0.15,
+        "gravel": 0.0,
+        "saturation": 0.0,
+        "presence": 0.02,
+        "compression": 0.03,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "king-eadwyre",
+      "displayName": "King Eadwyre",
+      "aliases": [
+        "Eadwyre"
+      ],
+      "fallbackVoice": "am_granite,bm_george,bm_george",
+      "defaultEmotion": "Formal",
+      "direction": "Older controlled court voice with a Granite/UK blend for kingly, slightly arcane authority.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Eadwyre",
+      "profile": {
+        "speed": 0.9,
+        "pitch": -0.4,
+        "gravel": 0.02,
+        "saturation": 0.02,
+        "presence": 0.04,
+        "compression": 0.08,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "queen-barenziah",
+      "displayName": "Queen Barenziah",
+      "aliases": [
+        "Barenziah"
+      ],
+      "fallbackVoice": "bf_emma",
+      "defaultEmotion": "Friendly",
+      "direction": "Experienced Dark Elf queen and political survivor in Wayrest. Deep, warm, sultry and composed high-class Dunmer delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Barenziah",
+      "profile": {
+        "speed": 0.94,
+        "pitch": -0.75,
+        "gravel": 0.1,
+        "saturation": 0.07,
+        "presence": 0.06,
+        "compression": 0.15,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "prince-helseth",
+      "displayName": "Prince Helseth",
+      "aliases": [
+        "Helseth"
+      ],
+      "fallbackVoice": "bm_daniel",
+      "defaultEmotion": "Formal",
+      "direction": "Dark Elf noble and Barenziah son. Deep, dry, gravel-heavy Dunmer male delivery with aristocratic control.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Helseth",
+      "profile": {
+        "speed": 0.93,
+        "pitch": -1.55,
+        "gravel": 0.68,
+        "saturation": 0.2,
+        "presence": 0.17,
+        "compression": 0.27,
+        "doubleMix": 0.04,
+        "doublePitch": -0.3,
+        "doubleDelayMs": 7.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "princess-morgiah",
+      "displayName": "Princess Morgiah",
+      "aliases": [
+        "Morgiah"
+      ],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Formal",
+      "direction": "Dark Elf princess of Wayrest and Barenziah daughter. Polished, politically capable, deeper and smoother Dunmer female tone.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Morgiah",
+      "profile": {
+        "speed": 0.95,
+        "pitch": -0.8,
+        "gravel": 0.1,
+        "saturation": 0.07,
+        "presence": 0.06,
+        "compression": 0.15,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "princess-elysana",
+      "displayName": "Princess Elysana",
+      "aliases": [
+        "Elysana"
+      ],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Friendly",
+      "direction": "Wayrest princess involved in court intrigue. Bright aristocratic surface delivery, left overridable by authored VO.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Elysana",
+      "profile": {
+        "speed": 0.98,
+        "pitch": 0.08,
+        "gravel": 0.0,
+        "saturation": 0.02,
+        "presence": 0.07,
+        "compression": 0.06,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "lord-woodborne",
+      "displayName": "Lord Woodborne",
+      "aliases": [
+        "Woodborne"
+      ],
+      "fallbackVoice": "am_granite,bm_fable",
+      "defaultEmotion": "Threatening",
+      "direction": "Wayrest noble and principal antagonist connected to Lysandus murder. Granite/Fable blend kept slightly brighter and quicker for an oily schemer quality.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Lord_Woodborne",
+      "profile": {
+        "speed": 0.97,
+        "pitch": 0.18,
+        "gravel": 0.05,
+        "saturation": 0.05,
+        "presence": 0.07,
+        "compression": 0.1,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.02,
+        "reverb": 0.02
+      }
+    },
+    {
+      "slug": "the-underking",
+      "displayName": "The Underking",
+      "aliases": [
+        "Underking"
+      ],
+      "fallbackVoice": "am_granite,bm_george,bm_george",
+      "defaultEmotion": "Formal",
+      "direction": "Ancient undead power and Totem claimant. Granite/UK wizard blend, very slow and heavily spectral.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Underking",
+      "profile": {
+        "speed": 0.82,
+        "pitch": -1.45,
+        "gravel": 0.12,
+        "saturation": 0.12,
+        "presence": 0.05,
+        "compression": 0.22,
+        "doubleMix": 0.18,
+        "doublePitch": -0.75,
+        "doubleDelayMs": 22.0,
+        "spectral": 0.9,
+        "reverb": 0.38
+      }
+    },
+    {
+      "slug": "king-of-worms",
+      "displayName": "The King of Worms",
+      "aliases": [
+        "King of Worms",
+        "Mannimarco"
+      ],
+      "fallbackVoice": "am_granite,bm_fable,bm_george",
+      "defaultEmotion": "Threatening",
+      "direction": "Arch-necromancer and Totem claimant. Cultured Granite/UK wizard-villain blend with cold supernatural processing.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:King_of_Worms",
+      "profile": {
+        "speed": 0.87,
+        "pitch": -0.65,
+        "gravel": 0.08,
+        "saturation": 0.08,
+        "presence": 0.08,
+        "compression": 0.15,
+        "doubleMix": 0.12,
+        "doublePitch": -0.4,
+        "doubleDelayMs": 20.0,
+        "spectral": 0.72,
+        "reverb": 0.3
+      }
+    },
+    {
+      "slug": "uriel-septim-vii",
+      "displayName": "Emperor Uriel Septim VII",
+      "aliases": [
+        "Uriel Septim VII"
+      ],
+      "fallbackVoice": "am_granite,bm_george",
+      "defaultEmotion": "Formal",
+      "direction": "Emperor who dispatches the Agent to the Iliac Bay. Granite/George blend for deliberate imperial authority.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Introduction",
+      "profile": {
+        "speed": 0.91,
+        "pitch": -0.45,
+        "gravel": 0.0,
+        "saturation": 0.0,
+        "presence": 0.07,
+        "compression": 0.09,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "prince-greklith",
+      "displayName": "Prince Greklith",
+      "aliases": [
+        "Greklith"
+      ],
+      "fallbackVoice": "am_onyx",
+      "defaultEmotion": "Formal",
+      "direction": "Sentinel prince and Akorithi son. Strong younger Redguard royal fallback.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Greklith",
+      "profile": {
+        "speed": 0.96,
+        "pitch": -0.35,
+        "gravel": 0.05,
+        "saturation": 0.04,
+        "presence": 0.07,
+        "compression": 0.08,
+        "doubleMix": 0.0,
+        "doublePitch": 0.0,
+        "doubleDelayMs": 0.0,
+        "spectral": 0.0,
+        "reverb": 0.0
+      }
+    },
+    {
+      "slug": "daedra/azura",
+      "displayName": "Azura",
+      "aliases": [],
+      "fallbackVoice": "bf_emma",
+      "defaultEmotion": "Formal",
+      "direction": "Regal, distant and otherworldly; luminous spectral treatment.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.91,
+        "pitch": -0.1,
+        "gravel": 0.0,
+        "saturation": 0.02,
+        "presence": 0.09,
+        "compression": 0.08,
+        "doubleMix": 0.1,
+        "doublePitch": 0.2,
+        "doubleDelayMs": 18.0,
+        "spectral": 0.62,
+        "reverb": 0.24
+      }
+    },
+    {
+      "slug": "daedra/boethiah",
+      "displayName": "Boethiah",
+      "aliases": [],
+      "fallbackVoice": "bm_fable",
+      "defaultEmotion": "Threatening",
+      "direction": "Competitive and dangerous; controlled menace.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.94,
+        "pitch": -0.2,
+        "gravel": 0.07,
+        "saturation": 0.06,
+        "presence": 0.1,
+        "compression": 0.11,
+        "doubleMix": 0.1,
+        "doublePitch": -0.2,
+        "doubleDelayMs": 17.0,
+        "spectral": 0.62,
+        "reverb": 0.2
+      }
+    },
+    {
+      "slug": "daedra/clavicus-vile",
+      "displayName": "Clavicus Vile",
+      "aliases": [],
+      "fallbackVoice": "am_granite,bm_fable",
+      "defaultEmotion": "Friendly",
+      "direction": "Smooth, conversational deal-maker. Granite/Fable is kept slightly brighter and quicker for charming, slimy schemer energy under Daedric processing.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 1.02,
+        "pitch": 0.22,
+        "gravel": 0.02,
+        "saturation": 0.03,
+        "presence": 0.09,
+        "compression": 0.06,
+        "doubleMix": 0.07,
+        "doublePitch": 0.25,
+        "doubleDelayMs": 14.0,
+        "spectral": 0.48,
+        "reverb": 0.16
+      }
+    },
+    {
+      "slug": "daedra/hermaeus-mora",
+      "displayName": "Hermaeus Mora",
+      "aliases": [],
+      "fallbackVoice": "am_granite,bm_george,bm_george",
+      "defaultEmotion": "Formal",
+      "direction": "Very slow Granite/UK wizard blend, deep, layered and heavily spectral.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.8,
+        "pitch": -1.45,
+        "gravel": 0.08,
+        "saturation": 0.12,
+        "presence": 0.04,
+        "compression": 0.2,
+        "doubleMix": 0.2,
+        "doublePitch": -0.9,
+        "doubleDelayMs": 25.0,
+        "spectral": 0.92,
+        "reverb": 0.42
+      }
+    },
+    {
+      "slug": "daedra/hircine",
+      "displayName": "Hircine",
+      "aliases": [],
+      "fallbackVoice": "am_onyx",
+      "defaultEmotion": "Threatening",
+      "direction": "Hunter archetype; grounded, predatory weight.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.9,
+        "pitch": -0.9,
+        "gravel": 0.15,
+        "saturation": 0.1,
+        "presence": 0.07,
+        "compression": 0.18,
+        "doubleMix": 0.1,
+        "doublePitch": -0.35,
+        "doubleDelayMs": 18.0,
+        "spectral": 0.56,
+        "reverb": 0.18
+      }
+    },
+    {
+      "slug": "daedra/malacath",
+      "displayName": "Malacath",
+      "aliases": [],
+      "fallbackVoice": "am_onyx",
+      "defaultEmotion": "Angry",
+      "direction": "Gruff, heavy, confrontational supernatural voice.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.86,
+        "pitch": -1.75,
+        "gravel": 0.35,
+        "saturation": 0.22,
+        "presence": 0.08,
+        "compression": 0.26,
+        "doubleMix": 0.12,
+        "doublePitch": -0.55,
+        "doubleDelayMs": 19.0,
+        "spectral": 0.58,
+        "reverb": 0.18
+      }
+    },
+    {
+      "slug": "daedra/mehrunes-dagon",
+      "displayName": "Mehrunes Dagon",
+      "aliases": [],
+      "fallbackVoice": "am_fenrir",
+      "defaultEmotion": "Threatening",
+      "direction": "Forceful destructive presence with strong spectral/gravel processing.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.88,
+        "pitch": -1.55,
+        "gravel": 0.27,
+        "saturation": 0.22,
+        "presence": 0.12,
+        "compression": 0.28,
+        "doubleMix": 0.15,
+        "doublePitch": -0.65,
+        "doubleDelayMs": 20.0,
+        "spectral": 0.72,
+        "reverb": 0.24
+      }
+    },
+    {
+      "slug": "daedra/mephala",
+      "displayName": "Mephala",
+      "aliases": [],
+      "fallbackVoice": "bf_alice",
+      "defaultEmotion": "Threatening",
+      "direction": "Controlled, intimate and dangerous rather than loud.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.94,
+        "pitch": -0.12,
+        "gravel": 0.03,
+        "saturation": 0.04,
+        "presence": 0.11,
+        "compression": 0.08,
+        "doubleMix": 0.08,
+        "doublePitch": 0.3,
+        "doubleDelayMs": 17.0,
+        "spectral": 0.58,
+        "reverb": 0.2
+      }
+    },
+    {
+      "slug": "daedra/meridia",
+      "displayName": "Meridia",
+      "aliases": [],
+      "fallbackVoice": "bf_isabella",
+      "defaultEmotion": "Formal",
+      "direction": "Bright authoritative supernatural presentation.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.93,
+        "pitch": 0.12,
+        "gravel": 0.0,
+        "saturation": 0.03,
+        "presence": 0.18,
+        "compression": 0.14,
+        "doubleMix": 0.1,
+        "doublePitch": 0.35,
+        "doubleDelayMs": 14.0,
+        "spectral": 0.68,
+        "reverb": 0.26
+      }
+    },
+    {
+      "slug": "daedra/molag-bal",
+      "displayName": "Molag Bal",
+      "aliases": [],
+      "fallbackVoice": "am_onyx",
+      "defaultEmotion": "Threatening",
+      "direction": "Deepest, slowest heavy spectral profile; controlled dominance.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.82,
+        "pitch": -2.0,
+        "gravel": 0.25,
+        "saturation": 0.28,
+        "presence": 0.08,
+        "compression": 0.34,
+        "doubleMix": 0.2,
+        "doublePitch": -0.85,
+        "doubleDelayMs": 23.0,
+        "spectral": 0.84,
+        "reverb": 0.34
+      }
+    },
+    {
+      "slug": "daedra/namira",
+      "displayName": "Namira",
+      "aliases": [],
+      "fallbackVoice": "af_kore",
+      "defaultEmotion": "Threatening",
+      "direction": "Low, unsettling, textured spectral delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.89,
+        "pitch": -0.65,
+        "gravel": 0.12,
+        "saturation": 0.1,
+        "presence": 0.04,
+        "compression": 0.16,
+        "doubleMix": 0.13,
+        "doublePitch": -0.45,
+        "doubleDelayMs": 24.0,
+        "spectral": 0.8,
+        "reverb": 0.34
+      }
+    },
+    {
+      "slug": "daedra/nocturnal",
+      "displayName": "Nocturnal",
+      "aliases": [],
+      "fallbackVoice": "bf_emma",
+      "defaultEmotion": "Formal",
+      "direction": "Dark, restrained, reverberant supernatural tone.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.89,
+        "pitch": -0.3,
+        "gravel": 0.02,
+        "saturation": 0.05,
+        "presence": 0.06,
+        "compression": 0.12,
+        "doubleMix": 0.14,
+        "doublePitch": -0.35,
+        "doubleDelayMs": 22.0,
+        "spectral": 0.78,
+        "reverb": 0.32
+      }
+    },
+    {
+      "slug": "daedra/peryite",
+      "displayName": "Peryite",
+      "aliases": [],
+      "fallbackVoice": "am_granite,bm_fable",
+      "defaultEmotion": "Formal",
+      "direction": "Measured, dry supernatural delivery with a slightly unusual Granite/Fable blend.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.92,
+        "pitch": -0.2,
+        "gravel": 0.05,
+        "saturation": 0.06,
+        "presence": 0.09,
+        "compression": 0.14,
+        "doubleMix": 0.1,
+        "doublePitch": -0.3,
+        "doubleDelayMs": 19.0,
+        "spectral": 0.64,
+        "reverb": 0.22
+      }
+    },
+    {
+      "slug": "daedra/sanguine",
+      "displayName": "Sanguine",
+      "aliases": [],
+      "fallbackVoice": "bm_fable",
+      "defaultEmotion": "Friendly",
+      "direction": "Livelier, amused supernatural delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 1.02,
+        "pitch": 0.1,
+        "gravel": 0.03,
+        "saturation": 0.05,
+        "presence": 0.11,
+        "compression": 0.08,
+        "doubleMix": 0.07,
+        "doublePitch": 0.25,
+        "doubleDelayMs": 15.0,
+        "spectral": 0.5,
+        "reverb": 0.16
+      }
+    },
+    {
+      "slug": "daedra/sheogorath",
+      "displayName": "Sheogorath",
+      "aliases": [],
+      "fallbackVoice": "bm_fable",
+      "defaultEmotion": "Excited",
+      "direction": "Fast, unstable energetic fallback; intentionally easy to replace with authored VO.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 1.05,
+        "pitch": 0.15,
+        "gravel": 0.05,
+        "saturation": 0.07,
+        "presence": 0.13,
+        "compression": 0.1,
+        "doubleMix": 0.13,
+        "doublePitch": 0.5,
+        "doubleDelayMs": 16.0,
+        "spectral": 0.66,
+        "reverb": 0.22
+      }
+    },
+    {
+      "slug": "daedra/vaernima",
+      "displayName": "Vaernima",
+      "aliases": [
+        "Vaermina"
+      ],
+      "fallbackVoice": "af_nicole",
+      "defaultEmotion": "Threatening",
+      "direction": "Dreamlike, slow, heavily spectral/reverberant delivery.",
+      "source": "https://en.uesp.net/wiki/Daggerfall:Daedric_Quests",
+      "profile": {
+        "speed": 0.87,
+        "pitch": -0.4,
+        "gravel": 0.07,
+        "saturation": 0.07,
+        "presence": 0.05,
+        "compression": 0.14,
+        "doubleMix": 0.16,
+        "doublePitch": -0.45,
+        "doubleDelayMs": 26.0,
+        "spectral": 0.88,
+        "reverb": 0.38
+      }
+    }
+  ]
+}

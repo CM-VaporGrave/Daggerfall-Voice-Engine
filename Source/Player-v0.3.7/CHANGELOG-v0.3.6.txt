@@ -1,0 +1,8 @@
+Daggerfall Narrator - Player v0.3.6
+
+- Adds a Character Creation Voice screen after personality selection.
+- Voice choices are discovered strictly from packaged Daggerfall Voice Engine Assets/voices and Assets/voices-custom .npy files; nothing remote or unbundled is advertised.
+- Adds live Preview Voice playback during character creation using the selected exact voice, Depth, Speed, and Clean/CD-ROM/DOS quality.
+- Commits the selected exact voice as the character VoiceOverride and persists the complete voice profile for that character on first PlayerEntity creation.
+- Adds a CharacterCreationVoice setting toggle.
+- Leaves Dungeon Master, NPC, and Daggerfall Voice Engine source unchanged.

@@ -1,0 +1,14 @@
+{
+  "ModTitle": "Daggerfall Narrator - Dungeon Master",
+  "ModVersion": "1.1.4",
+  "ModAuthor": "Anthony Clingerman",
+  "ContactInfo": "",
+  "DFUnity_Version": "1.1.1",
+  "ModDescription": "Daggerfall Voice Engine-powered Dungeon Master narration for non-NPC text, readables, tutorials, status and observation messages, with curated voice controls or an optional exact voice override.",
+  "GUID": "f5a146bd-247a-4ab4-9e17-6e8ecb1d6224",
+  "Files": [
+    "Assets/Game/Mods/DaggerfallNarrator/DaggerfallNarrator.dfmod.json",
+    "Assets/Game/Mods/DaggerfallNarrator/DaggerfallNarrator.cs",
+    "Assets/Game/Mods/DaggerfallNarrator/modsettings.json"
+  ]
+}

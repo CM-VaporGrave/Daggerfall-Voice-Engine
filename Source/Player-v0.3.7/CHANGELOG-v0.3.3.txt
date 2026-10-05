@@ -1,0 +1,7 @@
+Daggerfall Narrator - Player v0.3.3
+
+- Fixes Dungeon Master-routed observations speaking raw second-person vanilla text such as `You see a rat.`
+- Converts common observation forms (see/notice/hear/smell/feel/are/have/can/your) into first-person protagonist speech.
+- Adds deterministic, restrained observation reactions for each speaking Birthsign personality while preserving the observed subject.
+- Keeps the Apprentice/Agent silent for automatic routed observations; returning false lets Dungeon Master fall back to narration.
+- Leaves dialogue choices, manual barks, typed speech, character creation, and the Voice Engine contract unchanged.

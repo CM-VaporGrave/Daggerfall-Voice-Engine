@@ -1,0 +1,8 @@
+Daggerfall Narrator - NPC v0.1.15
+
+- Caps enhanced quest message-box height inside DFU's 200-unit virtual screen safe area instead of allowing the player-turn layout to grow offscreen.
+- Places NPC and player quest portraits at equal size on opposite sides of the same row, with each name directly beneath its portrait.
+- Reflows NPC/player quest text between the portrait columns while preserving native quest callbacks/buttons.
+- Ask UI gains a small vertical safe margin. Player portrait sizing/position is derived from the host NPC portrait, enlarged from the prior 40x40 icon, and the player name gets its own strip beneath it.
+- Player name no longer shares the Ask strip with race text, preventing collision with the host question preview.
+- Existing host topic lists, Tone, Previous List, Copy to Logbook, scrolling, and callbacks remain untouched.

@@ -1,0 +1,7 @@
+NPCVO v0.1.5.2
+
+- Adds automatic quest/message-box diagnostic snapshots while modal prompts are visible.
+- Logs changed snapshots to Player.log as [NPCVO][QuestDebug].
+- npcvo_quest_debug now returns the last captured snapshot after the modal box is closed.
+- Adds callback-delegate summaries to identify the actual DFU quest prompt handler path.
+- No intended changes to working TalkWindow voice/typewriter behavior or quest Yes/No callbacks.

@@ -1,0 +1,385 @@
+{
+  "Version": "1.1.4",
+  "Sections": [
+    {
+      "Name": "General",
+      "Description": "Core Dungeon Master behavior.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "Enabled",
+          "Description": "Master switch for Dungeon Master narration.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Immersive - replace flavor popups",
+            "Pause - hidden modal until narration ends"
+          ],
+          "Value": 0,
+          "Name": "Mode",
+          "Description": "How eligible flavor-text popups are presented.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "ReplaceEligiblePopups",
+          "Description": "Replace eligible flavor popups with narration/subtitles. Turn off to keep the original popup too.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Follow window - stop if closed",
+            "Hold until speech starts",
+            "Hold until speech ends"
+          ],
+          "Value": 0,
+          "Name": "MessageBoxTiming",
+          "Description": "Timing for message boxes that remain visible. Interactive prompts are never locked.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Narration",
+      "Description": "Choose which world and system text the Dungeon Master reads.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "NarrateFlavorText",
+          "Description": "Quest, event, and environmental flavor text. NPC dialogue remains excluded.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateTutorialMessages",
+          "Description": "Tutorial prompts/pages.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateOpeningNarration",
+          "Description": "Privateer's Hold opening narration.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarratePlayerStatusPopups",
+          "Description": "I-key health, location, and date/status popups.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateLevelingInspiration",
+          "Description": "Leveling Inspiration LVLUP quest messages.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateCharacterCreationQuestions",
+          "Description": "Character-creation questionnaire and biography questions.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateCharacterCreationDescriptions",
+          "Description": "Race, region, class, and related character-creation descriptions.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateHUDStatusMessages",
+          "Description": "Selected meaningful HUD status/observation text. Combat rolls and mode toggles stay silent.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "NarrateClimatesCalories",
+          "Description": "Optional Climates & Calories hunger/thirst/temperature status text.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Dungeon Master",
+            "Player",
+            "Off"
+          ],
+          "Value": 0,
+          "Name": "ObservationVoice",
+          "Description": "Who speaks vanilla look/observation HUD text. Player routing requires Daggerfall Narrator - Player; otherwise Dungeon Master falls back to normal handling.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Readables",
+      "Description": "Reading behavior for text the player deliberately opens.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Options": [
+            "Off",
+            "Manual - READ/STOP button",
+            "Auto - read on open"
+          ],
+          "Value": 1,
+          "Name": "Books",
+          "Description": "Book narration mode.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Manual - READ/STOP button",
+            "Auto - read on open"
+          ],
+          "Value": 1,
+          "Name": "QuestNotes",
+          "Description": "Quest note/letter/parchment narration mode.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Manual - READ/STOP button",
+            "Auto - read visible page"
+          ],
+          "Value": 1,
+          "Name": "QuestLog",
+          "Description": "Quest Journal narration mode.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Off",
+            "Manual - READ/STOP button",
+            "Auto - read visible page"
+          ],
+          "Value": 1,
+          "Name": "History",
+          "Description": "Character History narration mode.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Voice",
+      "Description": "Choose the narrator voice. An exact Voice Override takes precedence over Accent/Gender/Delivery/Depth controls.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": "",
+          "Name": "VoiceOverride",
+          "Description": "Optional exact Daggerfall Voice Engine voice ID (for example bm_fable or am_granite). Leave blank to use the customization controls.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+        },
+        {
+          "Options": [
+            "US English",
+            "UK English"
+          ],
+          "Value": 1,
+          "Name": "Accent",
+          "Description": "Narrator accent family.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Male",
+            "Female"
+          ],
+          "Value": 0,
+          "Name": "Gender",
+          "Description": "Narrator voice gender.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Neutral",
+            "Warm",
+            "Refined",
+            "Energetic",
+            "Rugged"
+          ],
+          "Value": 2,
+          "Name": "Delivery",
+          "Description": "General voice character. This selects a suitable installed Kokoro voice.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 55,
+          "Name": "Depth",
+          "Description": "Voice depth. 50 is neutral; higher is deeper, lower is lighter.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 50,
+          "Max": 150,
+          "Value": 95,
+          "Name": "Speed",
+          "Description": "Speech speed percentage.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Options": [
+            "Clean",
+            "CD-ROM - 22 kHz mono",
+            "DOS - 11 kHz 8-bit"
+          ],
+          "Value": 0,
+          "Name": "AudioStyle",
+          "Description": "Kokoro post-processing style.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 90,
+          "Name": "Volume",
+          "Description": "Narrator volume percentage.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Value": true,
+          "Name": "UseGameSoundVolume",
+          "Description": "Scale with Daggerfall Unity's normal sound volume.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": true,
+          "Name": "AutoStartVoiceEngine",
+          "Description": "Automatically launch the bundled Daggerfall Voice Engine when it is not already running.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Subtitles",
+      "Description": "Subtitle presentation for narrated text.",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "ShowSubtitles",
+          "Description": "Show subtitles for flavor text and manual test narration.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Value": false,
+          "Name": "ShowNarratorLabel",
+          "Description": "Prefix visible narrator subtitles with \u201cNarrator:\u201d. This label is never spoken by Kokoro.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "Modern",
+            "Classic DFU shadowed",
+            "Classic DFU + backdrop"
+          ],
+          "Value": 1,
+          "Name": "SubtitleStyle",
+          "Description": "Classic modes use DFU's native pixel font.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Options": [
+            "Bottom center",
+            "Top center",
+            "Center"
+          ],
+          "Value": 0,
+          "Name": "SubtitlePosition",
+          "Description": "Subtitle position.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Min": 10,
+          "Max": 36,
+          "Value": 22,
+          "Name": "SubtitleFontSize",
+          "Description": "Modern font size; Classic maps this to pixel-font scale.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        }
+      ],
+      "$version": "v1"
+    },
+    {
+      "Name": "Cache",
+      "Description": "Runtime speech cache. VoicePack files are never deleted.",
+      "IsAdvanced": true,
+      "Keys": [
+        {
+          "Value": true,
+          "Name": "AutoManageCache",
+          "Description": "Automatically trim least-recently-used generated WAVs.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        },
+        {
+          "Options": [
+            "250 MB",
+            "500 MB",
+            "1 GB (recommended)",
+            "2 GB",
+            "5 GB",
+            "Unlimited"
+          ],
+          "Value": 2,
+          "Name": "MaxCacheSize",
+          "Description": "Maximum generated speech cache size.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+        },
+        {
+          "Value": true,
+          "Name": "CleanupOnStartup",
+          "Description": "Check the cache shortly after game start.",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+        }
+      ],
+      "$version": "v1"
+    }
+  ]
+}

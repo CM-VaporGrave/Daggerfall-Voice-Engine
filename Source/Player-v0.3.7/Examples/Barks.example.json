@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 4,
+  "sets": [
+    {
+      "key": "General",
+      "lines": [
+        "Let us keep moving.",
+        "The road goes on."
+      ]
+    },
+    {
+      "key": "Race.Khajiit.General",
+      "lines": [
+        "This one keeps moving."
+      ]
+    },
+    {
+      "key": "Personality.Mage.General",
+      "lines": [
+        "There is always more to understand."
+      ]
+    },
+    {
+      "key": "Personality.Steed.Location.Daggerfall.General",
+      "lines": [
+        "Daggerfall at last. Big walls, old harbor, and enough rumors to fill the road back out."
+      ]
+    },
+    {
+      "key": "Action.FrostKill",
+      "lines": [
+        "Ice to meet you."
+      ]
+    },
+    {
+      "key": "Choice.Accept",
+      "lines": [
+        "Very well. I will do it."
+      ]
+    },
+    {
+      "key": "Race.HighElf.Choice.Reject",
+      "lines": [
+        "Certainly not."
+      ]
+    },
+    {
+      "key": "Personality.Warrior.Quest._EXAMPLE.Accepted",
+      "lines": [
+        "You have my word. I will see it done."
+      ]
+    }
+  ]
+}

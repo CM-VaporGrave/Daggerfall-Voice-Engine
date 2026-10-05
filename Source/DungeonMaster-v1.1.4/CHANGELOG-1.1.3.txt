@@ -1,0 +1,6 @@
+Daggerfall Narrator - Dungeon Master v1.1.3
+
+- Adds optional exact Voice Override ID; blank uses the normal accent/gender/delivery controls.
+- US male Rugged resolves to the bundled am_granite voice.
+- Removes non-functional voice audition controls from Mod Settings.
+- Preserves the stable opening/tutorial ownership and save/load reset behavior from v1.1.2.

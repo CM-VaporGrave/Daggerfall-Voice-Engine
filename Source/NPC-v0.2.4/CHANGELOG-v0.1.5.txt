@@ -1,0 +1,8 @@
+NPCVO v0.1.5
+
+- Detects procedural and scripted quest `prompt` UI directly from DaggerfallMessageBox.OnButtonClick subscribers.
+- Recognizes DaggerfallWorkshop.Game.Questing.Actions.Prompt / PromptMulti instead of requiring UIWindowType.QuestOffer.
+- Uses QuestMachine.LastNPCClicked as the speaker identity when a quest prompt has no questorNPC field.
+- Preserves native Yes/No buttons and quest callbacks.
+- Extends npcvo_quest_debug with QuestPrompt and ActiveQuestor state.
+- Leaves working normal TalkWindow narration/highlighting unchanged.

@@ -1,0 +1,5 @@
+Daggerfall Narrator - NPC v0.2.4 Foundation Build
+
+Updated build-ready source for the full-release NPC module.
+
+This revision preserves the stable quest-giver parchment presentation and vanilla-like normal Q&A, keeps the hardened speech-turn cleanup and speakerless-prompt filtering, removes non-functioning settings-menu voice tests, and adds an optional exact Daggerfall Voice Engine voice-name override while retaining NPC role/race delivery processing.
